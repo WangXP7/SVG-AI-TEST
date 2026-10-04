@@ -1,0 +1,936 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2480" height="2160" viewBox="0 0 2480 2160"
+     font-family="'Microsoft YaHei','Noto Sans SC','PingFang SC','Heiti SC',sans-serif">
+  <title>大秦御号 · 高空奇景</title>
+  <desc>机头朝左的四发大型客机。孙悟空亲自驾机；金箍棒横放在驾驶舱后方的两个支架上；近侧机翼上鹈鹕骑着唯一的自行车，北极熊横跨它展开的双翅，秦始皇骑在熊背上拧螺丝；往上依次是冕板上的乌龟、龟上的微型象、象上的透明温室、温室里的苹果树、树枝上挂着的沙漏、沙漏顶上的宇航章鱼、头盔上的茶杯与玻璃球，球内有两层画中画并以金点终止。</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#08243f"/><stop offset="0.34" stop-color="#256a94"/>
+      <stop offset="0.72" stop-color="#74b3cf"/><stop offset="1" stop-color="#d5eef5"/>
+    </linearGradient>
+    <linearGradient id="fuse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfeff"/><stop offset="0.55" stop-color="#e6edf3"/><stop offset="1" stop-color="#b7c4d0"/>
+    </linearGradient>
+    <linearGradient id="wingNear" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#e4ecf2"/><stop offset="1" stop-color="#8fa1b2"/>
+    </linearGradient>
+    <linearGradient id="wingFar" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#c3cfda"/><stop offset="1" stop-color="#83939f"/>
+    </linearGradient>
+    <radialGradient id="ballg" cx="0.36" cy="0.3" r="0.75">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="0.7" stop-color="#a8e6ff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#5fb6d8" stop-opacity="0.55"/>
+    </radialGradient>
+    <marker id="ar" viewBox="0 0 12 12" refX="6" refY="6" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1,1 L11,6 L1,11 Z" fill="#1d2b3a"/>
+    </marker>
+    <g id="nacelle">
+      <rect x="-42" y="-17" width="84" height="34" rx="17" fill="#eef3f8" stroke="#3a4a5c" stroke-width="2.6"/>
+      <circle cx="-42" cy="0" r="17" fill="#c9d6e2" stroke="#3a4a5c" stroke-width="2.6"/>
+      <circle cx="-42" cy="0" r="9" fill="#48607a"/>
+      <path d="M30,-13 l16,-9 l0,14 Z" fill="#93a7b8" stroke="#3a4a5c" stroke-width="1.6"/>
+      <line x1="-14" y1="-15" x2="-14" y2="15" stroke="#b9c7d4" stroke-width="2"/>
+      <line x1="10" y1="-15" x2="10" y2="15" stroke="#b9c7d4" stroke-width="2"/>
+    </g>
+    <path id="star5" d="M0,-10 L2.9,-3.1 L10,-3.1 L4.5,1.9 L6.2,9 L0,5 L-6.2,9 L-4.5,1.9 L-10,-3.1 L-2.9,-3.1 Z"/>
+    <path id="blob" d="M0,0 c-13,-1 -20,-10 -19,-22 c1,-14 11,-24 20,-23 c11,1 19,11 19,24 c0,12 -8,22 -20,21 Z"/>
+    <g id="fig" stroke-linecap="round">
+      <circle cx="12" cy="7" r="5.6" fill="#e8c9a0" stroke="#33261a" stroke-width="1.5"/>
+      <path d="M12,13 L12,28 M4,20 L20,20 M12,28 L5,45 M12,28 L19,45" stroke-width="3.2" fill="none"/>
+    </g>
+    <g id="dollBody">
+      <path d="M0,-46 c15,0 23,13 25,27 c3,20 -5,44 -13,58 l-24,0 c-8,-14 -16,-38 -13,-58 c2,-14 10,-27 25,-27 Z" fill="#e7a9c0" stroke="#5b2233" stroke-width="2.6"/>
+      <path d="M-13,-33 a13,13 0 0 1 26,0 q-13,10 -26,0 Z" fill="#b8342c"/>
+      <circle cx="0" cy="-28" r="11" fill="#ffe3c8" stroke="#5b2233" stroke-width="2"/>
+      <circle cx="-4" cy="-29" r="1.7" fill="#4a2a2a"/><circle cx="4" cy="-29" r="1.7" fill="#4a2a2a"/>
+      <path d="M-16,4 q16,-9 32,0 q-4,30 -16,32 q-12,-2 -16,-32 Z" fill="#fff4dc" stroke="#5b2233" stroke-width="2"/>
+    </g>
+    <!-- ===== 画中画第二层：机头朝左，最内层只有一个金色圆点（不再深入，不自我引用） ===== -->
+    <g id="S2">
+      <rect x="-46" y="-26" width="92" height="52" rx="7" fill="#0d2f4c" stroke="#e8f4fb" stroke-width="3.2"/>
+      <polygon points="-34,-22 -22,-22 -14,-6 -26,-6" fill="#7fa8c8" opacity="0.85"/>
+      <ellipse cx="-11" cy="-15" rx="4.6" ry="2.2" fill="#cfe2f0" stroke="#e8f4fb" stroke-width="1.1"/>
+      <ellipse cx="7" cy="-15" rx="4.6" ry="2.2" fill="#cfe2f0" stroke="#e8f4fb" stroke-width="1.1"/>
+      <path d="M-38,-6 L20,-6 C31,-6 37,-3.4 37,-1 C37,1.6 29,3.4 20,3.4 L-38,3.4 C-43,1.6 -43,-3.4 -38,-6 Z" fill="#eaf6ff"/>
+      <polygon points="-38,-6 -28,-18 -20,-18 -26,-6" fill="#cfe2f0" stroke="#eaf6ff" stroke-width="1.3"/>
+      <polygon points="14,-6 26,-13 33,-11 26,-6" fill="#7fc4e0"/>
+      <circle cx="16" cy="-10" r="3.6" fill="#c88a3c" stroke="#6b4a2a" stroke-width="1.3"/>
+      <rect x="-16" y="-5" width="20" height="2.2" rx="1" fill="#ffd24a"/>
+      <polygon points="-4,3.4 26,20 6,24 -24,7" fill="#b8d4e8" stroke="#eaf6ff" stroke-width="1.3"/>
+      <g fill="none" stroke="#eaf6ff" stroke-width="1.6">
+        <circle cx="-4" cy="12" r="4"/><circle cx="12" cy="12" r="4"/>
+        <path d="M-4,12 L3,8 L12,12 M3,8 L3,4"/>
+      </g>
+      <ellipse cx="5" cy="1" rx="6" ry="4" fill="#f4f0e6" stroke="#3a4a5c" stroke-width="1.3"/>
+      <path d="M25,-16 a7,7 0 1 0 0,-0.1 Z" fill="url(#ballg)" stroke="#eaf6ff" stroke-width="1.8"/>
+      <circle cx="25" cy="-23" r="4.6" fill="#ffcf3f" stroke="#8a6a00" stroke-width="1.4"/>
+    </g>
+    <!-- ===== 画中画第一层：机头朝右；球内第二层用 use 引用 S2（非自身，无无限递归） ===== -->
+    <g id="S1">
+      <rect x="0" y="0" width="176" height="520" rx="12" fill="#0d2f4c" stroke="#e8f4fb" stroke-width="5"/>
+      <rect x="10" y="466" width="156" height="18" rx="6" fill="#d8ecf4" opacity="0.85"/>
+      <polygon points="56,398 144,364 156,376 74,410" fill="#7fa8c8" stroke="#eaf6ff" stroke-width="2.2"/>
+      <ellipse cx="94" cy="384" rx="9" ry="3.8" fill="#cfe2f0" stroke="#eaf6ff" stroke-width="1.4"/>
+      <ellipse cx="122" cy="373" rx="8" ry="3.4" fill="#cfe2f0" stroke="#eaf6ff" stroke-width="1.4"/>
+      <path d="M40,352 L128,352 C144,352 153,359 153,366 C153,374 142,380 128,380 L40,380 C31,374 31,358 40,352 Z" fill="#eaf6ff" stroke="#cfe2f0" stroke-width="1.4"/>
+      <polygon points="44,352 58,328 72,328 62,352" fill="#cfe2f0" stroke="#eaf6ff" stroke-width="2"/>
+      <polygon points="124,354 144,340 154,346 142,360" fill="#7fc4e0" stroke="#eaf6ff" stroke-width="1.4"/>
+      <circle cx="134" cy="347" r="5.4" fill="#c88a3c" stroke="#6b4a2a" stroke-width="1.6"/>
+      <path d="M129,343 a6,5 0 0 1 10,1" fill="none" stroke="#ffd24a" stroke-width="2"/>
+      <rect x="86" y="355" width="30" height="3" rx="1.5" fill="#ffd24a"/>
+      <line x1="92" y1="358" x2="92" y2="364" stroke="#8a6a00" stroke-width="1.6"/>
+      <line x1="110" y1="358" x2="110" y2="364" stroke="#8a6a00" stroke-width="1.6"/>
+      <polygon points="52,380 122,380 138,408 68,408" fill="#b8d4e8" stroke="#eaf6ff" stroke-width="2.2"/>
+      <ellipse cx="74" cy="392" rx="9" ry="3.8" fill="#cfe2f0" stroke="#eaf6ff" stroke-width="1.4"/>
+      <ellipse cx="102" cy="396" rx="9" ry="3.8" fill="#cfe2f0" stroke="#eaf6ff" stroke-width="1.4"/>
+      <g id="l1">
+        <g fill="none" stroke="#eaf6ff" stroke-width="2.6">
+          <circle cx="72" cy="394" r="6"/><circle cx="94" cy="394" r="6"/>
+          <path d="M72,394 L83,383 L94,394 M83,383 L83,377"/>
+        </g>
+        <rect x="80" y="374" width="7" height="3" rx="1" fill="#eaf6ff"/>
+        <ellipse cx="87" cy="375" rx="5" ry="2.4" fill="#f4f0e6" stroke="#3a4a5c" stroke-width="1.3"/>
+        <path d="M60,368 L83,375" stroke="#eaf6ff" stroke-width="2.4"/>
+        <path d="M50,366 L62,371 L58,375 Z" fill="#f4f0e6" stroke="#3a4a5c" stroke-width="1.2"/>
+      </g>
+      <ellipse cx="88" cy="363" rx="13" ry="4.6" fill="#f4f0e6" stroke="#3a4a5c" stroke-width="1.6"/>
+      <path d="M92,363 C94,357 100,355 103,359" fill="none" stroke="#f4f0e6" stroke-width="4"/>
+      <circle cx="104" cy="357" r="3.4" fill="#f4f0e6" stroke="#3a4a5c" stroke-width="1.2"/>
+      <path d="M107,357 L117,359 L108,361 Z" fill="#e07a1e"/>
+      <circle cx="52" cy="346" r="4" fill="#f2c2ae" stroke="#3a4a5c" stroke-width="1.2"/>
+      <path d="M44,330 L60,330 L58,344 L46,344 Z" fill="#5b2a1a" stroke="#e8f4fb" stroke-width="1.4"/>
+      <text x="52" y="341" text-anchor="middle" font-size="9" font-weight="bold" fill="#ffd24a">2/3</text>
+      <text x="120" y="428" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffe08a">QIN-29</text>
+      <path d="M88,314 L92,322 L96,314" fill="#f7fbff" stroke="#3a4a5c" stroke-width="1.2"/>
+      <rect x="66" y="292" width="44" height="23" rx="3" fill="#f7fbff" stroke="#3a4a5c" stroke-width="1.8"/>
+      <text x="88" y="309" text-anchor="middle" font-size="16" font-weight="bold" fill="#1d2b3a">29</text>
+      <circle cx="92" cy="164" r="38" fill="url(#ballg)" stroke="#e8f4fb" stroke-width="2.6"/>
+      <g fill="none" stroke="#eaf6ff" stroke-width="2">
+        <circle cx="84" cy="196" r="5"/><circle cx="102" cy="196" r="5"/>
+        <path d="M84,196 L93,188 L102,196 M93,188 L93,183"/>
+      </g>
+      <ellipse cx="96" cy="182" rx="6" ry="3.4" fill="#f4f0e6" stroke="#3a4a5c" stroke-width="1.2"/>
+      <path d="M76,186 L92,182" stroke="#f4f0e6" stroke-width="2"/>
+      <ellipse cx="86" cy="172" rx="12" ry="4.4" fill="#f4f0e6" stroke="#3a4a5c" stroke-width="1.4"/>
+      <circle cx="72" cy="166" r="4" fill="#f2c2ae" stroke="#3a4a5c" stroke-width="1.2"/>
+      <circle cx="92" cy="140" r="22" fill="url(#ballg)" stroke="#e8f4fb" stroke-width="2.2"/>
+      <use href="#S2" xlink:href="#S2" transform="translate(92,140) scale(0.4)"/>
+      <text x="4" y="24" font-size="19" font-weight="bold" fill="#ffe08a">QIN-29</text>
+      <text x="88" y="60" text-anchor="middle" font-size="13" fill="#dfe9f2">机头朝右</text>
+      <text x="88" y="456" text-anchor="middle" font-size="13" fill="#dfe9f2">自行车 · 鹈鹕 · 北极熊 · 秦始皇</text>
+      <text x="88" y="480" text-anchor="middle" font-size="12" fill="#dfe9f2">上方玻璃球内有第二层画中画</text>
+    </g>
+
+  </defs>
+
+  <!-- ===================== 背景与边框 ===================== -->
+  <rect width="2480" height="2160" fill="#e9eff5"/>
+  <rect x="16" y="16" width="2448" height="2128" rx="10" fill="none" stroke="#243547" stroke-width="8"/>
+  <rect x="30" y="30" width="2420" height="1990" fill="url(#sky)"/>
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="240" cy="130" r="2.4"/><circle cx="520" cy="98" r="2"/><circle cx="1020" cy="150" r="2.2"/>
+    <circle cx="1460" cy="96" r="2"/><circle cx="1680" cy="230" r="2.4"/><circle cx="1960" cy="140" r="2"/>
+    <circle cx="2260" cy="280" r="2.2"/><circle cx="1240" cy="330" r="1.8"/><circle cx="2380" cy="560" r="2"/>
+    <circle cx="1880" cy="430" r="1.8"/><circle cx="1600" cy="356" r="1.8"/><circle cx="960" cy="248" r="1.8"/>
+  </g>
+  <text x="60" y="66" font-size="21" fill="#e8f4fb">高空奇景 · 四发客机 · 最外层机头朝左</text>
+  <text x="2440" y="66" text-anchor="end" font-size="21" fill="#e8f4fb">画中画两层：第一层机头朝右，第二层机头朝左并以金色圆点终止</text>
+
+  <!-- ===================== 远侧机翼与 3、4 号发动机 ===================== -->
+  <polygon points="1358,700 2110,532 2316,558 1538,706" fill="url(#wingFar)" stroke="#4a5c6f" stroke-width="3"/>
+  <line x1="2110" y1="532" x2="2316" y2="558" stroke="#6e8296" stroke-width="2"/>
+  <line x1="1988" y1="586" x2="1988" y2="630" stroke="#5c6f82" stroke-width="7"/>
+  <g transform="translate(1986,666) scale(0.86)"><use href="#nacelle" xlink:href="#nacelle"/></g>
+  <text x="1986" y="704" text-anchor="middle" font-size="15" fill="#1d2b3a">发 3</text>
+  <line x1="2166" y1="560" x2="2166" y2="612" stroke="#5c6f82" stroke-width="7"/>
+  <g transform="translate(2164,648) scale(0.86)"><use href="#nacelle" xlink:href="#nacelle"/></g>
+  <text x="2164" y="686" text-anchor="middle" font-size="15" fill="#1d2b3a">发 4</text>
+
+  <!-- ===================== 尾翼 ===================== -->
+  <path d="M1726,702 L1810,498 L1912,498 L1972,706 Z" fill="#cfdce8" stroke="#3a4a5c" stroke-width="3"/>
+  <path d="M1786,562 q40,-14 78,-6" stroke="#8a4a2a" stroke-width="3" fill="none"/>
+  <text x="1866" y="620" text-anchor="middle" font-size="15" fill="#5b4a33">大秦</text>
+  <path d="M1958,742 L2088,722 L2112,748 L1966,772 Z" fill="#c3d2df" stroke="#3a4a5c" stroke-width="2.6"/>
+
+  <!-- ===================== 机身 ===================== -->
+  <path d="M836,782 C838,726 884,692 952,690 L1720,690 C1862,696 1952,726 1966,786
+           C1952,848 1862,874 1720,876 L952,874 C884,872 838,840 836,782 Z"
+        fill="url(#fuse)" stroke="#3a4a5c" stroke-width="3.6"/>
+  <path d="M866,786 C1100,798 1500,798 1938,786" fill="none" stroke="#c0392b" stroke-width="7" opacity="0.85"/>
+  <text x="1500" y="776" text-anchor="middle" font-size="23" fill="#20506e" opacity="0.8" letter-spacing="3">DACHIN AIR</text>
+  <text x="1832" y="826" text-anchor="middle" font-size="27" font-weight="bold" fill="#1d3a5c">QIN-29</text>
+  <text x="1862" y="846" text-anchor="middle" font-size="13" fill="#4a5c6f">航班号 N=29，三处同值</text>
+
+  <!-- 驾驶舱与孙悟空 -->
+  <path d="M836,782 C838,726 884,692 952,690 L1078,700 L1082,806 L850,808 Z" fill="#bfe4f4" opacity="0.4"/>
+  <ellipse cx="986" cy="838" rx="62" ry="16" fill="#9aa8b6" opacity="0.45"/>
+  <g id="wukong">
+    <path d="M940,792 L1000,792 L996,844 L946,844 Z" fill="#b03a2e" stroke="#5b241a" stroke-width="2.4"/>
+    <path d="M942,800 L1000,800" stroke="#e0b23c" stroke-width="3"/>
+    <circle cx="932" cy="762" r="23" fill="#ecd6b0" stroke="#7a5a3a" stroke-width="2.4"/>
+    <ellipse cx="918" cy="774" rx="14" ry="11" fill="#f6e7cc" stroke="#7a5a3a" stroke-width="1.8"/>
+    <circle cx="924" cy="754" r="2.8" fill="#2a1c12"/>
+    <path d="M912,780 q8,5 16,1" stroke="#7a5a3a" stroke-width="1.8" fill="none"/>
+    <circle cx="952" cy="762" r="7" fill="#e3c9a2" stroke="#7a5a3a" stroke-width="1.8"/>
+    <path d="M908,750 Q932,726 956,750" stroke="#e0b23c" stroke-width="6.5" fill="none"/>
+    <circle cx="932" cy="733" r="3.2" fill="#fff2b0" stroke="#8a6a00" stroke-width="1.2"/>
+    <text x="878" y="712" text-anchor="end" font-size="13" fill="#ffe08a">猴脸 · 金箍</text>
+    <path d="M882,716 L918,738" stroke="#ffe08a" stroke-width="1.6"/>
+    <path d="M988,798 C962,808 928,808 912,802" stroke="#c9412f" stroke-width="12" fill="none" stroke-linecap="round"/>
+    <path d="M952,794 C926,802 900,808 884,814" stroke="#e05a3a" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <circle cx="880" cy="816" r="8" fill="#ecd6b0" stroke="#7a5a3a" stroke-width="2"/>
+    <text x="908" y="812" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff2b0">悟</text>
+    <text x="916" y="836" text-anchor="middle" font-size="10" fill="#ffe08a">右袖绣悟</text>
+    <rect x="950" y="802" width="50" height="26" rx="3" fill="#f7fbff" stroke="#2f4050" stroke-width="1.8"/>
+    <text x="975" y="818" text-anchor="middle" font-size="14" font-weight="bold" fill="#1d2b3a">第2名</text>
+    <text x="975" y="827" text-anchor="middle" font-size="9" fill="#4a5c6f">超第2名→第2</text>
+    <path d="M956,802 L966,794" stroke="#2f4050" stroke-width="1.6"/>
+  </g>
+  <rect x="1004" y="778" width="30" height="66" rx="6" fill="#4a5a6c" stroke="#26313d" stroke-width="2"/>
+  <rect x="1010" y="764" width="20" height="22" rx="5" fill="#5b6b7d" stroke="#26313d" stroke-width="2"/>
+  <text x="1019" y="862" text-anchor="middle" font-size="13" fill="#8a4a2a">座椅：在棒下方，未被穿过</text>
+  <g stroke="#26313d" stroke-width="4" fill="none"><path d="M862,820 L862,854"/><path d="M850,820 L874,820"/></g>
+  <circle cx="862" cy="816" r="6" fill="#c0392b" stroke="#26313d" stroke-width="2"/>
+  <text x="812" y="866" text-anchor="middle" font-size="13" fill="#ffe08a">驾驶动作：双手握杆</text>
+  <path d="M836,782 C838,726 884,692 952,690 L1078,700 L1082,806 L850,808 Z" fill="none" stroke="#2f4050" stroke-width="4"/>
+  <g stroke="#2f4050" stroke-width="3"><line x1="910" y1="692" x2="916" y2="808"/><line x1="1000" y1="696" x2="1004" y2="806"/></g>
+  <line x1="988" y1="674" x2="1018" y2="652" stroke="#2f4050" stroke-width="3"/>
+  <circle cx="985" cy="650" r="4.5" fill="#c0392b" stroke="#2f4050" stroke-width="1.6"/>
+  <text x="958" y="630" text-anchor="middle" font-size="12" fill="#4a5c6f">天线</text>
+  <circle cx="1040" cy="726" r="22" fill="#fdfbf2" stroke="#2f4050" stroke-width="2.6"/>
+  <g stroke="#2f4050" stroke-width="1.6">
+    <line x1="1040" y1="706" x2="1040" y2="711"/><line x1="1060" y1="726" x2="1055" y2="726"/>
+    <line x1="1040" y1="746" x2="1040" y2="741"/><line x1="1020" y1="726" x2="1025" y2="726"/>
+  </g>
+  <line x1="1040" y1="726" x2="1040" y2="706" stroke="#1d2b3a" stroke-width="2.6"/>
+  <line x1="1040" y1="726" x2="1054" y2="728" stroke="#8a1f1f" stroke-width="3.6"/>
+  <path d="M1055,721 A9,9 0 0 1 1057,726" fill="none" stroke="#8a1f1f" stroke-width="1.4"/>
+  <circle cx="1040" cy="726" r="2.6" fill="#1d2b3a"/>
+  <text x="1040" y="764" text-anchor="middle" font-size="13" fill="#1d2b3a">3:15：分针指 12，时针已过 3（小夹角 7.5°）</text>
+
+  <!-- 金箍棒：驾驶舱后方两个支架 -->
+  <path d="M1108,690 L1108,664 L1128,664 L1128,690" fill="none" stroke="#4a5a6c" stroke-width="4"/>
+  <path d="M1264,690 L1264,664 L1284,664 L1284,690" fill="none" stroke="#4a5a6c" stroke-width="4"/>
+  <rect x="1092" y="654" width="204" height="11" rx="5" fill="#3d3228" stroke="#2a2018" stroke-width="1.8"/>
+  <rect x="1085" y="650" width="15" height="19" rx="4" fill="#e0b23c" stroke="#7a5230" stroke-width="2"/>
+  <rect x="1288" y="650" width="15" height="19" rx="4" fill="#e0b23c" stroke="#7a5230" stroke-width="2"/>
+  <text x="1194" y="642" text-anchor="middle" font-size="14" fill="#ffe08a">金箍棒：横放在两个支架上，未穿过孙悟空、座椅与挡风玻璃</text>
+
+  <!-- 三扇门：三门问题 -->
+  <g stroke="#3a4a5c" stroke-width="2.6">
+    <rect x="1096" y="702" width="44" height="100" fill="#e8f0f7"/>
+    <rect x="1154" y="702" width="44" height="100" fill="#e8f0f7"/>
+    <rect x="1212" y="702" width="44" height="100" fill="#26384a"/>
+  </g>
+  <circle cx="1114" cy="754" r="3.4" fill="#3a4a5c"/><circle cx="1172" cy="754" r="3.4" fill="#3a4a5c"/>
+  <g font-size="16" font-weight="bold" text-anchor="middle">
+    <text x="1118" y="722" fill="#1d2b3a">1</text><text x="1176" y="722" fill="#1d2b3a">2</text><text x="1234" y="722" fill="#f2f7fb">3</text>
+  </g>
+  <g fill="#f6f9fb" stroke="#3a4a5c" stroke-width="1.6">
+    <ellipse cx="1234" cy="774" rx="14" ry="9"/><circle cx="1223" cy="764" r="6.5"/><circle cx="1219" cy="759" r="2.2"/>
+  </g>
+  <path d="M1256,704 L1272,712 L1272,794 L1256,802 Z" fill="#b9c9d8" stroke="#3a4a5c" stroke-width="2.2"/>
+  <text x="1118" y="822" text-anchor="middle" font-size="13" fill="#8a1f1f">初选 1 号</text>
+  <text x="1234" y="822" text-anchor="middle" font-size="13" fill="#26384a">本次开 3 号（羊）</text>
+  <text x="1176" y="846" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a4a2a">换门获奖概率 2/3</text>
+  <path d="M1176,832 L1176,806" stroke="#8a4a2a" stroke-width="2"/>
+
+  <!-- 缪勒-莱耶两条等长线 -->
+  <text x="1368" y="758" text-anchor="middle" font-size="13" fill="#4a5c6f">缪勒-莱耶</text>
+  <line x1="1316" y1="790" x2="1420" y2="790" stroke="#1d2b3a" stroke-width="5" stroke-linecap="round" marker-start="url(#ar)" marker-end="url(#ar)"/>
+  <line x1="1316" y1="838" x2="1420" y2="838" stroke="#1d2b3a" stroke-width="5" stroke-linecap="round"/>
+  <line x1="1368" y1="838" x2="1316" y2="838" stroke="#1d2b3a" stroke-width="5" stroke-linecap="round" marker-end="url(#ar)"/>
+  <line x1="1368" y1="838" x2="1420" y2="838" stroke="#1d2b3a" stroke-width="5" stroke-linecap="round" marker-end="url(#ar)"/>
+  <text x="1368" y="866" text-anchor="middle" font-size="14" font-weight="bold" fill="#8a4a2a">等长（两段本体同为 104）</text>
+
+  <!-- 回文横幅 -->
+  <g transform="translate(1452,712)">
+    <rect width="366" height="34" rx="6" fill="#e7dcc4" stroke="#5b4a33" stroke-width="2.4"/>
+    <path d="M0,0 L-14,10 L0,34 Z M366,0 L380,10 L366,34 Z" fill="#c9bfa4" stroke="#5b4a33" stroke-width="2"/>
+    <text x="183" y="24" text-anchor="middle" font-size="21" font-weight="bold" fill="#3a2c1a">上海自来水来自海上</text>
+  </g>
+
+  <!-- 货舱天平：一公斤铁 vs 一公斤棉花，横梁水平 -->
+  <rect x="1520" y="772" width="220" height="74" fill="#dbe6ef" stroke="#3a4a5c" stroke-width="2.8"/>
+  <g stroke="#4a5c6f" stroke-width="1.4" opacity="0.5">
+    <line x1="1520" y1="806" x2="1740" y2="806"/><line x1="1590" y1="772" x2="1590" y2="846"/><line x1="1670" y1="772" x2="1670" y2="846"/>
+  </g>
+  <line x1="1630" y1="842" x2="1630" y2="800" stroke="#3a4a5c" stroke-width="4"/>
+  <line x1="1568" y1="800" x2="1692" y2="800" stroke="#8a6a00" stroke-width="4"/>
+  <circle cx="1630" cy="800" r="4.5" fill="#3a4a5c"/>
+  <path d="M1568,800 l-13,17 l26,0 Z M1692,800 l-13,17 l26,0 Z" fill="none" stroke="#3a4a5c" stroke-width="2"/>
+  <rect x="1550" y="817" width="18" height="13" fill="#6a7480" stroke="#2f3a46" stroke-width="1.8"/>
+  <g fill="#f4f8fb" stroke="#a8b4bf" stroke-width="1.3">
+    <circle cx="1680" cy="823" r="11"/><circle cx="1696" cy="818" r="10"/><circle cx="1694" cy="832" r="10"/><circle cx="1678" cy="834" r="9"/>
+  </g>
+  <text x="1559" y="846" text-anchor="middle" font-size="12" fill="#1d2b3a">1 kg</text>
+  <text x="1688" y="846" text-anchor="middle" font-size="12" fill="#1d2b3a">1 kg</text>
+  <text x="1630" y="790" text-anchor="middle" font-size="12" fill="#3a4a5c">横梁水平 · 棉花体积明显更大</text>
+
+  <!-- 两张登机牌 + 黄色维修贴纸（细绳系在机身） -->
+  <line x1="1162" y1="470" x2="1164" y2="690" stroke="#9fb0c0" stroke-width="2"/>
+  <g transform="translate(1126,468) rotate(-4)">
+    <rect width="188" height="112" rx="8" fill="#fffdf3" stroke="#3a4a5c" stroke-width="2.6"/>
+    <line x1="130" y1="0" x2="130" y2="112" stroke="#9fb0c0" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="10" y="22" font-size="15" fill="#20506e">登机牌 A · 蜗牛</text>
+    <text x="10" y="44" font-size="13" fill="#1d2b3a">白天爬 3 米</text>
+    <text x="10" y="62" font-size="13" fill="#1d2b3a">夜间滑 2 米</text>
+    <text x="10" y="80" font-size="13" fill="#1d2b3a">井深 10 米</text>
+    <text x="98" y="104" text-anchor="middle" font-size="24" font-weight="bold" fill="#8a1f1f">8</text>
+    <text x="118" y="104" font-size="13" fill="#3a4a5c">天</text>
+    <text x="159" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#20506e">8</text>
+    <text x="159" y="66" text-anchor="middle" font-size="12" fill="#20506e">天</text>
+    <text x="10" y="96" font-size="12" fill="#4a5c6f">出井后不再下滑</text>
+  </g>
+  <line x1="1382" y1="432" x2="1384" y2="690" stroke="#9fb0c0" stroke-width="2"/>
+  <g transform="translate(1332,430) rotate(3)">
+    <rect width="188" height="112" rx="8" fill="#fffdf3" stroke="#3a4a5c" stroke-width="2.6"/>
+    <line x1="130" y1="0" x2="130" y2="112" stroke="#9fb0c0" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="10" y="22" font-size="15" fill="#20506e">登机牌 B · 猫</text>
+    <text x="10" y="44" font-size="13" fill="#1d2b3a">5 只猫 5 分钟</text>
+    <text x="10" y="62" font-size="13" fill="#1d2b3a">抓 5 只老鼠</text>
+    <text x="10" y="80" font-size="13" fill="#1d2b3a">100 分钟抓 100 只</text>
+    <text x="98" y="104" text-anchor="middle" font-size="24" font-weight="bold" fill="#8a1f1f">5</text>
+    <text x="118" y="104" font-size="13" fill="#3a4a5c">只</text>
+    <text x="159" y="46" text-anchor="middle" font-size="15" font-weight="bold" fill="#20506e">5</text>
+    <text x="159" y="66" text-anchor="middle" font-size="12" fill="#20506e">只</text>
+  </g>
+  <line x1="1592" y1="522" x2="1594" y2="690" stroke="#9fb0c0" stroke-width="2"/>
+  <g transform="translate(1520,520) rotate(-2)">
+    <rect width="150" height="168" rx="6" fill="#ffe680" stroke="#8a6a00" stroke-width="3"/>
+    <text x="75" y="22" text-anchor="middle" font-size="14" fill="#5b4a00">维修贴纸 · 三标签全错</text>
+    <g stroke="#5b4a00" stroke-width="2" fill="#fff8d8">
+      <rect x="14" y="34" width="54" height="34"/><rect x="14" y="76" width="54" height="34"/><rect x="14" y="118" width="54" height="34"/>
+    </g>
+    <g font-size="14" fill="#1d2b3a" text-anchor="middle">
+      <text x="41" y="56">全苹果</text><text x="41" y="98">全桃子</text><text x="41" y="140">混合</text>
+    </g>
+    <circle cx="98" cy="136" r="8" fill="#e8c9a0" stroke="#5b4a00" stroke-width="2.2"/>
+    <g stroke="#5b4a00" stroke-width="3.4" stroke-linecap="round">
+      <line x1="86" y1="122" x2="88" y2="104"/><line x1="94" y1="120" x2="94" y2="102"/>
+      <line x1="102" y1="122" x2="100" y2="102"/><line x1="109" y1="128" x2="105" y2="104"/>
+    </g>
+    <path d="M84,104 q14,-8 22,-2" stroke="#5b4a00" stroke-width="2.2" fill="none"/>
+    <line x1="106" y1="136" x2="128" y2="136" stroke="#8a1f1f" stroke-width="3"/>
+    <text x="118" y="130" text-anchor="middle" font-size="12" fill="#8a1f1f">只取 1 个</text>
+  </g>
+  <text x="1595" y="716" text-anchor="middle" font-size="14" fill="#8a1f1f">→ 机械手伸进贴「混合」标签的盒子</text>
+
+  <!-- ===================== 近侧机翼（鹈鹕骑车的翼面） ===================== -->
+  <polygon points="1120,872 1400,884 610,1162 330,1150" fill="url(#wingNear)" stroke="#4a5c6f" stroke-width="3.2"/>
+  <polygon points="330,1150 610,1162 610,1180 330,1168" fill="#6c7f93" stroke="#3a4a5c" stroke-width="2"/>
+  <g stroke="#b4c2d0" stroke-width="2" opacity="0.65">
+    <line x1="1180" y1="890" x2="700" y2="1088"/><line x1="1290" y1="892" x2="980" y2="1016"/>
+  </g>
+  <text x="700" y="1216" text-anchor="middle" font-size="15" fill="#dfe9f2">靠近观看者的机翼</text>
+
+  <!-- 1、2 号发动机（吊挂在近侧机翼下方） -->
+  <line x1="1330" y1="912" x2="1330" y2="950" stroke="#5c6f82" stroke-width="8"/>
+  <g transform="translate(1330,985)"><use href="#nacelle" xlink:href="#nacelle"/></g>
+  <text x="1330" y="1024" text-anchor="middle" font-size="15" fill="#1d2b3a">发 1</text>
+  <line x1="1000" y1="1026" x2="1000" y2="1075" stroke="#5c6f82" stroke-width="8"/>
+  <g transform="translate(1000,1095) scale(0.95)"><use href="#nacelle" xlink:href="#nacelle"/></g>
+  <text x="1000" y="1134" text-anchor="middle" font-size="15" fill="#1d2b3a">发 2</text>
+
+  <!-- 机翼上的四张两面卡片：只给必须翻的加金框 -->
+  <g font-size="21" text-anchor="middle" font-weight="bold">
+    <g transform="translate(900,960) rotate(-8)"><rect width="34" height="46" fill="#fffdf5" stroke="#ffcf3f" stroke-width="4.5"/><text x="17" y="31" fill="#8a1f1f">A</text></g>
+    <g transform="translate(946,948) rotate(-8)"><rect width="34" height="46" fill="#fffdf5" stroke="#40556c" stroke-width="2.6"/><text x="17" y="31" fill="#1f3a5c">D</text></g>
+    <g transform="translate(992,936) rotate(-8)"><rect width="34" height="46" fill="#fffdf5" stroke="#40556c" stroke-width="2.6"/><text x="17" y="31" fill="#1f5c3a">4</text></g>
+    <g transform="translate(1038,924) rotate(-8)"><rect width="34" height="46" fill="#fffdf5" stroke="#ffcf3f" stroke-width="4.5"/><text x="17" y="31" fill="#5c1f1f">7</text></g>
+  </g>
+  <text x="906" y="898" font-size="13" fill="#4a5c6f">检验「元音背面一定是偶数」</text>
+  <text x="906" y="880" font-size="14" font-weight="bold" fill="#8a6a00">必须翻：A、7（金框）｜不必翻：D、4</text>
+
+  <!-- 两名微型维修机器人 -->
+  <g transform="translate(1150,1020)">
+    <rect x="-12" y="-15" width="24" height="27" rx="4" fill="#aebecb" stroke="#2f4050" stroke-width="2"/>
+    <circle cx="0" cy="-24" r="8.5" fill="#d7e3ee" stroke="#2f4050" stroke-width="2"/>
+    <path d="M0,-32 l0,-9" stroke="#2f4050" stroke-width="2.2"/><circle cx="0" cy="-43" r="3.4" fill="#c0392b"/>
+    <path d="M-5,12 l-4,11 M5,12 l4,11" stroke="#2f4050" stroke-width="3.2"/>
+    <text x="0" y="3" text-anchor="middle" font-size="11" fill="#7a1f1f">不必然</text>
+    <line x1="11" y1="-9" x2="26" y2="-30" stroke="#2f4050" stroke-width="3"/>
+  </g>
+  <g transform="translate(1100,940)">
+    <rect width="150" height="72" fill="#fdfbf2" stroke="#3a4a5c" stroke-width="2.4"/>
+    <text x="75" y="19" text-anchor="middle" font-size="12" fill="#1d2b3a">所有玫瑰都是花；</text>
+    <text x="75" y="35" text-anchor="middle" font-size="12" fill="#1d2b3a">有些花很快凋谢；</text>
+    <text x="75" y="51" text-anchor="middle" font-size="12" fill="#1d2b3a">因此有些玫瑰很快凋谢。</text>
+    <text x="75" y="67" text-anchor="middle" font-size="11" fill="#8a4a2a">机器人胸前：不必然成立</text>
+  </g>
+  <g transform="translate(1215,1040)">
+    <rect x="-13" y="-16" width="26" height="29" rx="4" fill="#c9d6a8" stroke="#2f4050" stroke-width="2"/>
+    <circle cx="0" cy="-25" r="9" fill="#e7f0d8" stroke="#2f4050" stroke-width="2"/>
+    <path d="M-5,13 l-5,12 M5,13 l5,12" stroke="#2f4050" stroke-width="3.2"/>
+    <text x="0" y="4" text-anchor="middle" font-size="13" font-weight="bold" fill="#1f5c3a">96%</text>
+  </g>
+  <text x="1238" y="1004" font-size="12" fill="#4a5c6f">先增 20% 再减 20%</text>
+
+  <!-- ===================== 鹈鹕与画面中唯一的自行车 ===================== -->
+  <ellipse cx="490" cy="1113" rx="20" ry="5" fill="#5b6f82" opacity="0.45"/>
+  <ellipse cx="750" cy="1103" rx="20" ry="5" fill="#5b6f82" opacity="0.45"/>
+  <text x="452" y="1146" text-anchor="middle" font-size="13" fill="#1d2b3a">两轮均接触翼面</text>
+  <g id="bicycle" transform="translate(620,1106) rotate(-2.4)">
+    <g fill="none" stroke="#16202a" stroke-width="5" stroke-linecap="round">
+      <path d="M-130,-30 L-42,-104 L80,-96 L130,-30"/>
+      <path d="M-42,-104 L0,-54 M0,-54 L-130,-30"/>
+      <path d="M80,-96 L80,-118 M62,-124 L100,-118"/>
+      <path d="M-42,-104 L-30,-100"/>
+    </g>
+    <circle cx="0" cy="-54" r="14" fill="#ffd24a" stroke="#16202a" stroke-width="2.6"/>
+    <circle cx="-130" cy="-30" r="7" fill="#cfd9e2" stroke="#16202a" stroke-width="2"/>
+    <g stroke="#16202a" stroke-width="2.2" fill="none">
+      <line x1="-130" y1="-37" x2="-14" y2="-68"/><line x1="-130" y1="-23" x2="-14" y2="-40"/>
+    </g>
+    <g fill="none" stroke="#16202a" stroke-width="6">
+      <circle cx="-130" cy="-30" r="30"/><circle cx="130" cy="-30" r="30"/>
+    </g>
+    <g stroke="#5c6f82" stroke-width="1.5">
+      <line x1="-130" y1="-60" x2="-130" y2="0"/><line x1="-160" y1="-30" x2="-100" y2="-30"/>
+      <line x1="-151" y1="-51" x2="-109" y2="-9"/><line x1="-151" y1="-9" x2="-109" y2="-51"/>
+      <line x1="130" y1="-60" x2="130" y2="0"/><line x1="100" y1="-30" x2="160" y2="-30"/>
+      <line x1="109" y1="-51" x2="151" y2="-9"/><line x1="109" y1="-9" x2="151" y2="-51"/>
+    </g>
+    <g fill="#cfd9e2" stroke="#16202a" stroke-width="2"><circle cx="-130" cy="-30" r="6"/><circle cx="130" cy="-30" r="6"/></g>
+    <line x1="0" y1="-54" x2="26" y2="-70" stroke="#16202a" stroke-width="4"/>
+    <line x1="0" y1="-54" x2="-26" y2="-38" stroke="#16202a" stroke-width="4"/>
+    <rect x="16" y="-74" width="22" height="8" rx="3" fill="#2b3a4a" stroke="#16202a" stroke-width="1.6"/>
+    <rect x="-38" y="-42" width="22" height="8" rx="3" fill="#2b3a4a" stroke="#16202a" stroke-width="1.6"/>
+    <rect x="-62" y="-112" width="42" height="10" rx="5" fill="#2b3a4a" stroke="#16202a" stroke-width="2"/>
+    <circle cx="98" cy="-108" r="9" fill="#e0b23c" stroke="#7a5230" stroke-width="2.4"/>
+    <text x="112" y="-102" font-size="15" font-weight="bold" fill="#7a5230">3</text>
+    <g transform="translate(-36,-108) rotate(4)">
+      <text font-size="17" font-weight="bold" fill="#ffffff" stroke="#16202a" stroke-width="0.7">
+        <tspan>s</tspan><tspan>t</tspan><tspan fill="#e02020" stroke="#8a1010">r</tspan><tspan>awbe</tspan><tspan fill="#e02020" stroke="#8a1010">r</tspan><tspan fill="#e02020" stroke="#8a1010">r</tspan><tspan>y</tspan>
+      </text>
+    </g>
+    <text x="-96" y="-84" font-size="11" fill="#1d2b3a">3 个 r 用红色</text>
+  </g>
+  <!-- 黑色糖果袋：挂在车把上，袋口收紧；袋旁是完整数量表标签 -->
+  <g stroke="#3a3a48" stroke-width="3" fill="none"><path d="M744,992 L700,982"/><path d="M770,992 L714,986"/></g>
+  <path d="M726,1000 C716,1014 712,1040 722,1056 C732,1068 786,1068 796,1056 C806,1040 800,1014 790,1000 Z" fill="#1a1a22" stroke="#0a0a10" stroke-width="2.4"/>
+  <path d="M730,1000 q26,-14 56,0" fill="none" stroke="#4a4a5c" stroke-width="4"/>
+  <g stroke="#5a5a6c" stroke-width="1.6" fill="none"><path d="M740,998 l2,10 M756,994 l0,12 M772,996 l-2,12"/></g>
+  <circle cx="758" cy="988" r="5.4" fill="#2a2a38" stroke="#0a0a10" stroke-width="2"/>
+  <text x="812" y="1022" font-size="12" fill="#1d2b3a">黑色袋：挂在车把上</text>
+  <text x="812" y="1040" font-size="12" fill="#1d2b3a">袋口收紧（已扎）</text>
+  <g>
+    <rect x="806" y="1050" width="146" height="76" rx="4" fill="#fdfbf2" stroke="#3a4a5c" stroke-width="2.4"/>
+    <text x="812" y="1064" font-size="11" font-weight="bold" fill="#1d2b3a">袋中糖果数量表（颗）</text>
+    <line x1="808" y1="1068" x2="950" y2="1068" stroke="#9fb0c0" stroke-width="1.4"/>
+    <g font-size="10" fill="#1d2b3a">
+      <text x="830" y="1082">口味</text><text x="866" y="1082">苹果</text><text x="898" y="1082">桃子</text><text x="930" y="1082">西瓜</text>
+      <text x="830" y="1100">圆形</text><text x="870" y="1100">7</text><text x="902" y="1100">9</text><text x="934" y="1100">8</text>
+      <text x="830" y="1118">星形</text><text x="870" y="1118">7</text><text x="902" y="1118">6</text><text x="934" y="1118">4</text>
+    </g>
+    <g fill="#cfd9e2" stroke="#3a4a5c" stroke-width="1.2">
+      <circle cx="818" cy="1096" r="4.5"/>
+      <path d="M818,1110 L819.7,1113.4 L823.4,1113.4 L820.6,1115.6 L821.6,1119.2 L818,1117 L814.4,1119.2 L815.4,1115.6 L812.6,1113.4 L816.3,1113.4 Z"/>
+    </g>
+    <line x1="862" y1="1072" x2="862" y2="1122" stroke="#c0cbd6" stroke-width="1"/>
+    <line x1="894" y1="1072" x2="894" y2="1122" stroke="#c0cbd6" stroke-width="1"/>
+    <line x1="926" y1="1072" x2="926" y2="1122" stroke="#c0cbd6" stroke-width="1"/>
+    <line x1="808" y1="1088" x2="950" y2="1088" stroke="#c0cbd6" stroke-width="1"/>
+    <path d="M880,1050 L880,1044 L896,1044 L896,1050" fill="none" stroke="#5c6f82" stroke-width="2"/>
+  </g>
+  <!-- 鹈鹕：两脚分别踩在两个脚踏上 -->
+  <g stroke="#e08a2a" stroke-width="7" stroke-linecap="round" fill="none">
+    <path d="M578,978 L566,1022 L591,1062"/>
+    <path d="M610,974 L630,1006 L644,1030"/>
+  </g>
+  <g fill="#e08a2a" stroke="#16202a" stroke-width="2">
+    <rect x="580" y="1060" width="22" height="9" rx="3"/><rect x="633" y="1027" width="22" height="9" rx="3"/>
+  </g>
+  <path d="M548,900 C540,954 556,992 588,998 C620,1000 634,968 628,924 C622,886 604,874 582,878 C562,882 552,888 548,900 Z" fill="#f7fbff" stroke="#16202a" stroke-width="3"/>
+  <path d="M556,912 C550,950 562,978 586,982 C610,982 620,956 616,924 C612,896 598,888 582,890 C566,892 558,898 556,912 Z" fill="#ffffff" stroke="#cfe0ea" stroke-width="2"/>
+  <path d="M566,886 C556,872 548,860 542,850" fill="none" stroke="#f7fbff" stroke-width="17" stroke-linecap="round"/>
+  <path d="M566,886 C556,872 548,860 542,850" fill="none" stroke="#16202a" stroke-width="2.6" opacity="0.35"/>
+  <circle cx="536" cy="846" r="17" fill="#ffffff" stroke="#16202a" stroke-width="3"/>
+  <circle cx="530" cy="842" r="2.8" fill="#16202a"/>
+  <path d="M524,846 C506,842 486,848 472,858 L526,856 Z" fill="#e08a2a" stroke="#7a5230" stroke-width="2.2"/>
+  <path d="M526,856 L472,858 C478,882 500,894 520,888 C532,884 530,866 526,856 Z" fill="#f2b45a" stroke="#7a5230" stroke-width="2.2"/>
+  <path d="M506,884 q-16,-6 -26,2 q10,10 26,4 Z" fill="#e08a2a" opacity="0.55" stroke="#7a5230" stroke-width="1.4"/>
+  <text x="498" y="918" text-anchor="middle" font-size="13" fill="#4a5c6f">长嘴 + 喉囊</text>
+  <path d="M498,912 L506,896" stroke="#4a5c6f" stroke-width="1.6"/>
+  <text x="642" y="902" font-size="14" fill="#4a5c6f">展开双翅</text>
+  <path d="M638,906 L614,918" stroke="#4a5c6f" stroke-width="1.6"/>
+  <!-- 对话气泡：糖果题最终数值 -->
+  <path d="M345,806 L345,828 L392,850 Z" fill="#ffffff" stroke="#16202a" stroke-width="2.6"/>
+  <rect x="130" y="772" width="215" height="68" rx="16" fill="#ffffff" stroke="#16202a" stroke-width="3.6"/>
+  <text x="237" y="822" text-anchor="middle" font-size="48" font-weight="bold" fill="#16202a">29</text>
+  <!-- 展开的两只翅膀（承托北极熊） -->
+  <path d="M608,926 C640,904 690,888 784,870 C782,882 778,890 776,890 C700,900 648,916 620,932 Z" fill="#eef6fb" stroke="#16202a" stroke-width="3"/>
+  <g stroke="#b9c7d4" stroke-width="2" fill="none">
+    <path d="M628,918 C676,902 724,890 774,878"/><path d="M640,926 C686,912 730,902 776,890"/>
+  </g>
+  <path d="M562,930 C530,914 480,896 430,876 C432,888 434,896 436,896 C488,908 534,922 556,936 Z" fill="#eef6fb" stroke="#16202a" stroke-width="3"/>
+  <g stroke="#b9c7d4" stroke-width="2" fill="none">
+    <path d="M548,922 C508,908 468,894 438,884"/><path d="M540,930 C502,918 466,906 440,896"/>
+  </g>
+
+  <!-- ===================== 北极熊：后脚靠左翅、前脚靠右翅 ===================== -->
+  <g stroke="#3a4a5c" stroke-width="11" stroke-linecap="round">
+    <path d="M520,828 L512,880"/><path d="M556,830 L548,884"/>
+    <path d="M674,826 L688,874"/><path d="M704,822 L728,870"/>
+  </g>
+  <g fill="#f7f9fb" stroke="#3a4a5c" stroke-width="2.2">
+    <ellipse cx="512" cy="884" rx="13" ry="7"/><ellipse cx="548" cy="888" rx="13" ry="7"/>
+    <ellipse cx="690" cy="878" rx="13" ry="7"/><ellipse cx="730" cy="874" rx="13" ry="7"/>
+  </g>
+  <ellipse cx="610" cy="806" rx="122" ry="27" fill="#f7f9fb" stroke="#3a4a5c" stroke-width="3"/>
+  <path d="M548,792 C580,776 646,776 678,792 C646,800 580,800 548,792 Z" fill="#ffffff" stroke="#dfe7ee" stroke-width="2"/>
+  <circle cx="722" cy="790" r="19" fill="#f7f9fb" stroke="#3a4a5c" stroke-width="2.8"/>
+  <path d="M734,786 C752,784 760,792 758,800 C752,806 740,804 734,800 Z" fill="#eef2f6" stroke="#3a4a5c" stroke-width="2.2"/>
+  <circle cx="714" cy="774" r="7" fill="#f7f9fb" stroke="#3a4a5c" stroke-width="2.2"/>
+  <circle cx="732" cy="774" r="7" fill="#f7f9fb" stroke="#3a4a5c" stroke-width="2.2"/>
+  <circle cx="744" cy="792" r="2.6" fill="#1d2b3a"/><circle cx="726" cy="786" r="2.6" fill="#1d2b3a"/>
+  <text x="808" y="778" font-size="13" fill="#4a5c6f">白毛·长吻·黑眼鼻＝北极熊</text>
+  <text x="808" y="796" font-size="13" fill="#4a5c6f">（不是熊猫也不是棕熊）</text>
+  <path d="M700,782 L740,780 L742,800 L700,802 Z" fill="#7a1f1a" stroke="#3a2c1a" stroke-width="2.4"/>
+  <text x="721" y="796" text-anchor="middle" font-size="13" font-weight="bold" fill="#ffd24a">大秦御用</text>
+  <path d="M700,794 L676,802" stroke="#3a2c1a" stroke-width="2"/>
+  <g transform="rotate(-8 655 790)">
+    <rect x="636" y="776" width="38" height="26" rx="4" fill="#fdfbf2" stroke="#3a2c1a" stroke-width="2.2"/>
+    <text x="655" y="796" text-anchor="middle" font-size="18" font-weight="bold" fill="#1d2b3a">4</text>
+  </g>
+  <text x="640" y="768" text-anchor="middle" font-size="13" fill="#4a5c6f">项圈背面标签</text>
+
+  <!-- ===================== 秦始皇：骑在熊背上 ===================== -->
+  <path d="M582,706 L652,706 L660,779 L574,779 Z" fill="#15151d" stroke="#e0b23c" stroke-width="3"/>
+  <path d="M588,712 L608,728 L630,712" fill="none" stroke="#e0b23c" stroke-width="2.4"/>
+  <!-- 远侧腿（始皇左腿）：在熊的另一侧，脚与马镫从熊腹下露出 -->
+  <path d="M578,828 L576,844" stroke="#15151d" stroke-width="11" stroke-linecap="round"/>
+  <path d="M570,846 q8,8 16,4" fill="none" stroke="#2b3a4a" stroke-width="4"/>
+  <path d="M568,850 h20 v8 h-24 Z" fill="#2b3a4a" stroke="#16202a" stroke-width="2"/>
+  <text x="556" y="864" text-anchor="end" font-size="13" fill="#4a5c6f">远侧腿在熊的另一侧</text>
+  <!-- 近侧腿（始皇右腿）：沿熊的右侧身体垂下，两腿分居两侧 -->
+  <path d="M620,772 C640,792 650,816 652,834" fill="none" stroke="#15151d" stroke-width="15" stroke-linecap="round"/>
+  <path d="M652,834 C660,842 662,848 660,852" fill="none" stroke="#16202a" stroke-width="5"/>
+  <path d="M648,852 h22 v10 h-26 Z" fill="#2b3a4a" stroke="#16202a" stroke-width="2"/>
+  <line x1="656" y1="840" x2="656" y2="852" stroke="#16202a" stroke-width="2.4"/>
+  <text x="690" y="852" font-size="13" fill="#4a5c6f">近侧腿在熊的右侧（画面右）</text>
+  <text x="620" y="758" text-anchor="middle" font-size="13" fill="#ffe08a">玄衣·冕旒</text>
+  <circle cx="616" cy="692" r="16" fill="#e8c9a0" stroke="#7a5a3a" stroke-width="2.4"/>
+  <path d="M604,698 q12,8 24,0" stroke="#7a5a3a" stroke-width="2" fill="none"/>
+  <line x1="616" y1="662" x2="616" y2="668" stroke="#e0b23c" stroke-width="3"/>
+  <g stroke="#e0b23c" stroke-width="1.8">
+    <line x1="634" y1="680" x2="634" y2="702"/><line x1="644" y1="680" x2="644" y2="700"/><line x1="654" y1="680" x2="654" y2="698"/>
+  </g>
+  <g fill="#e0b23c"><circle cx="634" cy="704" r="2.6"/><circle cx="644" cy="702" r="2.6"/><circle cx="654" cy="700" r="2.6"/></g>
+  <rect x="578" y="668" width="76" height="12" rx="3" fill="#15151d" stroke="#e0b23c" stroke-width="2.4"/>
+  <text x="660" y="650" font-size="13" fill="#4a5c6f">冕板上的龟</text>
+  <!-- 鞍架 + 六孔金属板 -->
+  <g stroke="#5c6f82" stroke-width="5"><path d="M548,782 L548,700"/><path d="M664,782 L664,700"/><path d="M548,704 L508,708"/><path d="M664,704 L700,708"/></g>
+  <rect x="530" y="700" width="150" height="40" rx="5" fill="#cfd9e2" stroke="#3a4a5c" stroke-width="3"/>
+  <line x1="534" y1="736" x2="676" y2="736" stroke="#9fb0c0" stroke-width="2"/>
+  <g>
+    <circle cx="546" cy="720" r="7" fill="#9fb0c0" stroke="#3a4a5c" stroke-width="2"/><line x1="546" y1="714" x2="546" y2="726" stroke="#16202a" stroke-width="2.4"/>
+    <circle cx="566" cy="720" r="7" fill="#9fb0c0" stroke="#3a4a5c" stroke-width="2"/><line x1="566" y1="714" x2="566" y2="726" stroke="#16202a" stroke-width="2.4"/>
+    <circle cx="586" cy="720" r="7" fill="#9fb0c0" stroke="#3a4a5c" stroke-width="2"/><line x1="586" y1="714" x2="586" y2="726" stroke="#16202a" stroke-width="2.4"/>
+    <circle cx="606" cy="720" r="7.4" fill="#ffd24a" stroke="#8a6a00" stroke-width="2.6"/><line x1="606" y1="713" x2="606" y2="727" stroke="#16202a" stroke-width="2.8"/>
+    <circle cx="626" cy="720" r="6.4" fill="#40556c"/><circle cx="646" cy="720" r="6.4" fill="#40556c"/>
+  </g>
+  <path d="M606,696 L606,711" stroke="#8a1f1f" stroke-width="2.2"/>
+  <text x="780" y="690" font-size="12" fill="#4a5c6f">六孔金属板：3 颗拧紧 · 1 颗正拧 · 2 孔空着</text>
+  <g transform="translate(668,742)">
+    <rect width="26" height="20" rx="4" fill="#e0b23c" stroke="#7a5230" stroke-width="2.2"/>
+    <path d="M8,0 q5,-9 10,0" fill="none" stroke="#7a5230" stroke-width="2.4"/>
+    <text x="13" y="15" text-anchor="middle" font-size="11" font-weight="bold" fill="#3a2c1a">57</text>
+  </g>
+  <text x="712" y="738" font-size="12" fill="#4a5c6f">密码锁 A+B+C=5+5+47=57</text>
+  <g stroke="#7a5230" stroke-width="2"><line x1="508" y1="708" x2="508" y2="790"/><line x1="700" y1="708" x2="700" y2="790"/></g>
+  <g fill="#ffd24a" stroke="#7a5230" stroke-width="2.2">
+    <path d="M500,790 h16 l4,14 h-24 Z"/><path d="M692,790 h16 l4,14 h-24 Z"/>
+  </g>
+  <text x="508" y="822" text-anchor="middle" font-size="12" fill="#4a5c6f">灯</text>
+  <text x="700" y="822" text-anchor="middle" font-size="12" fill="#4a5c6f">灯（合计 P=2 盏）</text>
+  <!-- 右手（画面左）握电动螺丝刀，左手（画面右）扶板；第三条手臂不画 -->
+  <path d="M596,714 C582,706 574,702 568,700" fill="none" stroke="#2a2a38" stroke-width="13" stroke-linecap="round"/>
+  <circle cx="566" cy="699" r="8" fill="#e8c9a0" stroke="#7a5a3a" stroke-width="2.2"/>
+  <text x="500" y="672" text-anchor="end" font-size="11" fill="#cfe2f0">右手握</text>
+  <path d="M640,714 C656,714 668,712 674,708" fill="none" stroke="#2a2a38" stroke-width="11" stroke-linecap="round"/>
+  <text x="662" y="704" text-anchor="middle" font-size="14" font-weight="bold" fill="#ffd24a">秦</text>
+  <text x="700" y="706" font-size="12" fill="#ffe08a">左袖绣秦</text>
+  <text x="700" y="722" font-size="12" fill="#ffe08a">左手扶板</text>
+  <circle cx="678" cy="706" r="7" fill="#e8c9a0" stroke="#7a5a3a" stroke-width="2"/>
+  <g transform="translate(553,692) rotate(28)">
+    <rect x="0" y="-7" width="40" height="14" rx="4" fill="#2fa84f" stroke="#16202a" stroke-width="2"/>
+    <rect x="7" y="-4.5" width="24" height="9" rx="2" fill="#fdfbf2" stroke="#16202a" stroke-width="1.2"/>
+    <text x="19" y="3.4" text-anchor="middle" font-size="8.5" font-weight="bold" fill="#16202a">5 分钟</text>
+    <rect x="40" y="-3" width="20" height="6" rx="2" fill="#b8c4ce" stroke="#16202a" stroke-width="1.6"/>
+  </g>
+  <path d="M500,714 L548,700" stroke="#4a5c6f" stroke-width="1.6"/>
+  <text x="496" y="722" text-anchor="end" font-size="12" fill="#4a5c6f">刀身侧面＝机器题答案 5 分钟</text>
+
+  <!-- ===================== 乌龟 · 微型象 · 透明温室 ===================== -->
+  <g fill="#e6d3b3" stroke="#5b4a33" stroke-width="2">
+    <ellipse cx="588" cy="662" rx="9" ry="5"/><ellipse cx="618" cy="662" rx="9" ry="5"/>
+    <path d="M560,658 q8,-6 14,0 q-6,8 -14,4 Z"/>
+  </g>
+  <path d="M570,660 q30,-22 60,0 q-8,9 -30,9 q-22,0 -30,-9 Z" fill="#5a7a4a" stroke="#1d3a5c" stroke-width="2.4"/>
+  <g stroke="#2f4a2a" stroke-width="1.6" fill="none"><path d="M584,650 l5,10 M600,644 l3,12 M616,650 l-5,10"/></g>
+  <ellipse cx="600" cy="626" rx="34" ry="14" fill="#b8c4ce" stroke="#3a4a5c" stroke-width="2.6"/>
+  <circle cx="566" cy="624" r="12" fill="#c3cfda" stroke="#3a4a5c" stroke-width="2.4"/>
+  <path d="M556,632 C548,642 552,650 560,648" fill="none" stroke="#3a4a5c" stroke-width="4"/>
+  <path d="M592,616 q16,-8 22,4 q-12,8 -22,-4 Z" fill="#a8b4bf" stroke="#3a4a5c" stroke-width="2"/>
+  <g stroke="#3a4a5c" stroke-width="5"><line x1="580" y1="638" x2="580" y2="645"/><line x1="614" y1="638" x2="614" y2="645"/></g>
+  <text x="660" y="626" font-size="13" fill="#4a5c6f">微型象</text>
+  <rect x="536" y="604" width="128" height="9" rx="3" fill="#8a9aa8" stroke="#3a4a5c" stroke-width="2"/>
+  <rect x="544" y="530" width="118" height="74" fill="#cbeaf4" opacity="0.36" stroke="#dff2fb" stroke-width="3"/>
+  <path d="M540,530 L603,510 L666,530 Z" fill="#cbeaf4" opacity="0.42" stroke="#dff2fb" stroke-width="3"/>
+  <g stroke="#dff2fb" stroke-width="2.2" fill="none">
+    <line x1="572" y1="530" x2="572" y2="604"/><line x1="602" y1="530" x2="602" y2="604"/><line x1="630" y1="530" x2="630" y2="604"/>
+    <line x1="544" y1="567" x2="662" y2="567"/><line x1="572" y1="530" x2="603" y2="512"/><line x1="634" y1="530" x2="603" y2="512"/>
+  </g>
+  <g fill="#dff2fb" stroke="#8a9aa8" stroke-width="1.5">
+    <rect x="550" y="540" width="16" height="18"/><rect x="550" y="572" width="16" height="18"/><rect x="572" y="572" width="16" height="18"/>
+  </g>
+  <rect x="634" y="562" width="26" height="42" fill="#9fb0c0" opacity="0.72" stroke="#dff2fb" stroke-width="2"/>
+  <rect x="602" y="542" width="44" height="16" rx="3" fill="#fdfbf2" stroke="#3a4a5c" stroke-width="2"/>
+  <text x="624" y="555" text-anchor="middle" font-size="12" font-weight="bold" fill="#1d2b3a">第47天</text>
+  <text x="672" y="534" font-size="13" fill="#4a5c6f">窗 3 扇（R=3，门玻璃不计）</text>
+  <text x="672" y="552" font-size="13" fill="#8a1f1f">红苹果 4 个</text>
+  <text x="672" y="570" font-size="13" fill="#1c6a30">绿苹果 1 个·最右</text>
+  <rect x="612" y="562" width="9" height="42" fill="#6b4a2a" stroke="#3a2c1a" stroke-width="1.6"/>
+  <path d="M612,560 L604,552" stroke="#6b4a2a" stroke-width="4" fill="none"/>
+  <path d="M616,576 C630,570 638,564 644,558" stroke="#6b4a2a" stroke-width="3" fill="none"/>
+  <g fill="#2f7a46" stroke="#1c5a30" stroke-width="1.8">
+    <circle cx="604" cy="556" r="12"/><circle cx="624" cy="548" r="13"/><circle cx="612" cy="538" r="10"/><circle cx="640" cy="562" r="8"/>
+  </g>
+  <g stroke="#8a1f1f" stroke-width="2" fill="#d0342c">
+    <circle cx="596" cy="564" r="6.5"/><circle cx="616" cy="544" r="6.5"/><circle cx="630" cy="558" r="6.5"/><circle cx="620" cy="572" r="6.5"/>
+  </g>
+  <circle cx="646" cy="548" r="6.5" fill="#2fa84f" stroke="#1c6a30" stroke-width="2"/>
+
+  <!-- 伸出温室的树枝：用绳子吊住沙漏顶板 -->
+  <path d="M604,552 C588,542 570,534 542,522" stroke="#6b4a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M542,522 C538,519 534,518 530,520" stroke="#6b4a2a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M568,536 C574,528 584,526 590,530" stroke="#2f7a46" stroke-width="4" fill="none"/>
+  <circle cx="530" cy="520" r="3.6" fill="none" stroke="#4a5a6c" stroke-width="2.2"/>
+  <path d="M530,523 L516,548" stroke="#4a5a6c" stroke-width="2.4" fill="none"/>
+  <text x="596" y="502" font-size="13" fill="#4a5c6f">苹果树的一根树枝→绳→沙漏</text>
+  <!-- 透明沙漏：上半装星星，下半装微型齿轮，顶板上站着章鱼 -->
+  <rect x="426" y="548" width="96" height="8" rx="3" fill="#cfd9e2" stroke="#3a4a5c" stroke-width="2"/>
+  <path d="M434,556 L514,556 L486,584 L478,590 L470,584 Z" fill="#dff2fb" opacity="0.55" stroke="#3a4a5c" stroke-width="1.8"/>
+  <path d="M478,590 L486,596 L514,624 L442,624 L470,596 Z" fill="#dff2fb" opacity="0.55" stroke="#3a4a5c" stroke-width="1.8"/>
+  <rect x="426" y="624" width="96" height="8" rx="3" fill="#cfd9e2" stroke="#3a4a5c" stroke-width="2"/>
+  <g fill="#ffcf3f" stroke="#8a6a00" stroke-width="0.8">
+    <use href="#star5" xlink:href="#star5" transform="translate(466,564) scale(0.62)"/>
+    <use href="#star5" xlink:href="#star5" transform="translate(484,568) scale(0.62)"/>
+    <use href="#star5" xlink:href="#star5" transform="translate(500,563) scale(0.62)"/>
+  </g>
+  <g stroke="#3a4a5c" stroke-width="1.2">
+    <g fill="#9aa8b6"><circle cx="466" cy="602" r="6.2"/><circle cx="484" cy="608" r="6.2"/><circle cx="500" cy="614" r="6.2"/></g>
+    <g fill="#4a5a6c"><circle cx="466" cy="602" r="2.2"/><circle cx="484" cy="608" r="2.2"/><circle cx="500" cy="614" r="2.2"/></g>
+    <g stroke-width="2">
+      <path d="M466,594 L466,597 M458,602 L461,602 M471,602 L474,602 M466,607 L466,610"/>
+      <path d="M484,600 L484,603 M476,608 L479,608 M489,608 L492,608 M484,613 L484,616"/>
+      <path d="M500,606 L500,609 M492,614 L495,614 M505,614 L508,614 M500,619 L500,622"/>
+    </g>
+  </g>
+  <text x="426" y="652" font-size="11" fill="#4a5c6f">沙漏：上星星 · 下齿轮</text>
+
+  <!-- ===================== 宇航章鱼：站在沙漏顶板上，8 条腕各举一物 ===================== -->
+  <g fill="none" stroke="#3a2460" stroke-width="10" stroke-linecap="round">
+    <path d="M476,506 C462,482 440,456 418,436"/>
+    <path d="M468,512 C444,496 416,482 392,472"/>
+    <path d="M462,520 C424,508 390,496 358,486"/>
+    <path d="M460,532 C420,534 380,540 346,546"/>
+    <path d="M462,542 C420,556 380,574 356,596"/>
+    <path d="M466,548 C424,574 394,606 370,634"/>
+    <path d="M470,552 C430,590 404,632 384,672"/>
+    <path d="M476,552 C420,600 396,656 396,712"/>
+  </g>
+  <g fill="none" stroke="#8f5ad4" stroke-width="5" stroke-linecap="round">
+    <path d="M476,506 C462,482 440,456 418,436"/>
+    <path d="M468,512 C444,496 416,482 392,472"/>
+    <path d="M462,520 C424,508 390,496 358,486"/>
+    <path d="M460,532 C420,534 380,540 346,546"/>
+    <path d="M462,542 C420,556 380,574 356,596"/>
+    <path d="M466,548 C424,574 394,606 370,634"/>
+    <path d="M470,552 C430,590 404,632 384,672"/>
+    <path d="M476,552 C420,600 396,656 396,712"/>
+  </g>
+  <!-- 六面不同颜色的小旗：编号 1、2、5、6、7、8 -->
+  <g stroke="#3a4a5c" stroke-width="2.6">
+    <line x1="418" y1="436" x2="418" y2="414"/><line x1="392" y1="472" x2="392" y2="450"/>
+    <line x1="356" y1="596" x2="356" y2="574"/><line x1="370" y1="634" x2="370" y2="612"/>
+    <line x1="384" y1="672" x2="384" y2="650"/><line x1="396" y1="712" x2="396" y2="690"/>
+  </g>
+  <g stroke="#16202a" stroke-width="1.4">
+    <rect x="396" y="398" width="22" height="16" fill="#d0342c"/>
+    <rect x="392" y="434" width="22" height="16" fill="#e07a1e"/>
+    <rect x="356" y="558" width="22" height="16" fill="#e0b23c"/>
+    <rect x="370" y="596" width="22" height="16" fill="#2fa84f"/>
+    <rect x="384" y="632" width="22" height="16" fill="#2a6fd0"/>
+    <rect x="396" y="672" width="22" height="16" fill="#7a4ac0"/>
+  </g>
+  <g font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    <text x="407" y="411">1</text><text x="403" y="447">2</text><text x="367" y="571">5</text>
+    <text x="381" y="609">6</text><text x="395" y="645">7</text><text x="407" y="685">8</text>
+  </g>
+  <!-- 两条腕各握一块小黑板：编号 3、4 -->
+  <g stroke="#5b4a33" stroke-width="5" fill="#1f3a2e">
+    <rect x="248" y="462" width="110" height="48" rx="2"/>
+    <rect x="236" y="522" width="110" height="48" rx="2"/>
+  </g>
+  <g stroke="#c9bfa4" stroke-width="1.6" fill="none"><path d="M252,506 L354,506"/><path d="M240,566 L342,566"/></g>
+  <g font-size="10" fill="#f2f7fb">
+    <text x="254" y="480">球拍+球=1.10</text>
+    <text x="254" y="499" font-size="11" font-weight="bold">球=0.05 元</text>
+    <text x="242" y="541" font-size="12" font-weight="bold">9.11 ＜ 9.9</text>
+    <text x="242" y="559" font-size="9">按位比较，非版本号</text>
+  </g>
+  <g fill="#ffe08a" stroke="#5b4a33" stroke-width="1.4">
+    <rect x="344" y="462" width="14" height="14"/><rect x="332" y="522" width="14" height="14"/>
+  </g>
+  <g font-size="10" font-weight="bold" fill="#3a2c1a" text-anchor="middle">
+    <text x="351" y="473">3</text><text x="339" y="533">4</text>
+  </g>
+  <text x="176" y="442" font-size="13" fill="#dfe9f2">小黑板 1：球价（两位小数）</text>
+  <text x="176" y="592" font-size="13" fill="#dfe9f2">小黑板 2：比大小</text>
+  <text x="240" y="740" text-anchor="middle" font-size="13" fill="#dfe9f2">8 条腕逐条可追踪：2 黑板＋6 旗</text>
+  <path d="M462,550 C446,538 444,516 456,506 C468,496 492,502 498,520 C504,538 492,550 478,552 C472,553 466,553 462,550 Z" fill="#7a4ac0" stroke="#3a2460" stroke-width="2.6"/>
+  <circle cx="474" cy="514" r="21" fill="#eaf6ff" opacity="0.42" stroke="#2f4050" stroke-width="3"/>
+  <path d="M460,504 a15,13 0 0 1 20,-4" stroke="#ffffff" stroke-width="3" fill="none" opacity="0.85"/>
+  <g fill="#2a2a3a"><circle cx="468" cy="514" r="3"/><circle cx="482" cy="512" r="3"/></g>
+  <!-- 头盔上的茶杯：岛上有灯塔，灯塔顶托着玻璃球 -->
+  <ellipse cx="480" cy="494" rx="20" ry="5" fill="#f7f1e0" stroke="#3a4a5c" stroke-width="2.6"/>
+  <path d="M462,494 C464,476 496,476 498,494 Z" fill="#e8dcc4" stroke="#3a4a5c" stroke-width="2.6"/>
+  <ellipse cx="480" cy="492" rx="16" ry="4" fill="#7a5230"/>
+  <path d="M470,488 C468,480 474,476 478,482 C482,476 488,480 486,488 Z" fill="#8fd0e8" stroke="#5a4a3a" stroke-width="1.6"/>
+  <path d="M468,486 q12,-6 22,0" stroke="#8a5a2a" stroke-width="2.2" fill="none"/>
+  <path d="M474,484 L482,444 L490,444 L486,484 Z" fill="#f7f1e0" stroke="#3a4a5c" stroke-width="2"/>
+  <path d="M476,470 L489,470 M479,458 L491,458" stroke="#c0392b" stroke-width="3"/>
+  <rect x="481" y="435" width="12" height="9" fill="#ffe08a" stroke="#3a4a5c" stroke-width="1.8"/>
+  <path d="M479,435 L487,427 L495,435 Z" fill="#c0392b" stroke="#3a4a5c" stroke-width="1.6"/>
+  <g stroke="#ffe08a" stroke-width="2" opacity="0.85"><path d="M493,438 L505,434"/><path d="M493,442 L505,445"/></g>
+  <text x="556" y="470" font-size="12" fill="#4a5c6f">头盔上：茶杯→岛→灯塔→玻璃球</text>
+  <path d="M552,474 L502,484" stroke="#4a5c6f" stroke-width="1.4"/>
+  <circle cx="478" cy="358" r="60" fill="url(#ballg)" stroke="#e8f4fb" stroke-width="3"/>
+  <use href="#S1" xlink:href="#S1" transform="translate(460,306) scale(0.2)"/>
+  <path d="M436,332 a44,44 0 0 1 20,-16" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.7"/>
+  <text x="400" y="330" text-anchor="end" font-size="14" fill="#ffe08a">玻璃球：第一层机头朝右</text>
+  <text x="400" y="312" text-anchor="end" font-size="14" fill="#ffe08a">第二层机头朝左，止于金点</text>
+
+  <!-- 承托链说明 -->
+  <text x="792" y="1236" font-size="15" fill="#dfe9f2">承托链：翼面→双轮→鹈鹕两脚踏板→展开双翅→熊四掌→熊背→秦始皇两腿夹身→冕板→龟→象→温室（树→枝→沙漏）→章鱼站上沙漏→头盔→茶杯→岛→灯塔→玻璃球</text>
+
+  <!-- ===================== 边框上的八个套娃检验章：第 k 个写 k² ===================== -->
+  <rect x="36" y="112" width="92" height="570" rx="12" fill="#0b2138" opacity="0.55" stroke="#e0b23c" stroke-width="3"/>
+  <text x="82" y="130" text-anchor="middle" font-size="13" fill="#ffe08a">检验章</text>
+  <g>
+    <use href="#dollBody" xlink:href="#dollBody" transform="translate(82,170)"/>
+    <text x="82" y="194" text-anchor="middle" font-size="16" font-weight="bold" fill="#5b2233">1</text>
+    <use href="#dollBody" xlink:href="#dollBody" transform="translate(82,258) scale(0.9)"/>
+    <text x="82" y="279" text-anchor="middle" font-size="15" font-weight="bold" fill="#5b2233">4</text>
+    <use href="#dollBody" xlink:href="#dollBody" transform="translate(82,338) scale(0.81)"/>
+    <text x="82" y="357" text-anchor="middle" font-size="14" font-weight="bold" fill="#5b2233">9</text>
+    <use href="#dollBody" xlink:href="#dollBody" transform="translate(82,411) scale(0.73)"/>
+    <text x="82" y="428" text-anchor="middle" font-size="13" font-weight="bold" fill="#5b2233">16</text>
+    <use href="#dollBody" xlink:href="#dollBody" transform="translate(82,477) scale(0.66)"/>
+    <text x="82" y="493" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b2233">25</text>
+    <use href="#dollBody" xlink:href="#dollBody" transform="translate(82,538) scale(0.6)"/>
+    <text x="82" y="553" text-anchor="middle" font-size="12" font-weight="bold" fill="#5b2233">36</text>
+    <use href="#dollBody" xlink:href="#dollBody" transform="translate(82,594) scale(0.55)"/>
+    <text x="82" y="608" text-anchor="middle" font-size="11" font-weight="bold" fill="#5b2233">49</text>
+    <use href="#dollBody" xlink:href="#dollBody" transform="translate(82,646) scale(0.5)"/>
+    <text x="82" y="659" text-anchor="middle" font-size="10" font-weight="bold" fill="#5b2233">64</text>
+  </g>
+  <text x="82" y="700" text-anchor="middle" font-size="13" fill="#ffe08a">k²：1 4 9 16</text>
+  <text x="82" y="718" text-anchor="middle" font-size="13" fill="#ffe08a">25 36 49 64</text>
+  <text x="82" y="736" text-anchor="middle" font-size="13" fill="#ffe08a">外轮廓逐个缩小</text>
+
+  <!-- ===================== 尾流与六个标记 ===================== -->
+  <g fill="none" stroke="#ffffff" stroke-linecap="round">
+    <path d="M1450,890 C1700,886 2000,910 2300,946" stroke-width="12" opacity="0.75"/>
+    <path d="M1450,916 C1720,914 2020,938 2300,972" stroke-width="8" opacity="0.5"/>
+    <path d="M1450,868 C1680,866 1900,880 2120,902" stroke-width="5" opacity="0.35"/>
+  </g>
+  <circle cx="1860" cy="902" r="11" fill="#c0392b" stroke="#ffffff" stroke-width="2.2"/>
+  <use href="#star5" xlink:href="#star5" transform="translate(1940,908) scale(1.15)" fill="#2a6fc0" stroke="#ffffff" stroke-width="1.6"/>
+  <circle cx="2020" cy="916" r="11" fill="#2a8a4a" stroke="#ffffff" stroke-width="2.2"/>
+  <use href="#star5" xlink:href="#star5" transform="translate(2100,924) scale(1.15)" fill="#c0392b" stroke="#ffffff" stroke-width="1.6"/>
+  <circle cx="2180" cy="934" r="11" fill="#2a6fc0" stroke="#ffffff" stroke-width="2.2"/>
+  <use href="#star5" xlink:href="#star5" transform="translate(2260,946) scale(1.15)" fill="#2a8a4a" stroke="#ffffff" stroke-width="1.6"/>
+  <text x="2080" y="990" text-anchor="middle" font-size="15" fill="#1d2b3a">尾流标记顺序：红圆 · 蓝星 · 绿圆 · 红星 · 蓝圆 · 绿星</text>
+
+  <!-- ===================== 云中的透明小池塘：狼羊菜过河 ===================== -->
+  <path d="M228,1568 C170,1566 148,1520 180,1488 C150,1454 176,1404 222,1410
+           C224,1360 284,1338 320,1368 C352,1326 428,1328 458,1368
+           C504,1334 570,1356 578,1404 C640,1398 674,1442 658,1488
+           C702,1512 686,1566 630,1568 Z"
+        fill="#f7fbff" stroke="#a8c4dc" stroke-width="4"/>
+  <ellipse cx="428" cy="1492" rx="212" ry="52" fill="#bfe4f4" stroke="#4a90b8" stroke-width="3"/>
+  <g fill="#8fc7e0" opacity="0.8">
+    <path d="M300,1486 q18,-6 36,0" fill="none" stroke="#4a90b8" stroke-width="2"/>
+    <path d="M470,1504 q18,-6 36,0" fill="none" stroke="#4a90b8" stroke-width="2"/>
+  </g>
+  <ellipse cx="238" cy="1444" rx="52" ry="18" fill="#cfe8c0" stroke="#5b7a4a" stroke-width="2.6"/>
+  <ellipse cx="620" cy="1444" rx="52" ry="18" fill="#cfe8c0" stroke="#5b7a4a" stroke-width="2.6"/>
+  <g font-size="14" fill="#1d2b3a" text-anchor="middle">
+    <text x="238" y="1436">此岸</text><text x="620" y="1436">彼岸·家</text>
+  </g>
+  <g transform="translate(196,1392)">
+    <use href="#fig" xlink:href="#fig" transform="scale(0.62)"/>
+    <text x="8" y="36" text-anchor="middle" font-size="12" fill="#1d2b3a">农夫</text>
+  </g>
+  <g font-size="13" fill="#3a2c1a" text-anchor="middle">
+    <ellipse cx="262" cy="1400" rx="13" ry="8" fill="#8a8f98" stroke="#3a4a5c" stroke-width="2"/><text x="262" y="1422">狼</text>
+    <ellipse cx="296" cy="1400" rx="13" ry="8" fill="#f4f8fb" stroke="#3a4a5c" stroke-width="2"/><text x="296" y="1422">羊</text>
+    <ellipse cx="330" cy="1400" rx="13" ry="8" fill="#4a9a4a" stroke="#2a5a2a" stroke-width="2"/><text x="330" y="1422">菜</text>
+  </g>
+  <g>
+    <path d="M400,1470 L470,1470 L458,1488 L412,1488 Z" fill="#c9a06a" stroke="#5b4a33" stroke-width="2.6"/>
+    <use href="#fig" xlink:href="#fig" transform="translate(416,1440) scale(0.52)"/>
+    <text x="435" y="1512" text-anchor="middle" font-size="12" fill="#1d2b3a">船：农夫 + 一件</text>
+  </g>
+  <text x="196" y="1606" font-size="15" fill="#dfe9f2" font-weight="bold">合法过河顺序（→ 去，← 返；空船返航 = 农夫独自）</text>
+  <g font-size="16" fill="#0b2138">
+    <rect x="180" y="1624" width="770" height="248" rx="10" fill="#dfe9f2" stroke="#243547" stroke-width="3"/>
+  </g>
+  <g font-size="17" fill="#1d2b3a">
+    <text x="200" y="1660">① 农夫 + 羊 → 彼岸</text>
+    <text x="200" y="1692">② 农夫 独自 ← 此岸（空船返航）</text>
+    <text x="200" y="1724">③ 农夫 + 狼 → 彼岸</text>
+    <text x="200" y="1756">④ 农夫 + 羊 ← 此岸（带回羊，防狼吃羊）</text>
+    <text x="200" y="1788">⑤ 农夫 + 菜 → 彼岸</text>
+    <text x="200" y="1820">⑥ 农夫 独自 ← 此岸（空船返航）</text>
+    <text x="200" y="1852">⑦ 农夫 + 羊 → 彼岸 ｜ 全部过河，共 7 次</text>
+    <text x="620" y="1660" fill="#8a1f1f">无农夫时：狼吃羊、羊吃菜</text>
+    <text x="620" y="1690" fill="#8a1f1f">故第 ④ 步必须把羊带回来</text>
+  </g>
+
+  <!-- ===================== 浮冰上的三只企鹅 ===================== -->
+  <ellipse cx="1180" cy="1396" rx="120" ry="16" fill="#eaf6ff" stroke="#8fa8bd" stroke-width="3"/>
+  <g>
+    <g transform="translate(1120,0)">
+      <ellipse cx="0" cy="1350" rx="19" ry="27" fill="#2a2a3a" stroke="#15151d" stroke-width="2.4"/>
+      <ellipse cx="0" cy="1358" rx="11" ry="17" fill="#f7fbff"/>
+      <circle cx="-6" cy="1334" r="2.4" fill="#15151d"/><circle cx="6" cy="1334" r="2.4" fill="#15151d"/>
+      <path d="M-5,1342 L5,1342 L0,1350 Z" fill="#e07a1e" stroke="#8a4a10" stroke-width="1.4"/>
+      <path d="M-14,1324 q14,-18 28,0 Z" fill="#c0392b" stroke="#7a1f16" stroke-width="2"/>
+      <line x1="-7" y1="1378" x2="-7" y2="1388" stroke="#e07a1e" stroke-width="4"/>
+      <line x1="7" y1="1378" x2="7" y2="1388" stroke="#e07a1e" stroke-width="4"/>
+    </g>
+    <g transform="translate(1180,0)">
+      <ellipse cx="0" cy="1350" rx="19" ry="27" fill="#2a2a3a" stroke="#15151d" stroke-width="2.4"/>
+      <ellipse cx="0" cy="1358" rx="11" ry="17" fill="#f7fbff"/>
+      <circle cx="-6" cy="1334" r="2.4" fill="#15151d"/><circle cx="6" cy="1334" r="2.4" fill="#15151d"/>
+      <path d="M-5,1342 L5,1342 L0,1350 Z" fill="#e07a1e" stroke="#8a4a10" stroke-width="1.4"/>
+      <path d="M-14,1324 q14,-18 28,0 Z" fill="#2a6fc0" stroke="#16406e" stroke-width="2"/>
+      <line x1="-7" y1="1378" x2="-7" y2="1388" stroke="#e07a1e" stroke-width="4"/>
+      <line x1="7" y1="1378" x2="7" y2="1388" stroke="#e07a1e" stroke-width="4"/>
+      <g transform="translate(24,1358)">
+        <ellipse cx="0" cy="0" rx="11" ry="5.5" fill="#8fc7e0" stroke="#3a6a86" stroke-width="1.8"/>
+        <path d="M11,0 L18,-5 L18,5 Z" fill="#8fc7e0" stroke="#3a6a86" stroke-width="1.6"/>
+        <circle cx="-4" cy="-1" r="1.6" fill="#15151d"/>
+      </g>
+    </g>
+    <g transform="translate(1240,0)">
+      <ellipse cx="0" cy="1350" rx="19" ry="27" fill="#2a2a3a" stroke="#15151d" stroke-width="2.4"/>
+      <ellipse cx="0" cy="1358" rx="11" ry="17" fill="#f7fbff"/>
+      <path d="M-14,1324 q14,-18 28,0 Z" fill="#2a8a4a" stroke="#154c28" stroke-width="2"/>
+      <g fill="none" stroke="#15151d" stroke-width="2.2">
+        <circle cx="-7" cy="1334" r="5"/><circle cx="7" cy="1334" r="5"/><path d="M-2,1334 h4"/>
+      </g>
+      <path d="M-5,1342 L5,1342 L0,1350 Z" fill="#e07a1e" stroke="#8a4a10" stroke-width="1.4"/>
+      <line x1="-7" y1="1378" x2="-7" y2="1388" stroke="#e07a1e" stroke-width="4"/>
+      <line x1="7" y1="1378" x2="7" y2="1388" stroke="#e07a1e" stroke-width="4"/>
+    </g>
+  </g>
+  <text x="1180" y="1434" text-anchor="middle" font-size="14" fill="#dfe9f2">三只企鹅：左红帽 · 中蓝帽 · 右绿帽</text>
+  <text x="1180" y="1454" text-anchor="middle" font-size="14" fill="#dfe9f2">只有中间拿鱼，只有右边戴眼镜</text>
+
+  <!-- ===================== 色词干扰标牌 ===================== -->
+  <rect x="1080" y="1470" width="340" height="124" rx="10" fill="#fdfbf2" stroke="#3a4a5c" stroke-width="3.4"/>
+  <text x="1250" y="1500" text-anchor="middle" font-size="16" fill="#4a5c6f">色词干扰</text>
+  <text x="1140" y="1556" text-anchor="middle" font-size="46" font-weight="bold" fill="#2a6fc0">红</text>
+  <text x="1250" y="1556" text-anchor="middle" font-size="46" font-weight="bold" fill="#2a8a4a">蓝</text>
+  <text x="1360" y="1556" text-anchor="middle" font-size="46" font-weight="bold" fill="#c0392b">绿</text>
+  <text x="1250" y="1626" text-anchor="middle" font-size="16" fill="#1d2b3a">读墨色，不读字义 → 正确顺序：蓝、绿、红</text>
+
+  <!-- ===================== 小热气球：生日悖论 ===================== -->
+  <g>
+    <ellipse cx="1620" cy="1400" rx="96" ry="108" fill="#e8725c" stroke="#7a2a1c" stroke-width="3.4"/>
+    <path d="M1620,1292 C1572,1340 1560,1450 1620,1508" fill="none" stroke="#7a2a1c" stroke-width="2.6" opacity="0.8"/>
+    <path d="M1620,1292 C1668,1340 1680,1450 1620,1508" fill="none" stroke="#7a2a1c" stroke-width="2.6" opacity="0.8"/>
+    <path d="M1560,1300 C1524,1360 1524,1444 1560,1498" fill="none" stroke="#7a2a1c" stroke-width="2.2" opacity="0.6"/>
+    <path d="M1680,1300 C1716,1360 1716,1444 1680,1498" fill="none" stroke="#7a2a1c" stroke-width="2.2" opacity="0.6"/>
+    <path d="M1548,1352 q72,-14 144,0" fill="none" stroke="#ffd8a8" stroke-width="6" opacity="0.7"/>
+    <path d="M1548,1440 q72,14 144,0" fill="none" stroke="#ffd8a8" stroke-width="6" opacity="0.7"/>
+    <g stroke="#3a2c1a" stroke-width="2.4">
+      <line x1="1566" y1="1494" x2="1592" y2="1520"/><line x1="1674" y1="1494" x2="1648" y2="1520"/>
+      <line x1="1600" y1="1506" x2="1608" y2="1520"/><line x1="1640" y1="1506" x2="1632" y2="1520"/>
+    </g>
+    <rect x="1586" y="1520" width="68" height="48" rx="6" fill="#c9a06a" stroke="#5b4a33" stroke-width="3"/>
+    <g stroke="#8a6a3a" stroke-width="1.8">
+      <line x1="1586" y1="1536" x2="1654" y2="1536"/><line x1="1586" y1="1552" x2="1654" y2="1552"/>
+      <line x1="1603" y1="1520" x2="1603" y2="1568"/><line x1="1637" y1="1520" x2="1637" y2="1568"/>
+    </g>
+    <text x="1620" y="1556" text-anchor="middle" font-size="27" font-weight="bold" fill="#3a2c1a">23</text>
+  </g>
+  <text x="1620" y="1600" text-anchor="middle" font-size="15" fill="#dfe9f2">生日悖论（365 天、独立均匀）：至少 23 人时，</text>
+  <text x="1620" y="1620" text-anchor="middle" font-size="15" fill="#dfe9f2">「至少两人同生日」的概率首次超过 50%</text>
+
+  <!-- ===================== 七层汉诺塔 ===================== -->
+  <g>
+    <rect x="1520" y="1800" width="220" height="14" rx="4" fill="#c9a06a" stroke="#5b4a33" stroke-width="2.6"/>
+    <g stroke="#5b4a33" stroke-width="5">
+      <line x1="1560" y1="1800" x2="1560" y2="1632"/>
+      <line x1="1630" y1="1800" x2="1630" y2="1632"/>
+      <line x1="1700" y1="1800" x2="1700" y2="1632"/>
+    </g>
+    <g stroke="#26313d" stroke-width="2">
+      <rect x="1515" y="1782" width="90" height="16" rx="5" fill="#c0392b"/>
+      <rect x="1525" y="1766" width="80" height="16" rx="5" fill="#e07a1e"/>
+      <rect x="1535" y="1750" width="70" height="16" rx="5" fill="#ffd24a"/>
+      <rect x="1545" y="1734" width="60" height="16" rx="5" fill="#2a8a4a"/>
+      <rect x="1555" y="1718" width="50" height="16" rx="5" fill="#2a6fc0"/>
+      <rect x="1565" y="1702" width="40" height="16" rx="5" fill="#7a4ac0"/>
+      <rect x="1575" y="1686" width="30" height="16" rx="5" fill="#e7a9c0"/>
+    </g>
+    <text x="1560" y="1672" text-anchor="middle" font-size="13" fill="#dfe9f2">7 盘</text>
+    <text x="1630" y="1672" text-anchor="middle" font-size="13" fill="#dfe9f2">空柱</text>
+    <text x="1700" y="1672" text-anchor="middle" font-size="13" fill="#dfe9f2">目标柱</text>
+  </g>
+  <text x="1630" y="1842" text-anchor="middle" font-size="16" fill="#dfe9f2">一次移一盘、大盘不压小盘：最少 127 步</text>
+
+  <!-- ===================== 右下角最坏情况记录板 ===================== -->
+  <rect x="1900" y="1580" width="470" height="340" rx="12" fill="#21303f" stroke="#dfe9f2" stroke-width="3.4"/>
+  <text x="2135" y="1612" text-anchor="middle" font-size="17" font-weight="bold" fill="#ffe08a">最坏情况记录板：取出 N−1 = 28 颗仍不满足</text>
+  <g font-size="13" fill="#dfe9f2" text-anchor="middle">
+    <text x="1940" y="1650">圆苹果</text><text x="2016" y="1650">圆桃子</text><text x="2092" y="1650">圆西瓜</text>
+    <text x="2168" y="1650">星苹果</text><text x="2244" y="1650">星桃子</text><text x="2320" y="1650">星西瓜</text>
+  </g>
+  <g font-size="28" font-weight="bold" fill="#f7fbff" text-anchor="middle">
+    <text x="1940" y="1688">7</text><text x="2016" y="1688">9</text><text x="2092" y="1688">8</text>
+    <text x="2168" y="1688">0</text><text x="2244" y="1688">0</text><text x="2320" y="1688">4</text>
+  </g>
+  <line x1="1920" y1="1704" x2="2350" y2="1704" stroke="#5b7a95" stroke-width="2"/>
+  <text x="2135" y="1734" text-anchor="middle" font-size="18" fill="#f7fbff">合计 7+9+8+0+0+4 = 28 颗 = N−1</text>
+  <text x="2135" y="1762" text-anchor="middle" font-size="18" font-weight="bold" fill="#ffd24a">再多取 1 颗 ⇒ N = 29</text>
+  <text x="1920" y="1796" font-size="15" fill="#dfe9f2">目标一：圆形苹果味 + 五角星桃子味</text>
+  <text x="1920" y="1822" font-size="15" fill="#dfe9f2">目标二：圆形桃子味 + 五角星苹果味</text>
+  <text x="1920" y="1852" font-size="15" fill="#ffb0a8">本组合把星桃子、星苹果取到 0 ⇒ 两组都落空</text>
+  <text x="1920" y="1880" font-size="15" fill="#dfe9f2">N = 29：气泡、航班号 QIN-29、本板同值</text>
+  <text x="1920" y="1906" font-size="13" fill="#9fb0c0">（糖果图标见车把标签，与尾流的六枚标记无关）</text>
+
+  <!-- ===================== 底部核验条 ===================== -->
+  <rect x="40" y="2028" width="2400" height="100" rx="10" fill="#21303f" stroke="#e0b23c" stroke-width="3.4"/>
+  <text x="70" y="2068" font-size="21" fill="#f7fbff">核验条：糖果六类总和 7+9+8+7+6+4 = 41 ｜ 六孔金属板空孔 2 ｜ 章鱼腕足 8 ｜ 发动机 4</text>
+  <text x="70" y="2100" font-size="17" fill="#ffe08a">自行车 1 辆 ｜ 画中画两层：机头 左 → 右 → 左，第三层以金色圆点终止 ｜ 承托链可逐环节目视追踪</text>
+  <g fill="#0d2f4c" stroke="#ffd24a" stroke-width="2.6">
+    <rect x="1930" y="2040" width="100" height="76" rx="8"/><rect x="2040" y="2040" width="100" height="76" rx="8"/>
+    <rect x="2150" y="2040" width="100" height="76" rx="8"/><rect x="2260" y="2040" width="100" height="76" rx="8"/>
+  </g>
+  <g font-size="30" font-weight="bold" fill="#ffd24a" text-anchor="middle">
+    <text x="1980" y="2080">41</text><text x="2090" y="2080">2</text><text x="2200" y="2080">8</text><text x="2310" y="2080">4</text>
+  </g>
+  <g font-size="12" fill="#dfe9f2" text-anchor="middle">
+    <text x="1980" y="2108">糖果总和</text><text x="2090" y="2108">空孔数</text><text x="2200" y="2108">腕足数</text><text x="2310" y="2108">发动机数</text>
+  </g>
+
+</svg>

@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="2400" viewBox="0 0 3000 2400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#0e2a4d"/><stop offset="0.34" stop-color="#1d4d7d"/>
+  <stop offset="0.66" stop-color="#3f7fae"/><stop offset="0.88" stop-color="#8db9cf"/>
+  <stop offset="1" stop-color="#f0cf9c"/>
+</linearGradient>
+<radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+  <stop offset="0" stop-color="#fff6dd" stop-opacity="0.95"/>
+  <stop offset="0.45" stop-color="#ffe6ad" stop-opacity="0.35"/>
+  <stop offset="1" stop-color="#ffd88a" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="hull" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0" stop-color="#ffffff"/><stop offset="0.55" stop-color="#eef3f8"/>
+  <stop offset="1" stop-color="#c3d2df"/>
+</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0.3" y2="1">
+  <stop offset="0" stop-color="#dff4fb" stop-opacity="0.62"/>
+  <stop offset="1" stop-color="#9fd0e4" stop-opacity="0.34"/>
+</linearGradient>
+<linearGradient id="grn" x1="0" y1="0" x2="0.4" y2="1">
+  <stop offset="0" stop-color="#e8fbff" stop-opacity="0.55"/>
+  <stop offset="1" stop-color="#a8dced" stop-opacity="0.3"/>
+</linearGradient>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+  <path d="M0,1 L10,5 L0,9 z" fill="context-stroke"/></marker>
+<marker id="arm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto">
+  <path d="M0,1 L10,5 L0,9 z" fill="#c0392b"/></marker>
+</defs>
+<rect width="3000" height="2400" fill="url(#sky)"/>
+<circle cx="520" cy="300" r="520" fill="url(#sun)"/>
+<circle cx="520" cy="300" r="86" fill="#fff8e2" opacity="0.85"/>
+<g opacity="0.5"><ellipse cx="1307.8" cy="200" rx="155" ry="56" fill="#ffffff"/><ellipse cx="1679.8" cy="198" rx="142.6" ry="51.52" fill="#ffffff"/><ellipse cx="1500" cy="186" rx="204.6" ry="73.92" fill="#ffffff"/><ellipse cx="1419.4" cy="156" rx="142.6" ry="51.52" fill="#ffffff"/><ellipse cx="1593" cy="158" rx="130.2" ry="47.04" fill="#ffffff"/><ellipse cx="1487.6" cy="232" rx="204.6" ry="73.92" fill="#ffffff"/></g>
+<g opacity="0.42"><ellipse cx="2133" cy="630.5" rx="175" ry="58.8" fill="#ffffff"/><ellipse cx="2553" cy="628.4" rx="161" ry="54.1" fill="#ffffff"/><ellipse cx="2350" cy="615.8" rx="231" ry="77.62" fill="#ffffff"/><ellipse cx="2259" cy="584.3" rx="161" ry="54.1" fill="#ffffff"/><ellipse cx="2455" cy="586.4" rx="147" ry="49.39" fill="#ffffff"/><ellipse cx="2336" cy="664.1" rx="231" ry="77.62" fill="#ffffff"/></g>
+<g opacity="0.36"><ellipse cx="1664.4" cy="1190" rx="190" ry="56" fill="#ffffff"/><ellipse cx="2120.4" cy="1188" rx="174.8" ry="51.52" fill="#ffffff"/><ellipse cx="1900" cy="1176" rx="250.8" ry="73.92" fill="#ffffff"/><ellipse cx="1801.2" cy="1146" rx="174.8" ry="51.52" fill="#ffffff"/><ellipse cx="2014" cy="1148" rx="159.6" ry="47.04" fill="#ffffff"/><ellipse cx="1884.8" cy="1222" rx="250.8" ry="73.92" fill="#ffffff"/></g>
+<g opacity="0.3"><ellipse cx="88.8" cy="908.5" rx="130" ry="47.6" fill="#ffffff"/><ellipse cx="400.8" cy="906.8" rx="119.6" ry="43.79" fill="#ffffff"/><ellipse cx="250" cy="896.6" rx="171.6" ry="62.83" fill="#ffffff"/><ellipse cx="182.4" cy="871.1" rx="119.6" ry="43.79" fill="#ffffff"/><ellipse cx="328" cy="872.8" rx="109.2" ry="39.98" fill="#ffffff"/><ellipse cx="239.6" cy="935.7" rx="171.6" ry="62.83" fill="#ffffff"/></g>
+<g opacity="0.34"><ellipse cx="721" cy="1969" rx="225" ry="50.4" fill="#ffffff"/><ellipse cx="1261" cy="1967.2" rx="207" ry="46.37" fill="#ffffff"/><ellipse cx="1000" cy="1956.4" rx="297" ry="66.53" fill="#ffffff"/><ellipse cx="883" cy="1929.4" rx="207" ry="46.37" fill="#ffffff"/><ellipse cx="1135" cy="1931.2" rx="189" ry="42.34" fill="#ffffff"/><ellipse cx="982" cy="1997.8" rx="297" ry="66.53" fill="#ffffff"/></g>
+<g opacity="0.3"><ellipse cx="2664" cy="1509" rx="150" ry="50.4" fill="#ffffff"/><ellipse cx="3024" cy="1507.2" rx="138" ry="46.37" fill="#ffffff"/><ellipse cx="2850" cy="1496.4" rx="198" ry="66.53" fill="#ffffff"/><ellipse cx="2772" cy="1469.4" rx="138" ry="46.37" fill="#ffffff"/><ellipse cx="2940" cy="1471.2" rx="126" ry="42.34" fill="#ffffff"/><ellipse cx="2838" cy="1537.8" rx="198" ry="66.53" fill="#ffffff"/></g>
+<g opacity="0.3"><ellipse cx="-22.6" cy="1788" rx="115" ry="44.8" fill="#ffffff"/><ellipse cx="253.4" cy="1786.4" rx="105.8" ry="41.22" fill="#ffffff"/><ellipse cx="120" cy="1776.8" rx="151.8" ry="59.14" fill="#ffffff"/><ellipse cx="60.2" cy="1752.8" rx="105.8" ry="41.22" fill="#ffffff"/><ellipse cx="189" cy="1754.4" rx="96.6" ry="37.63" fill="#ffffff"/><ellipse cx="110.8" cy="1813.6" rx="151.8" ry="59.14" fill="#ffffff"/></g>
+<polygon points="1800,1470 2560,1060 2620,1112 1900,1540" fill="#cfdae5" stroke="#7b8b9c" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="1800,1470 2560,1060 2576,1074 1812,1488" fill="#e8eff6" stroke="None" stroke-width="0" stroke-linejoin="round"/>
+<path d="M 1050 1560 C 1058 1500 1114 1476 1200 1472 L 2420 1452 C 2510 1450 2570 1476 2596 1512 C 2600 1530 2586 1548 2550 1558 L 1220 1690 C 1120 1700 1058 1636 1050 1560 Z" fill="url(#hull)" stroke="#6b7a8a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1060 1570 C 1072 1524 1122 1502 1204 1500 L 2450 1480 C 2510 1479 2548 1494 2566 1512 L 2556 1526 C 2536 1510 2504 1498 2450 1498 L 1206 1518 C 1130 1520 1086 1540 1076 1578 Z" fill="#2f6fb0" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1068 1582 C 1080 1544 1126 1526 1200 1524 L 2460 1504 L 2458 1514 L 1200 1534 C 1132 1536 1092 1552 1082 1588 Z" fill="#e0a92e" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1250" cy="1500" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1294" cy="1499.2" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1338" cy="1498.4" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1382" cy="1497.6" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1426" cy="1496.8" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1470" cy="1496" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1514" cy="1495.2" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1558" cy="1494.4" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1602" cy="1493.6" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1646" cy="1492.8" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1690" cy="1492" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1734" cy="1491.2" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1778" cy="1490.4" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1822" cy="1489.6" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1866" cy="1488.8" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1910" cy="1488" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1954" cy="1487.2" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="1998" cy="1486.4" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="2042" cy="1485.6" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="2086" cy="1484.8" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="2130" cy="1484" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="2174" cy="1483.2" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="2218" cy="1482.4" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="2262" cy="1481.6" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="2306" cy="1480.8" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="2350" cy="1480" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<circle cx="2394" cy="1479.2" r="6.2" fill="#cfe0ee" stroke="#5b6b7d" stroke-width="1.2"/>
+<rect x="1180" y="1560" width="88" height="94" fill="#e8eef4" stroke="#7b8b9c" stroke-width="1.6" rx="6"/>
+<polygon points="2240,1470 2372,1000 2480,992 2520,1460" fill="#eef3f8" stroke="#7b8b9c" stroke-width="2.2" stroke-linejoin="round"/>
+<polygon points="2286,1446 2388,1044 2440,1040 2472,1442" fill="#2f6fb0" stroke="None" stroke-width="0" stroke-linejoin="round"/>
+<polygon points="2400,1520 2570,1390 2480,1420 2460,1540" fill="#e4ecf3" stroke="#7b8b9c" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="2420,1560 2580,1510 2468,1538 2460,1582" fill="#d3dee8" stroke="#7b8b9c" stroke-width="1.6" stroke-linejoin="round"/>
+<rect x="2296" y="1098" width="176" height="74" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2.4" rx="8" opacity="0.96"/>
+<text x="2384" y="1148" font-size="42" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">QIN-29</text>
+<text x="2384" y="1194" font-size="15" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">航班编号</text>
+<polygon points="1560,1660 790,1930 400,1930 520,2130 1200,2150 1880,1780" fill="#dde6ee" stroke="#7b8b9c" stroke-width="2.4" stroke-linejoin="round"/>
+<polygon points="1560,1660 790,1930 400,1930 404,1948 794,1948 1566,1682" fill="#f4f8fb" stroke="None" stroke-width="0" stroke-linejoin="round"/>
+<path d="M 1560 1660 L 790 1930 L 400 1930" fill="none" stroke="#9fb0c0" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1431.11" y1="1690" x2="1728.89" y2="1821.11" stroke="#a9b6c4" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+<line x1="1302.22" y1="1720" x2="1577.78" y2="1862.22" stroke="#a9b6c4" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+<line x1="1173.33" y1="1750" x2="1426.67" y2="1903.33" stroke="#a9b6c4" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+<line x1="1044.44" y1="1780" x2="1275.56" y2="1944.44" stroke="#a9b6c4" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+<line x1="915.56" y1="1810" x2="1124.44" y2="1985.56" stroke="#a9b6c4" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+<line x1="786.67" y1="1840" x2="973.33" y2="2026.67" stroke="#a9b6c4" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+<line x1="657.78" y1="1870" x2="822.22" y2="2067.78" stroke="#a9b6c4" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+<line x1="528.89" y1="1900" x2="671.11" y2="2108.89" stroke="#a9b6c4" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+<g transform="rotate(-24 1960 1330)"><rect x="1911" y="1308" width="98" height="44" rx="22" fill="url(#engG)" stroke="#5b6b7d" stroke-width="1.6"/><ellipse cx="1919" cy="1330" rx="7" ry="21" fill="#dfe6ee" stroke="#5b6b7d" stroke-width="1.6"/><ellipse cx="1919" cy="1330" rx="4.4" ry="14" fill="#2b3a4a"/><ellipse cx="1997" cy="1330" rx="9" ry="19" fill="#7f8fa0" stroke="#39485a" stroke-width="1.2"/><path d="M 1997 1330 L 2004 1330" stroke="#39485a" stroke-width="1.5"/><path d="M 1997 1330 L 2001.37 1343.29" stroke="#39485a" stroke-width="1.5"/><path d="M 1997 1330 L 1995.45 1346.58" stroke="#39485a" stroke-width="1.5"/><path d="M 1997 1330 L 1990.7 1337.4" stroke="#39485a" stroke-width="1.5"/><path d="M 1997 1330 L 1990.69 1322.65" stroke="#39485a" stroke-width="1.5"/><path d="M 1997 1330 L 1995.43 1313.44" stroke="#39485a" stroke-width="1.5"/><path d="M 1997 1330 L 2001.35 1316.68" stroke="#39485a" stroke-width="1.5"/><rect x="1954" y="1295" width="10" height="11" rx="3" fill="#a9b6c4" stroke="#5b6b7d" stroke-width="1"/><text x="1966" y="1335" font-size="13" fill="#39485a" text-anchor="middle" font-weight="700">3</text></g>
+<g transform="rotate(-24 2230 1180)"><rect x="2185" y="1160" width="90" height="40" rx="20" fill="url(#engG)" stroke="#5b6b7d" stroke-width="1.6"/><ellipse cx="2193" cy="1180" rx="7" ry="19" fill="#dfe6ee" stroke="#5b6b7d" stroke-width="1.6"/><ellipse cx="2193" cy="1180" rx="4.4" ry="12" fill="#2b3a4a"/><ellipse cx="2263" cy="1180" rx="9" ry="17" fill="#7f8fa0" stroke="#39485a" stroke-width="1.2"/><path d="M 2263 1180 L 2270 1180" stroke="#39485a" stroke-width="1.5"/><path d="M 2263 1180 L 2267.37 1191.72" stroke="#39485a" stroke-width="1.5"/><path d="M 2263 1180 L 2261.45 1194.63" stroke="#39485a" stroke-width="1.5"/><path d="M 2263 1180 L 2256.7 1186.53" stroke="#39485a" stroke-width="1.5"/><path d="M 2263 1180 L 2256.69 1173.52" stroke="#39485a" stroke-width="1.5"/><path d="M 2263 1180 L 2261.43 1165.38" stroke="#39485a" stroke-width="1.5"/><path d="M 2263 1180 L 2267.35 1168.24" stroke="#39485a" stroke-width="1.5"/><rect x="2224" y="1147" width="10" height="11" rx="3" fill="#a9b6c4" stroke="#5b6b7d" stroke-width="1"/><text x="2236" y="1185" font-size="13" fill="#39485a" text-anchor="middle" font-weight="700">4</text></g>
+<g transform="rotate(8 1230 1700)"><rect x="1177" y="1676" width="106" height="48" rx="24" fill="url(#engG)" stroke="#5b6b7d" stroke-width="1.6"/><ellipse cx="1185" cy="1700" rx="7" ry="23" fill="#dfe6ee" stroke="#5b6b7d" stroke-width="1.6"/><ellipse cx="1185" cy="1700" rx="4.4" ry="16" fill="#2b3a4a"/><ellipse cx="1271" cy="1700" rx="9" ry="21" fill="#7f8fa0" stroke="#39485a" stroke-width="1.2"/><path d="M 1271 1700 L 1278 1700" stroke="#39485a" stroke-width="1.5"/><path d="M 1271 1700 L 1275.37 1714.85" stroke="#39485a" stroke-width="1.5"/><path d="M 1271 1700 L 1269.45 1718.53" stroke="#39485a" stroke-width="1.5"/><path d="M 1271 1700 L 1264.7 1708.27" stroke="#39485a" stroke-width="1.5"/><path d="M 1271 1700 L 1264.69 1691.79" stroke="#39485a" stroke-width="1.5"/><path d="M 1271 1700 L 1269.43 1681.49" stroke="#39485a" stroke-width="1.5"/><path d="M 1271 1700 L 1275.35 1685.11" stroke="#39485a" stroke-width="1.5"/><rect x="1224" y="1663" width="10" height="11" rx="3" fill="#a9b6c4" stroke="#5b6b7d" stroke-width="1"/><text x="1236" y="1705" font-size="13" fill="#39485a" text-anchor="middle" font-weight="700">1</text></g>
+<g transform="rotate(8 990 1800)"><rect x="941" y="1778" width="98" height="44" rx="22" fill="url(#engG)" stroke="#5b6b7d" stroke-width="1.6"/><ellipse cx="949" cy="1800" rx="7" ry="21" fill="#dfe6ee" stroke="#5b6b7d" stroke-width="1.6"/><ellipse cx="949" cy="1800" rx="4.4" ry="14" fill="#2b3a4a"/><ellipse cx="1027" cy="1800" rx="9" ry="19" fill="#7f8fa0" stroke="#39485a" stroke-width="1.2"/><path d="M 1027 1800 L 1034 1800" stroke="#39485a" stroke-width="1.5"/><path d="M 1027 1800 L 1031.37 1813.29" stroke="#39485a" stroke-width="1.5"/><path d="M 1027 1800 L 1025.45 1816.58" stroke="#39485a" stroke-width="1.5"/><path d="M 1027 1800 L 1020.7 1807.4" stroke="#39485a" stroke-width="1.5"/><path d="M 1027 1800 L 1020.69 1792.65" stroke="#39485a" stroke-width="1.5"/><path d="M 1027 1800 L 1025.43 1783.44" stroke="#39485a" stroke-width="1.5"/><path d="M 1027 1800 L 1031.35 1786.68" stroke="#39485a" stroke-width="1.5"/><rect x="984" y="1765" width="10" height="11" rx="3" fill="#a9b6c4" stroke="#5b6b7d" stroke-width="1"/><text x="996" y="1805" font-size="13" fill="#39485a" text-anchor="middle" font-weight="700">2</text></g>
+<text x="1996" y="1244" font-size="15" fill="#33424f" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">发动机 3</text>
+<text x="2268" y="1098" font-size="15" fill="#33424f" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">发动机 4</text>
+<text x="1266" y="1616" font-size="15" fill="#33424f" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">发动机 1</text>
+<text x="1026" y="1718" font-size="15" fill="#33424f" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">发动机 2</text>
+<circle cx="720" cy="1890" r="40" fill="none" stroke="#2b3a4a" stroke-width="5.5"/>
+<circle cx="720" cy="1890" r="32" fill="none" stroke="#7f8fa0" stroke-width="1.6"/>
+<circle cx="720" cy="1890" r="6.4" fill="#5b6b7d" stroke="#2b3a4a" stroke-width="1.2"/>
+<line x1="720" y1="1890" x2="751.2" y2="1890" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="720" y1="1890" x2="745.24" y2="1908.34" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="720" y1="1890" x2="729.64" y2="1919.67" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="720" y1="1890" x2="710.36" y2="1919.67" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="720" y1="1890" x2="694.76" y2="1908.34" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="720" y1="1890" x2="688.8" y2="1890" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="720" y1="1890" x2="694.76" y2="1871.66" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="720" y1="1890" x2="710.36" y2="1860.33" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="720" y1="1890" x2="729.64" y2="1860.33" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="720" y1="1890" x2="745.24" y2="1871.66" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<circle cx="520" cy="1890" r="40" fill="none" stroke="#2b3a4a" stroke-width="5.5"/>
+<circle cx="520" cy="1890" r="32" fill="none" stroke="#7f8fa0" stroke-width="1.6"/>
+<circle cx="520" cy="1890" r="6.4" fill="#5b6b7d" stroke="#2b3a4a" stroke-width="1.2"/>
+<line x1="520" y1="1890" x2="551.2" y2="1890" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="520" y1="1890" x2="545.24" y2="1908.34" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="520" y1="1890" x2="529.64" y2="1919.67" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="520" y1="1890" x2="510.36" y2="1919.67" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="520" y1="1890" x2="494.76" y2="1908.34" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="520" y1="1890" x2="488.8" y2="1890" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="520" y1="1890" x2="494.76" y2="1871.66" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="520" y1="1890" x2="510.36" y2="1860.33" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="520" y1="1890" x2="529.64" y2="1860.33" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="520" y1="1890" x2="545.24" y2="1871.66" stroke="#a9b6c4" stroke-width="1.1" stroke-linecap="round"/>
+<line x1="620" y1="1878" x2="660" y2="1812" stroke="#d8452f" stroke-width="5.2" stroke-linecap="round"/>
+<line x1="660" y1="1812" x2="560" y2="1820" stroke="#d8452f" stroke-width="5.2" stroke-linecap="round"/>
+<line x1="560" y1="1820" x2="620" y2="1878" stroke="#d8452f" stroke-width="5.2" stroke-linecap="round"/>
+<line x1="620" y1="1878" x2="720" y2="1890" stroke="#d8452f" stroke-width="4.6" stroke-linecap="round"/>
+<line x1="660" y1="1812" x2="720" y2="1890" stroke="#d8452f" stroke-width="4" stroke-linecap="round"/>
+<line x1="560" y1="1820" x2="520" y2="1890" stroke="#39485a" stroke-width="4.6" stroke-linecap="round"/>
+<circle cx="620" cy="1878" r="22" fill="#e8edf2" stroke="#39485a" stroke-width="2.4"/>
+<circle cx="620" cy="1878" r="8" fill="#8d9aa8" stroke="#39485a" stroke-width="1.4"/>
+<line x1="642" y1="1878" x2="646" y2="1878" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="640.67" y1="1885.52" x2="644.43" y2="1886.89" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="636.85" y1="1892.14" x2="639.92" y2="1894.71" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="631" y1="1897.05" x2="633" y2="1900.52" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="623.82" y1="1899.67" x2="624.51" y2="1903.61" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="616.18" y1="1899.67" x2="615.49" y2="1903.61" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="609" y1="1897.05" x2="607" y2="1900.52" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="603.15" y1="1892.14" x2="600.08" y2="1894.71" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="599.33" y1="1885.52" x2="595.57" y2="1886.89" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="598" y1="1878" x2="594" y2="1878" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="599.33" y1="1870.48" x2="595.57" y2="1869.11" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="603.15" y1="1863.86" x2="600.08" y2="1861.29" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="609" y1="1858.95" x2="607" y2="1855.48" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="616.18" y1="1856.33" x2="615.49" y2="1852.39" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="623.82" y1="1856.33" x2="624.51" y2="1852.39" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="631" y1="1858.95" x2="633" y2="1855.48" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="636.85" y1="1863.86" x2="639.92" y2="1861.29" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<line x1="640.67" y1="1870.48" x2="644.43" y2="1869.11" stroke="#39485a" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M 720 1881 L 641 1872 A 40 24 0 0 0 641 1884 L 720 1899 A 40 24 0 0 1 641 1872" fill="none" stroke="#6b7a8a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 720 1879 L 639 1870" fill="#39485a" stroke="2.6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 720 1901 L 639 1886" fill="#39485a" stroke="2.6" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="620" y1="1878" x2="590.29" y2="1882.18" stroke="#39485a" stroke-width="5.5" stroke-linecap="round"/>
+<line x1="620" y1="1878" x2="649.71" y2="1873.82" stroke="#39485a" stroke-width="5.5" stroke-linecap="round"/>
+<line x1="581.29" y1="1887.18" x2="599.29" y2="1887.18" stroke="#2b3a4a" stroke-width="4.4" stroke-linecap="round"/>
+<line x1="640.71" y1="1878.82" x2="658.71" y2="1878.82" stroke="#2b3a4a" stroke-width="4.4" stroke-linecap="round"/>
+<path d="M 682 1810 q -20 -9 0 -13 l 40 0 q 20 4 0 13 Z" fill="#2b3a4a" stroke="#151f2a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="1820" x2="552" y2="1790" stroke="#39485a" stroke-width="4.2" stroke-linecap="round"/>
+<line x1="590" y1="1786" x2="530" y2="1786" stroke="#2b3a4a" stroke-width="5" stroke-linecap="round"/>
+<circle cx="538" cy="1790" r="6.5" fill="#e8c33c" stroke="#8a6a1a" stroke-width="1.4"/>
+<circle cx="720" cy="1930" r="10" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+<line x1="720" y1="1900" x2="720" y2="1924" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="720" y="1894" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">后轮</text>
+<circle cx="520" cy="1930" r="10" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+<line x1="520" y1="1900" x2="520" y2="1924" stroke="#c0392b" stroke-width="1.8" stroke-linecap="round"/>
+<text x="520" y="1894" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">前轮</text>
+<line x1="410" y1="1982" x2="830" y2="1982" stroke="#1b3a4a" stroke-width="2" stroke-linecap="round"/>
+<text x="620" y="2006" font-size="15" fill="#1b3a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">两轮底均与机翼上表面相切 · 不悬空 · 不触机身 · 不触云</text>
+<text x="610" y="1802" font-size="26" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif" letter-spacing="1"><tspan fill="#ffffff">s</tspan><tspan fill="#ffffff">t</tspan><tspan fill="#e0392b">r</tspan><tspan fill="#ffffff">a</tspan><tspan fill="#ffffff">w</tspan><tspan fill="#ffffff">b</tspan><tspan fill="#ffffff">e</tspan><tspan fill="#e0392b">r</tspan><tspan fill="#e0392b">r</tspan><tspan fill="#ffffff">y</tspan></text>
+<text x="610" y="1836" font-size="13" fill="#e8eef4" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">字母 r 共 3 个（红色）</text>
+<circle cx="524" cy="1778" r="17" fill="#e8c33c" stroke="#8a6a1a" stroke-width="2.2"/>
+<text x="524" y="1786" font-size="19" fill="#3a2a06" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">3</text>
+<text x="524" y="1752" font-size="12" fill="#f2f6fa" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">车铃</text>
+<g><ellipse cx="620" cy="1650" rx="55.04" ry="43" fill="#efe9da" stroke="#9a927e" stroke-width="2.6"/><path d="M 570.12 1662.04 C 602.8 1694.72 640.64 1694.72 668.16 1675.8 C 645.8 1691.28 599.36 1693 570.12 1662.04 Z" fill="#e6e0d2" stroke="#c8c2b2" stroke-width="1.6"/><path d="M 590.76 1634.52 C 552.92 1596.68 583.88 1567.44 575.28 1582.92" fill="none" stroke="#f7f4ec" stroke-width="25.8" stroke-linecap="round"/><circle cx="575.28" cy="1586.36" r="20.64" fill="#f7f4ec" stroke="#c8c2b2" stroke-width="1.8"/><path d="M 561.52 1577.76 L 473.8 1586.36 L 561.52 1593.24 Z" fill="#f0a63c" stroke="#b5761f" stroke-width="1.8"/><path d="M 559.8 1591.52 C 511.64 1607 535.72 1643.12 563.24 1624.2 C 564.96 1607 561.52 1594.96 559.8 1591.52 Z" fill="#e8862c" stroke="#a85f16" stroke-width="1.8"/><circle cx="578.72" cy="1579.48" r="3.78" fill="#2b2b2b"/><path d="M 597.64 1637.96 C 508 1620.76 418.4 1627.64 340 1634.52 C 346 1658.6 418.4 1675.8 508 1670.64 Z" fill="#ded7c6" stroke="#b3ab97" stroke-width="2.2"/><path d="M 597.64 1663.76 L 340 1663.76" stroke="#1b7a4a" stroke-width="3" stroke-dasharray="10 7"/><path d="M 452 1636.24 L 442 1667.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 387.6 1638.82 L 377.6 1669.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 323.2 1641.4 L 313.2 1671.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 258.8 1643.98 L 248.8 1673.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 194.4 1646.56 L 184.4 1675.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 130 1649.14 L 120 1677.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 642.36 1637.96 C 732 1620.76 821.6 1627.64 900 1634.52 C 894 1658.6 821.6 1675.8 732 1670.64 Z" fill="#ded7c6" stroke="#b3ab97" stroke-width="2.2"/><path d="M 642.36 1663.76 L 900 1663.76" stroke="#1b7a4a" stroke-width="3" stroke-dasharray="10 7"/><path d="M 788 1636.24 L 798 1667.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 852.4 1638.82 L 862.4 1669.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 916.8 1641.4 L 926.8 1671.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 981.2 1643.98 L 991.2 1673.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 1045.6 1646.56 L 1055.6 1675.2" stroke="#b3ab97" stroke-width="1.5"/><path d="M 1110 1649.14 L 1120 1677.2" stroke="#b3ab97" stroke-width="1.5"/></g>
+<path d="M 611.09 1732 L 590.29 1874.18" fill="none" stroke="#e8c33c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="611.09" cy="1732" r="6.5" fill="#efe9da" stroke="#9a927e" stroke-width="1.6"/>
+<path d="M 590.29 1874.18 l -16 8 l 0 10 l 32 0 l 0 -10 Z" fill="#f0912a" stroke="#a85f16" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 628.91 1732 L 649.71 1865.82" fill="none" stroke="#e8c33c" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="628.91" cy="1732" r="6.5" fill="#efe9da" stroke="#9a927e" stroke-width="1.6"/>
+<path d="M 649.71 1865.82 l -16 8 l 0 10 l 32 0 l 0 -10 Z" fill="#f0912a" stroke="#a85f16" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="676" y="1774" font-size="14" fill="#1b3a4a" text-anchor="start" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">双足分别踩两只脚踏</text>
+<circle cx="360" cy="1706" r="15" fill="none" stroke="#1b7a4a" stroke-width="2.6"/>
+<text x="360" y="1680" font-size="13" fill="#1b7a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">左翼承熊后足</text>
+<circle cx="880" cy="1706" r="15" fill="none" stroke="#1b7a4a" stroke-width="2.6"/>
+<text x="880" y="1680" font-size="13" fill="#1b7a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">右翼承熊前足</text>
+<rect x="510" y="1262" width="220" height="20" fill="#8a9aab" stroke="#4a5a6a" stroke-width="1.8" rx="6"/>
+<rect x="496" y="1278" width="248" height="14" fill="#6b7a8a" stroke="#4a5a6a" stroke-width="1.6" rx="5"/>
+<line x1="536" y1="1262" x2="536" y2="1300" stroke="#6b7a8a" stroke-width="5" stroke-linecap="round"/>
+<line x1="704" y1="1262" x2="704" y2="1300" stroke="#6b7a8a" stroke-width="5" stroke-linecap="round"/>
+<text x="620" y="1318" font-size="13" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">鞍架（架于熊背）</text>
+<rect x="524" y="1150" width="192" height="112" fill="#c9d4de" stroke="#5b6b7d" stroke-width="2.4" rx="7"/>
+<rect x="532" y="1158" width="176" height="96" fill="#dbe4ec" stroke="None" stroke-width="0" rx="5"/>
+<circle cx="568" cy="1184" r="11" fill="#2a3644" stroke="#0f1720" stroke-width="1.4"/>
+<circle cx="568" cy="1183.2" r="6.82" fill="#1b2733" stroke="None" stroke-width="0"/>
+<circle cx="620" cy="1184" r="11" fill="#2a3644" stroke="#0f1720" stroke-width="1.4"/>
+<circle cx="620" cy="1183.2" r="6.82" fill="#1b2733" stroke="None" stroke-width="0"/>
+<circle cx="672" cy="1184" r="11" fill="#2a3644" stroke="#0f1720" stroke-width="1.4"/>
+<circle cx="672" cy="1183.2" r="6.82" fill="#1b2733" stroke="None" stroke-width="0"/>
+<circle cx="568" cy="1230" r="11" fill="#2a3644" stroke="#0f1720" stroke-width="1.4"/>
+<circle cx="568" cy="1229.2" r="6.82" fill="#1b2733" stroke="None" stroke-width="0"/>
+<circle cx="620" cy="1230" r="11" fill="#2a3644" stroke="#0f1720" stroke-width="1.4"/>
+<circle cx="620" cy="1229.2" r="6.82" fill="#1b2733" stroke="None" stroke-width="0"/>
+<circle cx="672" cy="1230" r="11" fill="#2a3644" stroke="#0f1720" stroke-width="1.4"/>
+<circle cx="672" cy="1229.2" r="6.82" fill="#1b2733" stroke="None" stroke-width="0"/>
+<circle cx="568" cy="1184" r="11" fill="#9aa7b4" stroke="#39485a" stroke-width="1.2"/>
+<line x1="561.18" y1="1184" x2="574.82" y2="1184" stroke="#39485a" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="620" cy="1184" r="11" fill="#9aa7b4" stroke="#39485a" stroke-width="1.2"/>
+<line x1="613.18" y1="1184" x2="626.82" y2="1184" stroke="#39485a" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="672" cy="1184" r="11" fill="#9aa7b4" stroke="#39485a" stroke-width="1.2"/>
+<line x1="665.18" y1="1184" x2="678.82" y2="1184" stroke="#39485a" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="568" cy="1230" r="11" fill="#9aa7b4" stroke="#39485a" stroke-width="1.2"/>
+<line x1="561.18" y1="1230" x2="574.82" y2="1230" stroke="#39485a" stroke-width="2.2" stroke-linecap="round"/>
+<text x="620" y="1138" font-size="14" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">金属板 · 6 孔</text>
+<line x1="672" y1="1170" x2="672" y2="1152" stroke="#c0392b" stroke-width="1.6" stroke-linecap="round"/>
+<text x="724" y="1156" font-size="12" fill="#c0392b" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">拧入中</text>
+<text x="558" y="1260" font-size="12" fill="#1b7a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">3 已拧紧</text>
+<text x="682" y="1260" font-size="12" fill="#c0392b" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">2 空孔</text>
+<path d="M 788 1096 L 686 1168" fill="none" stroke="#5b6b7d" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="778" y="1080" width="96" height="32" fill="#2f6fb0" stroke="#1b3a55" stroke-width="2" rx="9"/>
+<rect x="852" y="1082" width="22" height="28" fill="#e8c33c" stroke="#8a6a1a" stroke-width="1.6" rx="5"/>
+<circle cx="784" cy="1084" r="3.4" fill="#7ef0a8" stroke="None" stroke-width="0"/>
+<line x1="688" y1="1164" x2="676" y2="1176" stroke="#8d9aa8" stroke-width="5" stroke-linecap="round"/>
+<polygon points="678,1174 670,1186 676,1192 684,1182" fill="#8d9aa8" stroke="#4a5a6a" stroke-width="1.4" stroke-linejoin="round"/>
+<line x1="666" y1="1190" x2="678" y2="1178" stroke="#2b3a4a" stroke-width="4.4" stroke-linecap="round"/>
+<text x="826" y="1060" font-size="13" fill="#1b3a55" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">电动螺丝刀</text>
+<rect x="778" y="1122" width="104" height="28" fill="#fdfdf6" stroke="#1b2a38" stroke-width="1.6" rx="5"/>
+<text x="830" y="1141" font-size="13" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">侧面答案 5</text>
+<rect x="888" y="1200" width="148" height="82" fill="#3b4a5c" stroke="#1b2a38" stroke-width="2.2" rx="9"/>
+<rect x="900" y="1211" width="124" height="40" fill="#0f1b16" stroke="None" stroke-width="0" rx="5"/>
+<text x="962" y="1241" font-size="32" fill="#7ef0a8" text-anchor="middle" font-weight="800" font-family="monospace">57</text>
+<text x="962" y="1270" font-size="12" fill="#cfe0ee" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">A+B+C = 5+5+47</text>
+<text x="962" y="1188" font-size="14" fill="#1b3a55" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">密码锁</text>
+<path d="M 470 1262 Q 494 1236 470 1220" fill="none" stroke="#5b6b7d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="470" y1="1220" x2="470" y2="1236" stroke="#5b6b7d" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M 470 1236 l -15 0 l 7 34 l 16 0 l 7 -34 Z" fill="#e0a92e" stroke="#8a6a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="470" cy="1252" r="8" fill="#fff2c0" stroke="None" stroke-width="0" opacity="0.92"/>
+<path d="M 770 1262 Q 746 1236 770 1220" fill="none" stroke="#5b6b7d" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="770" y1="1220" x2="770" y2="1236" stroke="#5b6b7d" stroke-width="2.4" stroke-linecap="round"/>
+<path d="M 770 1236 l -15 0 l 7 34 l 16 0 l 7 -34 Z" fill="#e0a92e" stroke="#8a6a1a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="770" cy="1252" r="8" fill="#fff2c0" stroke="None" stroke-width="0" opacity="0.92"/>
+<text x="620" y="1352" font-size="13" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">鞍架两侧合计 2 盏灯（P=2）</text>
+<g><path d="M 436 1514.8 C 390 1560.8 408.4 1610.48 454.4 1625.2 C 666 1643.6 776.4 1632.56 813.2 1588.4 Z" fill="#f6f2e6" stroke="#b9ae95" stroke-width="2.2"/></g>
+<path d="M 785.6 1474.32 C 859.2 1466.96 886.8 1503.76 882.2 1514.8 C 822.4 1525.84 776.4 1522.16 771.8 1500.08 Z" fill="#f6f2e6" stroke="#b9ae95" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="873" cy="1511.12" rx="16.1" ry="23.92" fill="#3a3a3a" stroke="None" stroke-width="0"/>
+<circle cx="822.4" cy="1500.08" r="4.2" fill="#2b2b2b"/>
+<circle cx="799.4" cy="1463.28" r="23.92" fill="#fbf8f0" stroke="#8a7f66" stroke-width="2.4"/>
+<rect x="463.6" y="1614.16" width="46" height="84.64" fill="#f6f1e4" stroke="#8a7f66" stroke-width="2.4" rx="19.32"/>
+<circle cx="486.6" cy="1698.8" r="13.8" fill="#d9d2c0"/>
+<rect x="518.8" y="1614.16" width="46" height="84.64" fill="#f6f1e4" stroke="#8a7f66" stroke-width="2.4" rx="19.32"/>
+<circle cx="541.8" cy="1698.8" r="13.8" fill="#d9d2c0"/>
+<rect x="758" y="1614.16" width="46" height="84.64" fill="#f6f1e4" stroke="#8a7f66" stroke-width="2.4" rx="19.32"/>
+<circle cx="781" cy="1698.8" r="13.8" fill="#d9d2c0"/>
+<rect x="702.8" y="1614.16" width="46" height="84.64" fill="#f6f1e4" stroke="#8a7f66" stroke-width="2.4" rx="19.32"/>
+<circle cx="725.8" cy="1698.8" r="13.8" fill="#d9d2c0"/>
+<path d="M 684.4 1617.84 q 46 55.2 92 0" fill="none" stroke="#b9ae95" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="415" cy="1706" r="22" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+<circle cx="825" cy="1706" r="22" fill="none" stroke="#c0392b" stroke-width="2.6"/>
+<line x1="415" y1="1678" x2="415" y2="1630" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6 4" stroke-linecap="round"/>
+<line x1="825" y1="1678" x2="825" y2="1630" stroke="#c0392b" stroke-width="2.2" stroke-dasharray="6 4" stroke-linecap="round"/>
+<text x="415" y="1758" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">后足 · 画面左翼</text>
+<text x="825" y="1758" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">前足 · 画面右翼</text>
+<text x="620" y="1478" font-size="20" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">北极熊</text>
+<text x="620" y="1500" font-size="13" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">白厚毛 · 长吻 · 小圆耳 · 黑鼻（非熊猫/棕熊）</text>
+<path d="M 728 1536 C 762 1524 786 1530 790 1552 L 790 1570 C 754 1558 728 1566 728 1536 Z" fill="#c0392b" stroke="#7b1f13" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="758" y="1558" font-size="15" fill="#ffe9a8" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">大秦御用</text>
+<rect x="632" y="1496" width="86" height="38" fill="#fdfdf6" stroke="#1b2a38" stroke-width="1.8" rx="6"/>
+<text x="675" y="1528" font-size="22" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">4</text>
+<text x="675" y="1484" font-size="12" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">项圈背面标签</text>
+<line x1="718" y1="1514" x2="728" y2="1540" stroke="#5b6b7d" stroke-width="1.6" stroke-linecap="round"/>
+<path d="M 590 1284 Q 510 1330 502 1368 Q 492 1398 482 1414" fill="none" stroke="#0b0b10" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 590 1284 Q 510 1330 502 1368 Q 492 1398 482 1414" fill="none" stroke="#1c1c25" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 462 1414 l 40 0 l 5 26 l -40 0 l 5 -26 Z" fill="#0b0b10" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="464" y="1468" font-size="13" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">右腿（画面左）</text>
+<path d="M 650 1284 Q 730 1330 738 1368 Q 748 1398 758 1414" fill="none" stroke="#0b0b10" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 650 1284 Q 730 1330 738 1368 Q 748 1398 758 1414" fill="none" stroke="#1c1c25" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 738 1414 l 40 0 l 5 26 l -40 0 l 5 -26 Z" fill="#0b0b10" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="776" y="1468" font-size="13" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">左腿（画面右）</text>
+<line x1="370" y1="1490" x2="470" y2="1490" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="770" y1="1490" x2="870" y2="1490" stroke="#c0392b" stroke-width="2.4" stroke-linecap="round"/>
+<text x="620" y="1514" font-size="14" fill="#c0392b" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">两条腿分别落在熊身体左右两侧（未站在熊背上）</text>
+<path d="M 558 1296 C 546 1200 574 1134 620 1116 L 666 1134 C 694 1200 682 1296 642 1284 Z" fill="#17171d" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 605 1124 L 635 1124 L 642 1286 L 598 1286 Z" fill="#c0392b" stroke="None" stroke-width="0" opacity="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="620" y="1194" font-size="21" fill="#e8c33c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">秦始皇</text>
+<text x="620" y="1218" font-size="13" fill="#9aa7b4" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">黑色玄衣</text>
+<path d="M 664 1150 Q 720 1200 770 1160" fill="none" stroke="#17171d" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 576 1150 Q 524 1194 504 1210" fill="none" stroke="#17171d" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="770" cy="1160" r="12" fill="#e8c9a0" stroke="#8a6a4a" stroke-width="1.6"/>
+<circle cx="504" cy="1210" r="12" fill="#e8c9a0" stroke="#8a6a4a" stroke-width="1.6"/>
+<text x="770" y="1128" font-size="13" fill="#e8c33c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">右手 · 螺丝刀</text>
+<text x="504" y="1250" font-size="13" fill="#e8c33c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">左手 · 扶金属板</text>
+<path d="M 656 1142 L 688 1162 L 684 1198 L 660 1182 Z" fill="#17171d" stroke="#000" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="674" y="1174" font-size="18" fill="#e0a92e" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">秦</text>
+<text x="674" y="1204" font-size="12" fill="#e8c33c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">左袖</text>
+<circle cx="716" cy="1114" r="36" fill="#e8c9a0" stroke="#8a6a4a" stroke-width="2"/>
+<path d="M 699 1119 q 17 13 34 0" fill="none" stroke="#8a5a3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="703" cy="1107" r="3.6" fill="#1b2a38"/>
+<circle cx="729" cy="1107" r="3.6" fill="#1b2a38"/>
+<circle cx="716" cy="1115" r="4.4" fill="#8a5a3a"/>
+<rect x="672" y="1066" width="88" height="16" fill="#17171d" stroke="#000" stroke-width="1.8" rx="3"/>
+<text x="716" y="1056" font-size="13" fill="#e8c33c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">冕板</text>
+<line x1="683" y1="1082" x2="683" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="683" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="694" y1="1082" x2="694" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="694" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="705" y1="1082" x2="705" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="705" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="716" y1="1082" x2="716" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="716" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="727" y1="1082" x2="727" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="727" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="738" y1="1082" x2="738" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="738" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="749" y1="1082" x2="749" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="749" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="683" y1="1082" x2="683" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="683" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="694" y1="1082" x2="694" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="694" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="705" y1="1082" x2="705" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="705" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="716" y1="1082" x2="716" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="716" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="727" y1="1082" x2="727" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="727" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="738" y1="1082" x2="738" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="738" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<line x1="749" y1="1082" x2="749" y2="1112" stroke="#c9a227" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="749" cy="1115" r="2.8" fill="#f0d060" stroke="#8a6a1a" stroke-width="0.9"/>
+<text x="824" y="1104" font-size="14" fill="#e8c33c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">冕旒</text>
+<text x="608" y="1104" font-size="14" fill="#e8c33c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">冕旒</text>
+<line x1="716" y1="1052" x2="716" y2="980" stroke="#1b7a4a" stroke-width="2" stroke-dasharray="5 4" stroke-linecap="round"/>
+<text x="812" y="972" font-size="12" fill="#1b7a4a" text-anchor="start" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">冕板托龟</text>
+<ellipse cx="716" cy="1006" rx="56" ry="34.72" fill="#4f8a3c" stroke="#2f5a24" stroke-width="2"/>
+<path d="M 682.4 974.64 L 682.4 1037.36" fill="#2f5a24" stroke="1.4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 699.2 974.64 L 699.2 1037.36" fill="#2f5a24" stroke="1.4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 716 974.64 L 716 1037.36" fill="#2f5a24" stroke="1.4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 732.8 974.64 L 732.8 1037.36" fill="#2f5a24" stroke="1.4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 749.6 974.64 L 749.6 1037.36" fill="#2f5a24" stroke="1.4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 664.48 1006 L 767.52 1006" fill="#2f5a24" stroke="1.4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="778.72" cy="999.28" rx="12.32" ry="10.08" fill="#5aa04a" stroke="#2f5a24" stroke-width="1.6"/>
+<circle cx="783.2" cy="995.92" r="2.4" fill="#1b2a38"/>
+<ellipse cx="682.4" cy="1039.6" rx="8.96" ry="6.72" fill="#5aa04a" stroke="#2f5a24" stroke-width="1.4"/>
+<ellipse cx="704.8" cy="1039.6" rx="8.96" ry="6.72" fill="#5aa04a" stroke="#2f5a24" stroke-width="1.4"/>
+<ellipse cx="729.44" cy="1039.6" rx="8.96" ry="6.72" fill="#5aa04a" stroke="#2f5a24" stroke-width="1.4"/>
+<ellipse cx="751.84" cy="1039.6" rx="8.96" ry="6.72" fill="#5aa04a" stroke="#2f5a24" stroke-width="1.4"/>
+<text x="820" y="1000" font-size="16" fill="#2f5a24" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">龟</text>
+<ellipse cx="716" cy="900" rx="70.56" ry="50.4" fill="#b6bcc6" stroke="#7d8590" stroke-width="2"/>
+<ellipse cx="776.48" cy="873.12" rx="35.28" ry="33.6" fill="#b6bcc6" stroke="#7d8590" stroke-width="2"/>
+<ellipse cx="749.6" cy="866.4" rx="21.84" ry="31.92" fill="#a2a9b4" stroke="#7d8590" stroke-width="1.6"/>
+<path d="M 803.36 883.2 C 816.8 926.88 789.92 950.4 783.2 926.88" fill="none" stroke="#b6bcc6" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="789.92" cy="869.76" r="3" fill="#2b2b2b"/>
+<rect x="672.32" y="936.96" width="18.48" height="40.32" fill="#a9b0bb" stroke="#7d8590" stroke-width="1.4" rx="4"/>
+<rect x="705.92" y="936.96" width="18.48" height="40.32" fill="#a9b0bb" stroke="#7d8590" stroke-width="1.4" rx="4"/>
+<rect x="739.52" y="936.96" width="18.48" height="40.32" fill="#a9b0bb" stroke="#7d8590" stroke-width="1.4" rx="4"/>
+<rect x="766.4" y="936.96" width="18.48" height="40.32" fill="#a9b0bb" stroke="#7d8590" stroke-width="1.4" rx="4"/>
+<path d="M 783.2 896.64 L 794.96 906.72" fill="#f2ead6" stroke="#b9ae95" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="848" y="896" font-size="15" fill="#5b6470" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">微型象</text>
+<polygon points="440,560 440,818 900,818 900,560 670,520" fill="url(#grn)" stroke="#6fa8bd" stroke-width="2.6" stroke-linejoin="round"/>
+<line x1="440" y1="560" x2="440" y2="818" stroke="#8fb8c8" stroke-width="3" stroke-linecap="round"/>
+<line x1="900" y1="560" x2="900" y2="818" stroke="#8fb8c8" stroke-width="3" stroke-linecap="round"/>
+<line x1="440" y1="818" x2="900" y2="818" stroke="#8fb8c8" stroke-width="3" stroke-linecap="round"/>
+<line x1="440" y1="560" x2="670" y2="520" stroke="#8fb8c8" stroke-width="3" stroke-linecap="round"/>
+<line x1="900" y1="560" x2="670" y2="520" stroke="#8fb8c8" stroke-width="3" stroke-linecap="round"/>
+<line x1="440" y1="560" x2="900" y2="560" stroke="#8fb8c8" stroke-width="3" stroke-linecap="round"/>
+<rect x="558" y="722" width="74" height="58" fill="rgba(214,242,252,0.55)" stroke="#4f8fa8" stroke-width="2.4" rx="4"/>
+<line x1="558" y1="722" x2="632" y2="780" stroke="#4f8fa8" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="632" y1="722" x2="558" y2="780" stroke="#4f8fa8" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="658" y="722" width="74" height="58" fill="rgba(214,242,252,0.55)" stroke="#4f8fa8" stroke-width="2.4" rx="4"/>
+<line x1="658" y1="722" x2="732" y2="780" stroke="#4f8fa8" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="732" y1="722" x2="658" y2="780" stroke="#4f8fa8" stroke-width="1.4" stroke-linecap="round"/>
+<rect x="758" y="722" width="74" height="58" fill="rgba(214,242,252,0.55)" stroke="#4f8fa8" stroke-width="2.4" rx="4"/>
+<line x1="758" y1="722" x2="832" y2="780" stroke="#4f8fa8" stroke-width="1.4" stroke-linecap="round"/>
+<line x1="832" y1="722" x2="758" y2="780" stroke="#4f8fa8" stroke-width="1.4" stroke-linecap="round"/>
+<text x="708" y="706" font-size="14" fill="#1b3a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">温室恰好 3 扇窗（不含门上玻璃）</text>
+<rect x="808" y="714" width="66" height="104" fill="rgba(214,242,252,0.42)" stroke="#4f8fa8" stroke-width="2.4" rx="4"/>
+<rect x="804" y="686" width="74" height="26" fill="#e0a92e" stroke="#8a6a1a" stroke-width="1.8" rx="4"/>
+<text x="841" y="704" font-size="16" fill="#3a2a06" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">47</text>
+<text x="841" y="696" font-size="9" fill="#6b4a12" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">门牌</text>
+<text x="841" y="836" font-size="12" fill="#1b3a4a" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">门（玻璃不计窗）</text>
+<text x="670" y="590" font-size="16" fill="#1b3a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">透明温室（象背）</text>
+<path d="M 556 754.2 C 548 710.8 562 673.6 556 655" fill="none" stroke="#6b4a22" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 554 673.6 C 531.2 661.2 518.8 648.8 515.08 655" fill="none" stroke="#6b4a22" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="518.8" cy="650.04" r="31" fill="#4e9c3a" stroke="#2f6b22" stroke-width="1.8"/>
+<circle cx="562.2" cy="638.88" r="33.48" fill="#4e9c3a" stroke="#2f6b22" stroke-width="1.8"/>
+<circle cx="594.44" cy="657.48" r="28.52" fill="#4e9c3a" stroke="#2f6b22" stroke-width="1.8"/>
+<circle cx="574.6" cy="668.64" r="27.28" fill="#4e9c3a" stroke="#2f6b22" stroke-width="1.8"/>
+<path d="M 574.6 647.56 Q 574 646 742 656" fill="none" stroke="#6b4a22" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 513 660 C 512.22 644.66 521.58 644.4 526 650.64 C 530.42 644.4 539.78 644.66 539 660 Z" fill="#e0392b" stroke="#9c1f14" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="526" y1="650.64" x2="528.08" y2="640.5" stroke="#6b4a22" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 527.3 642.58 C 535.1 636.6 537.7 645.7 527.3 642.58 Z" fill="#5fae3a" stroke="#3f7d24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 547 642 C 546.22 626.66 555.58 626.4 560 632.64 C 564.42 626.4 573.78 626.66 573 642 Z" fill="#e0392b" stroke="#9c1f14" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="560" y1="632.64" x2="562.08" y2="622.5" stroke="#6b4a22" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 561.3 624.58 C 569.1 618.6 571.7 627.7 561.3 624.58 Z" fill="#5fae3a" stroke="#3f7d24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 577 668 C 576.22 652.66 585.58 652.4 590 658.64 C 594.42 652.4 603.78 652.66 603 668 Z" fill="#e0392b" stroke="#9c1f14" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="590" y1="658.64" x2="592.08" y2="648.5" stroke="#6b4a22" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 591.3 650.58 C 599.1 644.6 601.7 653.7 591.3 650.58 Z" fill="#5fae3a" stroke="#3f7d24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 531 708 C 530.22 692.66 539.58 692.4 544 698.64 C 548.42 692.4 557.78 692.66 557 708 Z" fill="#e0392b" stroke="#9c1f14" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="544" y1="698.64" x2="546.08" y2="688.5" stroke="#6b4a22" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 545.3 690.58 C 553.1 684.6 555.7 693.7 545.3 690.58 Z" fill="#5fae3a" stroke="#3f7d24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 603 694 C 602.22 678.66 611.58 678.4 616 684.64 C 620.42 678.4 629.78 678.66 629 694 Z" fill="#7ec850" stroke="#4d8f2a" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="616" y1="684.64" x2="618.08" y2="674.5" stroke="#6b4a22" stroke-width="1.8" stroke-linecap="round"/>
+<path d="M 617.3 676.58 C 625.1 670.6 627.7 679.7 617.3 676.58 Z" fill="#5fae3a" stroke="#3f7d24" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="742" cy="654" r="3.4" fill="#8a6a34"/>
+<text x="556" y="804" font-size="13" fill="#1b3a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">苹果树：5 个 = 4 红 + 1 绿（最右）</text>
+<rect x="739" y="633" width="6" height="14" fill="#8a6a34" stroke="None" stroke-width="0"/>
+<polygon points="711,647 773,647 742,712" fill="rgba(210,238,248,0.5)" stroke="#5b8fa3" stroke-width="1.8" stroke-linejoin="round"/>
+<polygon points="742,712 773,777 711,777" fill="rgba(210,238,248,0.5)" stroke="#5b8fa3" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="705" y="642" width="74" height="8" fill="#a3763c" stroke="#6b4a22" stroke-width="1.6" rx="3"/>
+<rect x="705" y="774" width="74" height="8" fill="#a3763c" stroke="#6b4a22" stroke-width="1.6" rx="3"/>
+<polygon points="727.1,675.44 729.44,681.7 736.12,681.99 730.89,686.15 732.68,692.59 727.1,688.9 721.53,692.59 723.32,686.15 718.09,681.99 724.76,681.7" fill="#ffd54a" stroke="#c99a1c" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="750.12,663.25 752.13,668.61 757.85,668.86 753.37,672.43 754.9,677.95 750.12,674.79 745.35,677.95 746.88,672.43 742.4,668.86 748.12,668.61" fill="#ffd54a" stroke="#c99a1c" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="758.25,685.73 760.39,691.45 766.49,691.72 761.71,695.52 763.34,701.41 758.25,698.04 753.16,701.41 754.79,695.52 750.01,691.72 756.11,691.45" fill="#ffd54a" stroke="#c99a1c" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="736.58,655.94 738.39,660.77 743.54,660.99 739.5,664.2 740.88,669.17 736.58,666.32 732.29,669.17 733.66,664.2 729.63,660.99 734.78,660.77" fill="#ffd54a" stroke="#c99a1c" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="744.71,689.52 746.25,693.63 750.63,693.83 747.2,696.56 748.37,700.79 744.71,698.37 741.05,700.79 742.22,696.56 738.78,693.83 743.17,693.63" fill="#ffd54a" stroke="#c99a1c" stroke-width="1.2" stroke-linejoin="round"/>
+<polygon points="746.06,744.5 741.63,748.83 741.7,755.03 735.5,754.96 731.17,759.4 726.83,754.96 720.63,755.03 720.71,748.83 716.27,744.5 720.71,740.17 720.63,733.97 726.83,734.04 731.17,729.6 735.5,734.04 741.7,733.97 741.63,740.17" fill="#c9d4de" stroke="#5b6b7d" stroke-width="1.1" stroke-linejoin="miter"/>
+<circle cx="731.17" cy="744.5" r="5.36" fill="#eef3f8" stroke="#5b6b7d" stroke-width="0.88"/>
+<polygon points="767.19,756.69 763.72,760.07 763.78,764.92 758.93,764.86 755.54,768.33 752.15,764.86 747.31,764.92 747.36,760.07 743.9,756.69 747.36,753.3 747.31,748.45 752.15,748.51 755.54,745.04 758.93,748.51 763.78,748.45 763.72,753.3" fill="#c9d4de" stroke="#5b6b7d" stroke-width="1.1" stroke-linejoin="miter"/>
+<circle cx="755.54" cy="756.69" r="4.19" fill="#eef3f8" stroke="#5b6b7d" stroke-width="0.88"/>
+<polygon points="750.67,768.88 747.51,772.18 746.89,776.71 742.34,776.3 738.42,778.64 735.9,774.83 731.62,773.22 733.03,768.88 731.62,764.53 735.9,762.92 738.42,759.11 742.34,761.45 746.89,761.04 747.51,765.57" fill="#c9d4de" stroke="#5b6b7d" stroke-width="1.1" stroke-linejoin="miter"/>
+<circle cx="740.65" cy="768.88" r="3.61" fill="#eef3f8" stroke="#5b6b7d" stroke-width="0.88"/>
+<text x="786" y="796" font-size="13" fill="#1b3a4a" text-anchor="start" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">沙漏：上仓=星星 · 下仓=微型齿轮</text>
+<path d="M 698 570.4 C 691.4 552.8 710.32 519.8 742 519.8 C 773.68 519.8 792.6 552.8 786 570.4 Z" fill="#b46ad0" stroke="#7a3d94" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 742 574.8 Q 659.15 575 591.37 563.53" fill="none" stroke="#8a48a8" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 742 574.8 Q 659.15 575 591.37 563.53" fill="none" stroke="#b46ad0" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="710.69" cy="574.44" r="2.28" fill="#e6c9f5"/>
+<circle cx="680.5" cy="573.23" r="2.06" fill="#e6c9f5"/>
+<circle cx="651.42" cy="571.15" r="1.84" fill="#e6c9f5"/>
+<circle cx="623.45" cy="568.2" r="1.62" fill="#e6c9f5"/>
+<path d="M 742 574.8 Q 706.91 559.3 678.2 519.74" fill="none" stroke="#8a48a8" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 742 574.8 Q 706.91 559.3 678.2 519.74" fill="none" stroke="#b46ad0" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="728.74" cy="567.95" r="2.28" fill="#e6c9f5"/>
+<circle cx="715.95" cy="559.32" r="2.06" fill="#e6c9f5"/>
+<circle cx="703.64" cy="548.91" r="1.84" fill="#e6c9f5"/>
+<circle cx="691.79" cy="536.72" r="1.62" fill="#e6c9f5"/>
+<path d="M 742 574.8 Q 768.17 552.11 789.59 499.67" fill="none" stroke="#8a48a8" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 742 574.8 Q 768.17 552.11 789.59 499.67" fill="none" stroke="#b46ad0" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="751.89" cy="564.97" r="2.28" fill="#e6c9f5"/>
+<circle cx="761.43" cy="552.94" r="2.06" fill="#e6c9f5"/>
+<circle cx="770.62" cy="538.72" r="1.84" fill="#e6c9f5"/>
+<circle cx="779.45" cy="522.29" r="1.62" fill="#e6c9f5"/>
+<path d="M 742 574.8 Q 806.11 571.02 858.57 552.44" fill="none" stroke="#8a48a8" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 742 574.8 Q 806.11 571.02 858.57 552.44" fill="none" stroke="#b46ad0" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="766.23" cy="572.8" r="2.28" fill="#e6c9f5"/>
+<circle cx="789.59" cy="569.7" r="2.06" fill="#e6c9f5"/>
+<circle cx="812.1" cy="565.51" r="1.84" fill="#e6c9f5"/>
+<circle cx="833.74" cy="560.23" r="1.62" fill="#e6c9f5"/>
+<path d="M 742 574.8 Q 819.38 593.93 882.69 616.35" fill="none" stroke="#8a48a8" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 742 574.8 Q 819.38 593.93 882.69 616.35" fill="none" stroke="#b46ad0" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="771.24" cy="582.28" r="2.28" fill="#e6c9f5"/>
+<circle cx="799.44" cy="590" r="2.06" fill="#e6c9f5"/>
+<circle cx="826.6" cy="597.97" r="1.84" fill="#e6c9f5"/>
+<circle cx="852.72" cy="606.18" r="1.62" fill="#e6c9f5"/>
+<path d="M 742 574.8 Q 763.69 605.67 781.43 649.12" fill="none" stroke="#8a48a8" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 742 574.8 Q 763.69 605.67 781.43 649.12" fill="none" stroke="#b46ad0" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="750.2" cy="587.14" r="2.28" fill="#e6c9f5"/>
+<circle cx="758.1" cy="600.41" r="2.06" fill="#e6c9f5"/>
+<circle cx="765.71" cy="614.61" r="1.84" fill="#e6c9f5"/>
+<circle cx="773.03" cy="629.73" r="1.62" fill="#e6c9f5"/>
+<path d="M 742 574.8 Q 699.65 608.07 665 655.82" fill="none" stroke="#8a48a8" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 742 574.8 Q 699.65 608.07 665 655.82" fill="none" stroke="#b46ad0" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="726" cy="588.13" r="2.28" fill="#e6c9f5"/>
+<circle cx="710.56" cy="602.54" r="2.06" fill="#e6c9f5"/>
+<circle cx="695.7" cy="618.01" r="1.84" fill="#e6c9f5"/>
+<circle cx="681.4" cy="634.55" r="1.62" fill="#e6c9f5"/>
+<path d="M 742 574.8 Q 673.35 586.71 617.19 596.2" fill="none" stroke="#8a48a8" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 742 574.8 Q 673.35 586.71 617.19 596.2" fill="none" stroke="#b46ad0" stroke-width="4.6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="716.06" cy="579.29" r="2.28" fill="#e6c9f5"/>
+<circle cx="691.04" cy="583.6" r="2.06" fill="#e6c9f5"/>
+<circle cx="666.95" cy="587.74" r="1.84" fill="#e6c9f5"/>
+<circle cx="643.78" cy="591.69" r="1.62" fill="#e6c9f5"/>
+<path d="M 712 558 A 30 30 0 0 1 772 558 Z" fill="rgba(214,242,252,0.75)" stroke="#4f8fa8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="722" y1="542" x2="762" y2="542" stroke="#4f8fa8" stroke-width="1.4" stroke-linecap="round"/>
+<text x="742" y="522" font-size="12" fill="#1b3a4a" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">宇航头盔</text>
+<text x="788" y="574" font-size="13" fill="#5a2a6a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">章鱼 8 腕足</text>
+<line x1="506" y1="448" x2="591.37" y2="563.53" stroke="#7a3d94" stroke-width="3" stroke-dasharray="4 3" stroke-linecap="round"/>
+<rect x="422" y="400" width="168" height="94" fill="#25333f" stroke="#0f1720" stroke-width="2.6" rx="6"/>
+<rect x="431" y="409" width="150" height="76" fill="#16212b" stroke="None" stroke-width="0" rx="4"/>
+<text x="506" y="436" font-size="13" fill="#cfe0ee" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">球拍球价</text>
+<text x="506" y="470" font-size="26" fill="#ffd54a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">0.05</text>
+<line x1="974" y1="662" x2="617.19" y2="596.2" stroke="#7a3d94" stroke-width="3" stroke-dasharray="4 3" stroke-linecap="round"/>
+<rect x="890" y="614" width="168" height="94" fill="#25333f" stroke="#0f1720" stroke-width="2.6" rx="6"/>
+<rect x="899" y="623" width="150" height="76" fill="#16212b" stroke="None" stroke-width="0" rx="4"/>
+<text x="974" y="650" font-size="13" fill="#cfe0ee" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">9.11 □ 9.9</text>
+<text x="974" y="684" font-size="18" fill="#ffd54a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">9.11 ＜ 9.9</text>
+<line x1="678.2" y1="519.74" x2="678.2" y2="477.74" stroke="#7a5c34" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="678.2,479.74 718.2,486.74 678.2,493.74" fill="#e0392b" stroke="#2b3a4a" stroke-width="1" stroke-linejoin="round"/>
+<line x1="789.59" y1="499.67" x2="789.59" y2="457.67" stroke="#7a5c34" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="789.59,459.67 829.59,466.67 789.59,473.67" fill="#f0912a" stroke="#2b3a4a" stroke-width="1" stroke-linejoin="round"/>
+<line x1="858.57" y1="552.44" x2="858.57" y2="510.44" stroke="#7a5c34" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="858.57,512.44 898.57,519.44 858.57,526.44" fill="#e8c33c" stroke="#2b3a4a" stroke-width="1" stroke-linejoin="round"/>
+<line x1="882.69" y1="616.35" x2="882.69" y2="574.35" stroke="#7a5c34" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="882.69,576.35 922.69,583.35 882.69,590.35" fill="#4e9c3a" stroke="#2b3a4a" stroke-width="1" stroke-linejoin="round"/>
+<line x1="781.43" y1="649.12" x2="781.43" y2="607.12" stroke="#7a5c34" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="781.43,609.12 821.43,616.12 781.43,623.12" fill="#2f6fb0" stroke="#2b3a4a" stroke-width="1" stroke-linejoin="round"/>
+<line x1="665" y1="655.82" x2="665" y2="613.82" stroke="#7a5c34" stroke-width="2.6" stroke-linecap="round"/>
+<polygon points="665,615.82 705,622.82 665,629.82" fill="#8a48a8" stroke="#2b3a4a" stroke-width="1" stroke-linejoin="round"/>
+<text x="742" y="662" font-size="13" fill="#1b3a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">2 腕足执黑板 · 6 腕足执六色旗</text>
+<path d="M 690 440 L 794 440 Q 783.6 483.68 700.4 483.68 L 690 440 Q 700.4 477.44 783.6 477.44 Z" fill="#fbfaf6" stroke="#b9b2a4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 792 444 a 22.88 22.88 0 0 0 45.76 0" fill="none" stroke="#b9b2a4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="742" cy="483.68" rx="41.6" ry="10.4" fill="#efece2" stroke="#b9b2a4" stroke-width="1.6"/>
+<path d="M 712.88 469.12 q 10.4 -16.64 29.12 -2.08 q 20.8 -12.48 31.2 0 Z" fill="#7cc05a" stroke="#3f7d24" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="816" y="460" font-size="14" fill="#7a6a4a" text-anchor="start" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">茶杯</text>
+<polygon points="733,464 751,464 748.12,416 735.88,416" fill="#fbfaf6" stroke="#8d8577" stroke-width="1.6" stroke-linejoin="round"/>
+<path d="M 733.72 456.94 L 750.28 456.94" fill="#d8452f" stroke="3.4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 734.32 442.82 L 749.68 442.82" fill="#d8452f" stroke="3.4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 734.92 428.71 L 749.08 428.71" fill="#d8452f" stroke="3.4" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="734.44" y="407" width="15.12" height="9" fill="#39485a" stroke="#1b2a38" stroke-width="1.2" rx="2"/>
+<polygon points="733,407 751,407 742,396" fill="#5b6b7d" stroke="#1b2a38" stroke-width="1.2" stroke-linejoin="round"/>
+<text x="786" y="456" font-size="13" fill="#5b6b7d" text-anchor="start" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">灯塔</text>
+<circle cx="742" cy="258" r="96" fill="rgba(198,236,250,0.30)" stroke="#7fb6cc" stroke-width="2"/>
+<circle cx="709.36" cy="223.44" r="19.2" fill="#ffffff" stroke="None" stroke-width="0" opacity="0.65"/>
+<circle cx="770.8" cy="290.64" r="12.48" fill="#ffffff" stroke="None" stroke-width="0" opacity="0.4"/>
+<text x="742" y="386" font-size="15" fill="#1b3a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">透明玻璃球</text>
+<g><rect x="688" y="272.12" width="108" height="23.76" rx="11.88" fill="#eef3f8" stroke="#5b6b7d" stroke-width="1"/><polygon points="735.52,278.6 754.96,240.8 767.92,240.8 757.12,278.6" fill="#dbe5ee" stroke="#5b6b7d" stroke-width="0.8"/><polygon points="785.2,280.76 791.68,258.08 796,258.08 794.92,281.84" fill="#dbe5ee" stroke="#5b6b7d" stroke-width="0.8"/></g>
+<rect x="724.72" y="251.6" width="7.56" height="9.72" fill="#cfd9e3" stroke="#5b6b7d" stroke-width="0.6" rx="1.5"/>
+<rect x="744.16" y="251.6" width="7.56" height="9.72" fill="#cfd9e3" stroke="#5b6b7d" stroke-width="0.6" rx="1.5"/>
+<rect x="763.6" y="251.6" width="7.56" height="9.72" fill="#cfd9e3" stroke="#5b6b7d" stroke-width="0.6" rx="1.5"/>
+<rect x="778.72" y="251.6" width="7.56" height="9.72" fill="#cfd9e3" stroke="#5b6b7d" stroke-width="0.6" rx="1.5"/>
+<circle cx="789.52" cy="281.84" r="3.78" fill="#7fb6cc" stroke="#3a5a6b" stroke-width="0.6"/>
+<text x="742" y="350" font-size="12" fill="#1b3a4a" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">第1层：机头朝右</text>
+<circle cx="776" cy="236" r="26" fill="rgba(198,236,250,0.35)" stroke="#7fb6cc" stroke-width="2"/>
+<g><rect x="759" y="236.26" width="34" height="7.48" rx="3.74" fill="#eef3f8" stroke="#5b6b7d" stroke-width="1"/><polygon points="778.04,238.3 771.92,226.4 767.84,226.4 771.24,238.3" fill="#dbe5ee" stroke="#5b6b7d" stroke-width="0.8"/><polygon points="762.4,238.98 760.36,231.84 759,231.84 759.34,239.32" fill="#dbe5ee" stroke="#5b6b7d" stroke-width="0.8"/></g>
+<rect x="781.44" y="229.8" width="2.38" height="3.06" fill="#cfd9e3" stroke="#5b6b7d" stroke-width="0.6" rx="1.5"/>
+<rect x="775.32" y="229.8" width="2.38" height="3.06" fill="#cfd9e3" stroke="#5b6b7d" stroke-width="0.6" rx="1.5"/>
+<rect x="769.2" y="229.8" width="2.38" height="3.06" fill="#cfd9e3" stroke="#5b6b7d" stroke-width="0.6" rx="1.5"/>
+<rect x="764.44" y="229.8" width="2.38" height="3.06" fill="#cfd9e3" stroke="#5b6b7d" stroke-width="0.6" rx="1.5"/>
+<circle cx="761.04" cy="239.32" r="1.19" fill="#7fb6cc" stroke="#3a5a6b" stroke-width="0.6"/>
+<text x="776" y="200" font-size="11" fill="#1b3a4a" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">第2层：朝左</text>
+<circle cx="776" cy="238" r="4.4" fill="#f2c94c" stroke="#a8791a" stroke-width="1.2"/>
+<text x="776" y="256" font-size="10" fill="#8a6a1a" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">第3层止于金点</text>
+<text x="738" y="196" font-size="12" fill="#1b3a4a" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">最外层飞机：机头朝左</text>
+<rect x="994" y="964" width="742" height="342" fill="#eaf4fa" stroke="#1b3a55" stroke-width="3" rx="14" opacity="0.97"/>
+<rect x="994" y="964" width="742" height="34" fill="#1f3b57" stroke="#1b3a55" stroke-width="2" rx="14"/>
+<text x="1365" y="988" font-size="15" fill="#f4f8fb" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">驾驶舱剖视 · 金箍棒横放于两个支架（不穿孙悟空／座椅／挡风玻璃）</text>
+<polygon points="1010,1250 1010,1040 1076,1040 1076,1250" fill="#cfe6f2" stroke="#5b8fa3" stroke-width="2.2" stroke-linejoin="round"/>
+<line x1="1043" y1="1040" x2="1043" y2="1250" stroke="#5b8fa3" stroke-width="1.6" stroke-linecap="round"/>
+<text x="1043" y="1030" font-size="12" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">挡风玻璃</text>
+<rect x="1106" y="1172" width="86" height="76" fill="#8a5a3a" stroke="#5b3a22" stroke-width="2" rx="9"/>
+<rect x="1113" y="1180" width="72" height="30" fill="#a06a44" stroke="None" stroke-width="0" rx="6"/>
+<text x="1149" y="1158" font-size="13" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">座椅</text>
+<rect x="1210" y="1236" width="200" height="9" fill="#7b8b9c" stroke="#4a5a6a" stroke-width="1.2" rx="3"/>
+<path d="M 1246 1236 L 1246 1182 L 1262 1182 L 1262 1194 L 1246 1194 L 1246 1236 Z" fill="#8a9aab" stroke="#4a5a6a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1240" y="1172" width="28" height="11" fill="#a9b6c4" stroke="#4a5a6a" stroke-width="1.2" rx="3"/>
+<text x="1254" y="1164" font-size="12" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">支架</text>
+<path d="M 1382 1236 L 1382 1182 L 1398 1182 L 1398 1194 L 1382 1194 L 1382 1236 Z" fill="#8a9aab" stroke="#4a5a6a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1376" y="1172" width="28" height="11" fill="#a9b6c4" stroke="#4a5a6a" stroke-width="1.2" rx="3"/>
+<text x="1390" y="1164" font-size="12" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">支架</text>
+<rect x="1214" y="1162" width="216" height="17" fill="#e8c33c" stroke="#8a6a1a" stroke-width="2" rx="8"/>
+<rect x="1214" y="1162" width="30" height="17" fill="#b9861a" stroke="None" stroke-width="0" rx="8"/>
+<rect x="1400" y="1162" width="30" height="17" fill="#b9861a" stroke="None" stroke-width="0" rx="8"/>
+<circle cx="1236" cy="1170" r="3.2" fill="#a8791a"/>
+<circle cx="1266" cy="1170" r="3.2" fill="#a8791a"/>
+<circle cx="1296" cy="1170" r="3.2" fill="#a8791a"/>
+<circle cx="1326" cy="1170" r="3.2" fill="#a8791a"/>
+<circle cx="1356" cy="1170" r="3.2" fill="#a8791a"/>
+<circle cx="1386" cy="1170" r="3.2" fill="#a8791a"/>
+<circle cx="1416" cy="1170" r="3.2" fill="#a8791a"/>
+<text x="1322" y="1152" font-size="14" fill="#7a5a12" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">金箍棒</text>
+<circle cx="1530" cy="1138" r="54" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2.6"/>
+<circle cx="1530" cy="1138" r="46" fill="#fbfaf6" stroke="#5b6b7d" stroke-width="1.6"/>
+<line x1="1530" y1="1102" x2="1530" y2="1093" stroke="#1b2a38" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="1550.5" y1="1102.49" x2="1552.5" y2="1099.03" stroke="#1b2a38" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1565.51" y1="1117.5" x2="1568.97" y2="1115.5" stroke="#1b2a38" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1566" y1="1138" x2="1575" y2="1138" stroke="#1b2a38" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="1565.51" y1="1158.5" x2="1568.97" y2="1160.5" stroke="#1b2a38" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1550.5" y1="1173.51" x2="1552.5" y2="1176.97" stroke="#1b2a38" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1530" y1="1174" x2="1530" y2="1183" stroke="#1b2a38" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="1509.5" y1="1173.51" x2="1507.5" y2="1176.97" stroke="#1b2a38" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1494.49" y1="1158.5" x2="1491.03" y2="1160.5" stroke="#1b2a38" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1494" y1="1138" x2="1485" y2="1138" stroke="#1b2a38" stroke-width="2.4" stroke-linecap="round"/>
+<line x1="1494.49" y1="1117.5" x2="1491.03" y2="1115.5" stroke="#1b2a38" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="1509.5" y1="1102.49" x2="1507.5" y2="1099.03" stroke="#1b2a38" stroke-width="1.2" stroke-linecap="round"/>
+<text x="1530" y="1074" font-size="13" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">驾驶舱时钟</text>
+<line x1="1530" y1="1138" x2="1553.72" y2="1141.12" stroke="#1b2a38" stroke-width="5" stroke-linecap="round"/>
+<line x1="1530" y1="1138" x2="1566.8" y2="1138" stroke="#1b2a38" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="1530" cy="1138" r="4" fill="#1b2a38"/>
+<text x="1530" y="1214" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">3:15（时针不恰好指向 3）</text>
+<text x="1530" y="1240" font-size="15" fill="#c0392b" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">两针较小夹角 7.5°</text>
+<path d="M 1214 1256 C 1220 1194 1236 1176 1260 1170 C 1284 1176 1300 1194 1306 1256 Z" fill="#3b4a5c" stroke="#22303e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1234 1204 Q 1204 1224 1198 1214" fill="none" stroke="#3b4a5c" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1286 1204 Q 1316 1224 1322 1214" fill="none" stroke="#3b4a5c" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1198" cy="1214" r="10" fill="#e8c9a0" stroke="#8a6a4a" stroke-width="1.6"/>
+<circle cx="1322" cy="1214" r="10" fill="#e8c9a0" stroke="#8a6a4a" stroke-width="1.6"/>
+<rect x="1186" y="1202" width="148" height="24" fill="#5b6b7d" stroke="#2b3a4a" stroke-width="1.8" rx="11"/>
+<circle cx="1260" cy="1200" r="16" fill="none" stroke="#2b3a4a" stroke-width="3.4"/>
+<line x1="1260" y1="1200" x2="1260" y2="1188" stroke="#2b3a4a" stroke-width="3.4" stroke-linecap="round"/>
+<circle cx="1260" cy="1128" r="42" fill="#f0d3ab" stroke="#8a6a4a" stroke-width="2.2"/>
+<path d="M 1222 1120 C 1222 1090 1298 1090 1298 1120 C 1298 1143 1222 1143 1222 1120 Z" fill="#f7e2c4" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="1260" cy="1147" rx="25" ry="19" fill="#f7e2c4" stroke="#c9a97e" stroke-width="1.4"/>
+<circle cx="1252" cy="1143" r="3.2" fill="#8a5a3a"/>
+<circle cx="1268" cy="1143" r="3.2" fill="#8a5a3a"/>
+<path d="M 1251 1151 q 9 10 18 0" fill="none" stroke="#8a5a3a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1242" cy="1122" r="6" fill="#ffffff" stroke="#8a6a4a" stroke-width="1.4"/>
+<circle cx="1278" cy="1122" r="6" fill="#ffffff" stroke="#8a6a4a" stroke-width="1.4"/>
+<circle cx="1243" cy="1123" r="3" fill="#1b2a38"/>
+<circle cx="1277" cy="1123" r="3" fill="#1b2a38"/>
+<circle cx="1218" cy="1130" r="11" fill="#f0d3ab" stroke="#8a6a4a" stroke-width="1.8"/>
+<circle cx="1302" cy="1130" r="11" fill="#f0d3ab" stroke="#8a6a4a" stroke-width="1.8"/>
+<circle cx="1218" cy="1130" r="5.5" fill="#d8ab7c"/>
+<circle cx="1302" cy="1130" r="5.5" fill="#d8ab7c"/>
+<rect x="1216" y="1088" width="88" height="22" fill="#e8c33c" stroke="#8a6a1a" stroke-width="2.2" rx="5"/>
+<circle cx="1260" cy="1099" r="10" fill="#f0d060" stroke="#8a6a1a" stroke-width="1.8"/>
+<circle cx="1230" cy="1099" r="2.6" fill="#a8791a"/>
+<circle cx="1242" cy="1099" r="2.6" fill="#a8791a"/>
+<circle cx="1254" cy="1099" r="2.6" fill="#a8791a"/>
+<circle cx="1266" cy="1099" r="2.6" fill="#a8791a"/>
+<circle cx="1278" cy="1099" r="2.6" fill="#a8791a"/>
+<circle cx="1290" cy="1099" r="2.6" fill="#a8791a"/>
+<text x="1260" y="1066" font-size="18" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">孙悟空</text>
+<rect x="1218" y="1220" width="84" height="32" fill="#fdfdf6" stroke="#1b2a38" stroke-width="1.8" rx="5"/>
+<text x="1260" y="1235" font-size="12" fill="#5b6b7d" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">工牌</text>
+<text x="1260" y="1250" font-size="15" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">第2名</text>
+<path d="M 1218 1210 L 1196 1228 L 1208 1228 L 1220 1216 Z" fill="#3b4a5c" stroke="#22303e" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1206" y="1228" font-size="17" fill="#e8c33c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">悟</text>
+<text x="1206" y="1252" font-size="11" fill="#e8c33c" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">右袖</text>
+<text x="1586" y="1358" font-size="15" fill="#16202c" text-anchor="start" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">标准三门问题</text>
+<rect x="1520" y="1368" width="56" height="78" fill="#e8eef4" stroke="#2b3a4a" stroke-width="2" rx="5"/>
+<circle cx="1563.68" cy="1407" r="4" fill="#e8c33c" stroke="#8a6a1a" stroke-width="1.2"/>
+<text x="1548" y="1362" font-size="13" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">1 号门</text>
+<rect x="1526" y="1338" width="44" height="22" fill="#ffe9a8" stroke="#8a6a1a" stroke-width="1.4" rx="4"/>
+<text x="1548" y="1354" font-size="12" fill="#3a2a06" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">初选</text>
+<rect x="1598" y="1368" width="56" height="78" fill="#e8eef4" stroke="#2b3a4a" stroke-width="2" rx="5"/>
+<circle cx="1641.68" cy="1407" r="4" fill="#e8c33c" stroke="#8a6a1a" stroke-width="1.2"/>
+<text x="1626" y="1362" font-size="13" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">2 号门</text>
+<rect x="1676" y="1368" width="56" height="78" fill="#5a4632" stroke="#2b3a4a" stroke-width="2" rx="5"/>
+<circle cx="1719.68" cy="1407" r="4" fill="#e8c33c" stroke="#8a6a1a" stroke-width="1.2"/>
+<text x="1704" y="1362" font-size="13" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">3 号门</text>
+<polygon points="1732,1368 1758,1376 1758,1438 1732,1446" fill="#c9b394" stroke="#7b6a4a" stroke-width="1.6" stroke-linejoin="round"/>
+<circle cx="1704" cy="1416.36" r="20" fill="#f0e6d2" stroke="#a89a80" stroke-width="1.6"/>
+<ellipse cx="1692" cy="1407" rx="7" ry="4" fill="#a89a80" stroke="None" stroke-width="0" transform="rotate(-30 1692 1407)"/>
+<ellipse cx="1716" cy="1407" rx="7" ry="4" fill="#a89a80" stroke="None" stroke-width="0" transform="rotate(30 1716 1407)"/>
+<circle cx="1696" cy="1410.9" r="2" fill="#1b2a38"/>
+<circle cx="1712" cy="1410.9" r="2" fill="#1b2a38"/>
+<line x1="1700" y1="1421.04" x2="1708" y2="1421.04" stroke="#1b2a38" stroke-width="1.4" stroke-linecap="round"/>
+<text x="1704" y="1466" font-size="12" fill="#7b1f13" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">主持人开 3 号门（羊）</text>
+<rect x="1598" y="1468" width="84" height="28" fill="#e8c33c" stroke="#8a6a1a" stroke-width="1.6" rx="5"/>
+<text x="1640" y="1488" font-size="15" fill="#3a2a06" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">换门 2/3</text>
+<text x="1640" y="1512" font-size="12" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">初选 1 号 → 换门必胜 2/3</text>
+<text x="1488" y="1598" font-size="15" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">四张两面卡片 · 检验「元音背面必为偶数」</text>
+<rect x="1380" y="1612" width="48" height="68" fill="#fdfdf6" stroke="#e0a92e" stroke-width="4" rx="5"/>
+<text x="1404" y="1658" font-size="26" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">A</text>
+<line x1="1380" y1="1646" x2="1428" y2="1646" stroke="#c9d4de" stroke-width="1.2" stroke-dasharray="3 3" stroke-linecap="round"/>
+<text x="1404" y="1684" font-size="11" fill="#8d9aa8" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">背面字</text>
+<text x="1404" y="1720" font-size="11" fill="#a8791a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">金框</text>
+<rect x="1438" y="1612" width="48" height="68" fill="#fdfdf6" stroke="#5b6b7d" stroke-width="1.8" rx="5"/>
+<text x="1462" y="1658" font-size="26" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">D</text>
+<line x1="1438" y1="1646" x2="1486" y2="1646" stroke="#c9d4de" stroke-width="1.2" stroke-dasharray="3 3" stroke-linecap="round"/>
+<text x="1462" y="1684" font-size="11" fill="#8d9aa8" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">背面字</text>
+<text x="1462" y="1720" font-size="11" fill="#8d9aa8" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">无需翻</text>
+<rect x="1496" y="1612" width="48" height="68" fill="#fdfdf6" stroke="#5b6b7d" stroke-width="1.8" rx="5"/>
+<text x="1520" y="1658" font-size="26" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">4</text>
+<line x1="1496" y1="1646" x2="1544" y2="1646" stroke="#c9d4de" stroke-width="1.2" stroke-dasharray="3 3" stroke-linecap="round"/>
+<text x="1520" y="1684" font-size="11" fill="#8d9aa8" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">背面数</text>
+<text x="1520" y="1720" font-size="11" fill="#8d9aa8" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">无需翻</text>
+<rect x="1554" y="1612" width="48" height="68" fill="#fdfdf6" stroke="#5b6b7d" stroke-width="1.8" rx="5"/>
+<text x="1578" y="1658" font-size="26" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">7</text>
+<line x1="1554" y1="1646" x2="1602" y2="1646" stroke="#c9d4de" stroke-width="1.2" stroke-dasharray="3 3" stroke-linecap="round"/>
+<text x="1578" y="1684" font-size="11" fill="#8d9aa8" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">背面数</text>
+<text x="1578" y="1720" font-size="11" fill="#8d9aa8" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">无需翻</text>
+<text x="1488" y="1746" font-size="12" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">仅 A（元音）必须翻看；D 为辅音、4/7 为数字</text>
+<text x="1210" y="1532" font-size="15" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">货舱天平 · 两侧均 1 kg · 天平水平</text>
+<rect x="1080" y="1542" width="260" height="176" fill="#eef3f8" stroke="#5b6b7d" stroke-width="2" rx="8" opacity="0.95"/>
+<line x1="1210" y1="1574" x2="1210" y2="1690" stroke="#5b6b7d" stroke-width="5" stroke-linecap="round"/>
+<line x1="1210" y1="1574" x2="1118" y2="1574" stroke="#5b6b7d" stroke-width="4" stroke-linecap="round"/>
+<line x1="1210" y1="1574" x2="1302" y2="1574" stroke="#5b6b7d" stroke-width="4" stroke-linecap="round"/>
+<path d="M 1210 1574 L 1118 1574" fill="none" stroke="#1b7a4a" stroke-width="2" stroke-dasharray="6 4" stroke-linecap="round" stroke-linejoin="round"/>
+<polygon points="1088,1574 1148,1574 1132,1586 1104,1586" fill="#8d9aa8" stroke="#4a5a6a" stroke-width="1.4" stroke-linejoin="round"/>
+<polygon points="1272,1574 1332,1574 1316,1586 1288,1586" fill="#8d9aa8" stroke="#4a5a6a" stroke-width="1.4" stroke-linejoin="round"/>
+<rect x="1104" y="1544" width="56" height="30" fill="#6b7a8a" stroke="#39485a" stroke-width="1.8" rx="4"/>
+<text x="1132" y="1565" font-size="14" fill="#fdfdf6" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">1 kg</text>
+<circle cx="1302" cy="1568" r="24" fill="#fdfdf6" stroke="#c9d4de" stroke-width="1.6"/>
+<circle cx="1302" cy="1568" r="14" fill="#eef3f8" stroke="#c9d4de" stroke-width="1.4"/>
+<text x="1302" y="1600" font-size="14" fill="#33424f" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">1 kg</text>
+<text x="1132" y="1620" font-size="12" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">铁（体积小）</text>
+<text x="1302" y="1620" font-size="12" fill="#33424f" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">棉花（体积明显更大）</text>
+<text x="1210" y="1704" font-size="12" fill="#1b7a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">棉花体积明显更大，但天平保持水平</text>
+<rect x="980" y="1860" width="320" height="96" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2" rx="8"/>
+<text x="1140" y="1566" font-size="14" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">登机牌 A · 蜗牛</text>
+<text x="1140" y="1588" font-size="12" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">白天爬 3 米 / 夜滑 2 米，井深 10 米</text>
+<text x="1140" y="1606" font-size="12" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">第几天爬出？</text>
+<rect x="1256" y="1578" width="56" height="30" fill="#e8c33c" stroke="#8a6a1a" stroke-width="1.6" rx="4"/>
+<text x="1284" y="1599" font-size="14" fill="#3a2a06" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">8 天</text>
+<rect x="980" y="1686" width="320" height="96" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2" rx="8"/>
+<text x="1140" y="1712" font-size="14" fill="#16202c" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">登机牌 B · 猫</text>
+<text x="1140" y="1734" font-size="12" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">5 只猫 5 分钟抓 5 只老鼠</text>
+<text x="1140" y="1752" font-size="12" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">100 分钟抓 100 只需几只猫？</text>
+<rect x="1256" y="1724" width="56" height="30" fill="#e8c33c" stroke="#8a6a1a" stroke-width="1.6" rx="4"/>
+<text x="1284" y="1745" font-size="14" fill="#3a2a06" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">5 只</text>
+<rect x="1660" y="1620" width="320" height="210" fill="#ffe9a8" stroke="#8a6a1a" stroke-width="2.4" rx="10"/>
+<text x="1820" y="1648" font-size="15" fill="#3a2a06" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">黄色维修贴纸 · 三盒标签全错</text>
+<rect x="1686" y="1660" width="80" height="74" fill="#fdfdf6" stroke="#5b6b7d" stroke-width="1.8" rx="5"/>
+<text x="1726" y="1688" font-size="12" fill="#16202c" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">全苹果</text>
+<circle cx="1726" cy="1714" r="9" fill="#e0392b" stroke="None" stroke-width="0"/>
+<rect x="1782" y="1660" width="80" height="74" fill="#fdfdf6" stroke="#5b6b7d" stroke-width="1.8" rx="5"/>
+<text x="1822" y="1688" font-size="12" fill="#16202c" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">全桃子</text>
+<circle cx="1822" cy="1714" r="9" fill="#e0392b" stroke="None" stroke-width="0"/>
+<rect x="1878" y="1660" width="80" height="74" fill="#fdfdf6" stroke="#5b6b7d" stroke-width="1.8" rx="5"/>
+<text x="1918" y="1688" font-size="12" fill="#16202c" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">苹果桃子混合</text>
+<circle cx="1918" cy="1714" r="9" fill="#e0392b" stroke="None" stroke-width="0"/>
+<path d="M 1860 1790 L 1860 1766 L 1860 1750" fill="none" stroke="#8d9aa8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1846" y="1708" width="28" height="22" fill="#c9d4de" stroke="#4a5a6a" stroke-width="1.6" rx="4"/>
+<line x1="1854" y1="1708" x2="1850" y2="1728" stroke="#4a5a6a" stroke-width="3" stroke-linecap="round"/>
+<line x1="1860" y1="1708" x2="1860" y2="1728" stroke="#4a5a6a" stroke-width="3" stroke-linecap="round"/>
+<line x1="1866" y1="1708" x2="1870" y2="1728" stroke="#4a5a6a" stroke-width="3" stroke-linecap="round"/>
+<text x="1820" y="1818" font-size="13" fill="#8a1f13" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">只从「苹果桃子混合」盒取 1 个</text>
+<rect x="2120" y="1600" width="300" height="190" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2" rx="10"/>
+<text x="2270" y="1628" font-size="15" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">色词干扰标牌</text>
+<text x="2170" y="1690" font-size="40" fill="#2f6fb0" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">红</text>
+<text x="2270" y="1690" font-size="40" fill="#3f9c3a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">蓝</text>
+<text x="2370" y="1690" font-size="40" fill="#d0392b" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">绿</text>
+<text x="2270" y="1722" font-size="14" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">读墨色，不读字义</text>
+<text x="2270" y="1750" font-size="14" fill="#1b7a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">按墨色读取：蓝 → 绿 → 红</text>
+<text x="2270" y="1774" font-size="11" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">（字面 红蓝绿 ／ 墨色 蓝绿红）</text>
+<rect x="2500" y="1600" width="300" height="190" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2" rx="10"/>
+<text x="2650" y="1628" font-size="15" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">两条等长水平线段</text>
+<line x1="2530" y1="1676" x2="2770" y2="1676" stroke="#2f6fb0" stroke-width="4" stroke-linecap="round" marker-end="url(#arm)"/>
+<line x1="2770" y1="1676" x2="2530" y2="1676" stroke="#2f6fb0" stroke-width="4" stroke-linecap="round" marker-end="url(#arm)"/>
+<line x1="2530" y1="1740" x2="2770" y2="1740" stroke="#d0392b" stroke-width="4" stroke-linecap="round" marker-end="url(#arm)"/>
+<line x1="2770" y1="1740" x2="2530" y2="1740" stroke="#d0392b" stroke-width="4" stroke-linecap="round" marker-end="url(#arm)"/>
+<text x="2650" y="1660" font-size="12" fill="#2f6fb0" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">向内箭头</text>
+<text x="2650" y="1724" font-size="12" fill="#d0392b" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">向外箭头</text>
+<text x="2650" y="1772" font-size="12" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">两线本体长度相同：均 240 单位 · 等长</text>
+<path d="M 1740 1520 L 2260 1508 L 2260 1576 L 1740 1560 Z" fill="#c0392b" stroke="#7b1f13" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 1740 1520 L 1716 1512 L 1716 1568 L 1740 1560 Z" fill="#8a2a1a" stroke="#7b1f13" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 2260 1508 L 2284 1500 L 2284 1556 L 2260 1564 Z" fill="#8a2a1a" stroke="#7b1f13" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1700" y="1540" font-size="30" fill="#ffe9a8" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif" letter-spacing="3">上海自来水来自海上</text>
+<text x="1700" y="1576" font-size="12" fill="#e8c9c0" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">机身回文横幅</text>
+<text x="1420" y="1750" font-size="14" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">微型维修机器人</text>
+<rect x="1270" y="1758" width="300" height="78" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2" rx="6"/>
+<text x="1286" y="1778" font-size="12" fill="#1b2a38" text-anchor="start" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif"><tspan x="1286" dy="0">所有玫瑰都是花；</tspan><tspan x="1286" dy="20">有些花很快凋谢；</tspan><tspan x="1286" dy="20">因此有些玫瑰很快凋谢。</tspan></text>
+<rect x="1374" y="1858" width="92" height="32" fill="#3b4a5c" stroke="#1b2a38" stroke-width="1.8" rx="5"/>
+<text x="1420" y="1879" font-size="13" fill="#ffd54a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">不必然成立</text>
+<rect x="1386" y="1892" width="68" height="46" fill="#8d9aa8" stroke="#4a5a6a" stroke-width="2" rx="8"/>
+<circle cx="1404" cy="1902" r="5" fill="#e8c33c"/>
+<circle cx="1436" cy="1902" r="5" fill="#c0392b"/>
+<line x1="1398" y1="1920" x2="1442" y2="1920" stroke="#4a5a6a" stroke-width="3" stroke-linecap="round"/>
+<line x1="1400" y1="1938" x2="1396" y2="1956" stroke="#5b6b7d" stroke-width="4" stroke-linecap="round"/>
+<line x1="1440" y1="1938" x2="1444" y2="1956" stroke="#5b6b7d" stroke-width="4" stroke-linecap="round"/>
+<rect x="1866" y="1892" width="68" height="46" fill="#8d9aa8" stroke="#4a5a6a" stroke-width="2" rx="8"/>
+<circle cx="1884" cy="1902" r="5" fill="#e8c33c"/>
+<circle cx="1916" cy="1902" r="5" fill="#c0392b"/>
+<line x1="1878" y1="1920" x2="1922" y2="1920" stroke="#4a5a6a" stroke-width="3" stroke-linecap="round"/>
+<line x1="1880" y1="1938" x2="1876" y2="1956" stroke="#5b6b7d" stroke-width="4" stroke-linecap="round"/>
+<line x1="1920" y1="1938" x2="1924" y2="1956" stroke="#5b6b7d" stroke-width="4" stroke-linecap="round"/>
+<rect x="1750" y="1758" width="300" height="108" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2" rx="6"/>
+<text x="1900" y="1778" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">先 +20%，再在增大后的值上 -20%</text>
+<text x="1900" y="1800" font-size="13" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">1.2 × 0.8 = 0.96</text>
+<text x="1900" y="1822" font-size="12" fill="#c0392b" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">不是两次百分比直接抵消</text>
+<rect x="1848" y="1858" width="104" height="32" fill="#1b7a4a" stroke="#0d4a2a" stroke-width="1.8" rx="5"/>
+<text x="1900" y="1879" font-size="15" fill="#eaffe8" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">96%</text>
+<rect x="2140" y="2110" width="720" height="250" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2.6" rx="12"/>
+<rect x="2140" y="2110" width="720" height="34" fill="#c0392b" stroke="#7b1f13" stroke-width="2" rx="12"/>
+<rect x="2140" y="2132" width="720" height="12" fill="#c0392b" stroke="None" stroke-width="0"/>
+<text x="2500" y="2134" font-size="15" fill="#ffe9a8" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">最坏情况记录板 · 取出 28 颗（=N−1）仍不满足条件</text>
+<text x="2216.67" y="2170" font-size="12" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">圆苹果</text>
+<rect x="2164" y="2180" width="105.33" height="54" fill="#eef3f8" stroke="#5b6b7d" stroke-width="1.6" rx="5"/>
+<text x="2216.67" y="2218" font-size="30" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">7</text>
+<text x="2216.67" y="2252" font-size="11" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">取 7</text>
+<text x="2330" y="2170" font-size="12" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">圆桃子</text>
+<rect x="2277.33" y="2180" width="105.33" height="54" fill="#eef3f8" stroke="#5b6b7d" stroke-width="1.6" rx="5"/>
+<text x="2330" y="2218" font-size="30" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">9</text>
+<text x="2330" y="2252" font-size="11" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">取 9</text>
+<text x="2443.33" y="2170" font-size="12" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">圆西瓜</text>
+<rect x="2390.67" y="2180" width="105.33" height="54" fill="#eef3f8" stroke="#5b6b7d" stroke-width="1.6" rx="5"/>
+<text x="2443.33" y="2218" font-size="30" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">8</text>
+<text x="2443.33" y="2252" font-size="11" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">取 8</text>
+<text x="2556.67" y="2170" font-size="12" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">星苹果</text>
+<rect x="2504" y="2180" width="105.33" height="54" fill="#eef3f8" stroke="#5b6b7d" stroke-width="1.6" rx="5"/>
+<text x="2556.67" y="2218" font-size="30" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">7</text>
+<text x="2556.67" y="2252" font-size="11" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">取 7</text>
+<text x="2670" y="2170" font-size="12" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">星桃子</text>
+<rect x="2617.33" y="2180" width="105.33" height="54" fill="#eef3f8" stroke="#5b6b7d" stroke-width="1.6" rx="5"/>
+<text x="2670" y="2218" font-size="30" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">6</text>
+<text x="2670" y="2252" font-size="11" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">取 6</text>
+<text x="2783.33" y="2170" font-size="12" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">星西瓜</text>
+<rect x="2730.67" y="2180" width="105.33" height="54" fill="#eef3f8" stroke="#5b6b7d" stroke-width="1.6" rx="5"/>
+<text x="2783.33" y="2218" font-size="30" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">4</text>
+<text x="2783.33" y="2252" font-size="11" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">取 4</text>
+<text x="2500" y="2286" font-size="14" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">合计 28 颗 = N−1</text>
+<text x="2500" y="2310" font-size="13" fill="#c0392b" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">星苹果 = 星桃子 = 0 ⇒ 两组配对均不成立</text>
+<text x="2500" y="2336" font-size="14" fill="#1b7a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">再取第 29 颗必成立 ⇒ N = 29</text>
+<text x="2500" y="2360" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">六类数量总和 = 41</text>
+<path d="M 2160 2352 L 2840 2352" fill="#e0a92e" stroke="3" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="2660" cy="300" rx="96" ry="108" fill="#e8c33c" stroke="#8a6a1a" stroke-width="2.6"/>
+<ellipse cx="2660" cy="266" rx="74" ry="78" fill="#f0912a" stroke="None" stroke-width="0" opacity="0.6"/>
+<path d="M 2564 294 L 2756 294 L 2660 408 Z" fill="#d0392b" stroke="None" stroke-width="0" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="2600" y1="396" x2="2616" y2="456" stroke="#8a6a4a" stroke-width="2" stroke-linecap="round"/>
+<line x1="2720" y1="396" x2="2704" y2="456" stroke="#8a6a4a" stroke-width="2" stroke-linecap="round"/>
+<rect x="2610" y="456" width="100" height="66" fill="#a3763c" stroke="#6b4a22" stroke-width="2.2" rx="6"/>
+<text x="2660" y="482" font-size="12" fill="#f7e6c8" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">生日悖论</text>
+<text x="2660" y="512" font-size="19" fill="#ffe9a8" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">至少 23 人</text>
+<text x="2660" y="170" font-size="14" fill="#1b3a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">独立热气球（不依托飞机）</text>
+<text x="2660" y="550" font-size="15" fill="#1b3a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">七层汉诺塔</text>
+<rect x="2460" y="566" width="400" height="236" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2" rx="8" opacity="0.94"/>
+<rect x="2490" y="766" width="340" height="12" fill="#a3763c" stroke="#6b4a22" stroke-width="1.6" rx="4"/>
+<rect x="2545" y="592" width="10" height="174" fill="#8d9aa8" stroke="#4a5a6a" stroke-width="1.4" rx="4"/>
+<text x="2550" y="580" font-size="11" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">柱1</text>
+<rect x="2655" y="592" width="10" height="174" fill="#8d9aa8" stroke="#4a5a6a" stroke-width="1.4" rx="4"/>
+<text x="2660" y="580" font-size="11" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">柱2</text>
+<rect x="2765" y="592" width="10" height="174" fill="#8d9aa8" stroke="#4a5a6a" stroke-width="1.4" rx="4"/>
+<text x="2770" y="580" font-size="11" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">柱3</text>
+<rect x="2502" y="744" width="96" height="16" fill="#e8c33c" stroke="#2b3a4a" stroke-width="1.4" rx="4"/>
+<rect x="2508" y="724" width="84" height="16" fill="#f0912a" stroke="#2b3a4a" stroke-width="1.4" rx="4"/>
+<rect x="2514" y="704" width="72" height="16" fill="#4e9c3a" stroke="#2b3a4a" stroke-width="1.4" rx="4"/>
+<rect x="2520" y="684" width="60" height="16" fill="#2f6fb0" stroke="#2b3a4a" stroke-width="1.4" rx="4"/>
+<rect x="2526" y="664" width="48" height="16" fill="#8a48a8" stroke="#2b3a4a" stroke-width="1.4" rx="4"/>
+<rect x="2532" y="644" width="36" height="16" fill="#d0392b" stroke="#2b3a4a" stroke-width="1.4" rx="4"/>
+<rect x="2538" y="624" width="24" height="16" fill="#3b4a5c" stroke="#2b3a4a" stroke-width="1.4" rx="4"/>
+<text x="2660" y="794" font-size="14" fill="#1b7a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">最少步数 = 2⁷−1 = 127</text>
+<text x="2660" y="816" font-size="11" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">（大盘不压小盘）</text>
+<path d="M 2660 522 L 2660 564" fill="#8d9aa8" stroke="2" stroke-width="1" stroke-dasharray="5 5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1180" y="1770" font-size="16" fill="#1b3a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">远处云中池塘 · 狼 / 羊 / 菜过河</text>
+<g opacity="0.95"><ellipse cx="1006.4" cy="1992.5" rx="140" ry="70" fill="#ffffff"/><ellipse cx="1342.4" cy="1990" rx="128.8" ry="64.4" fill="#ffffff"/><ellipse cx="1180" cy="1975" rx="184.8" ry="92.4" fill="#ffffff"/><ellipse cx="1107.2" cy="1937.5" rx="128.8" ry="64.4" fill="#ffffff"/><ellipse cx="1264" cy="1940" rx="117.6" ry="58.8" fill="#ffffff"/><ellipse cx="1168.8" cy="2032.5" rx="184.8" ry="92.4" fill="#ffffff"/></g>
+<ellipse cx="1180" cy="1960" rx="190" ry="62" fill="rgba(150,205,235,0.75)" stroke="#4f8fa8" stroke-width="2.2"/>
+<text x="1180" y="1972" font-size="15" fill="#1b4a5a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">池塘</text>
+<circle cx="930" cy="1936" r="16" fill="#e8c9a0" stroke="#8a6a4a" stroke-width="1.4"/>
+<path d="M 916 1950 l -14 34 l 28 0 Z" fill="#4a5a6a" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 918 1946 l -22 6 l 4 -16 l 20 -4 Z" fill="#8d9aa8" stroke="#4a5a6a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="1008" cy="1940" rx="26" ry="15" fill="#a89a80" stroke="#6b5f4a" stroke-width="1.4"/>
+<polygon points="990,1928 1004,1914 1018,1928" fill="#a89a80" stroke="#6b5f4a" stroke-width="1.2" stroke-linejoin="round"/>
+<circle cx="1072" cy="1940" r="15" fill="#f2ece0" stroke="#b3a892" stroke-width="1.4"/>
+<path d="M 1068 1934 q 14 -6 22 4" fill="none" stroke="#b3a892" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="1136" cy="1944" r="17" fill="#6fbf4a" stroke="#3f7d24" stroke-width="1.6"/>
+<text x="1136" y="1974" font-size="11" fill="#3f7d24" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">菜</text>
+<path d="M 1250 1984 L 1330 1984 L 1290 2006 Z" fill="#a3763c" stroke="#6b4a22" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="1290" y1="1982" x2="1290" y2="1946" stroke="#6b4a22" stroke-width="2.4" stroke-linecap="round"/>
+<text x="1290" y="2024" font-size="11" fill="#5b6b7d" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">船（农夫+最多一件）</text>
+<text x="960" y="2042" font-size="14" fill="#1b2a38" text-anchor="start" font-weight="600" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">1 农夫带羊过河 →</text>
+<text x="960" y="2066" font-size="14" fill="#1b2a38" text-anchor="start" font-weight="600" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">2 空船返航：农夫独自 ←</text>
+<text x="960" y="2090" font-size="14" fill="#1b2a38" text-anchor="start" font-weight="600" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">3 农夫带狼过河 →</text>
+<text x="960" y="2114" font-size="14" fill="#1b2a38" text-anchor="start" font-weight="600" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">4 空船返航：农夫独自 ←</text>
+<text x="960" y="2138" font-size="14" fill="#1b2a38" text-anchor="start" font-weight="600" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">5 农夫带菜过河 →</text>
+<text x="960" y="2162" font-size="14" fill="#1b2a38" text-anchor="start" font-weight="600" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">6 空船返航：农夫独自 ←</text>
+<text x="960" y="2186" font-size="14" fill="#1b2a38" text-anchor="start" font-weight="600" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">7 农夫带羊过河 →</text>
+<text x="960" y="2218" font-size="12" fill="#c0392b" text-anchor="start" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">空船返航均标明「农夫独自」</text>
+<text x="260" y="1782" font-size="15" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">远处浮冰上的三只企鹅</text>
+<path d="M 110 1940 L 410 1940 L 360 1890 Z" fill="#dff0f7" stroke="#7fa8bc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<ellipse cx="164" cy="1880" rx="34" ry="48" fill="#22303e" stroke="#0f1720" stroke-width="2"/>
+<ellipse cx="164" cy="1874" rx="24" ry="34" fill="#fdfdf6" stroke="None" stroke-width="0"/>
+<circle cx="164" cy="1842" r="20" fill="#22303e" stroke="#0f1720" stroke-width="1.8"/>
+<ellipse cx="164" cy="1848" rx="14" ry="11" fill="#fdfdf6" stroke="None" stroke-width="0"/>
+<circle cx="158" cy="1838" r="2.4" fill="#1b2a38"/>
+<circle cx="170" cy="1838" r="2.4" fill="#1b2a38"/>
+<polygon points="156,1846 172,1846 164,1854" fill="#f0912a" stroke="None" stroke-width="0" stroke-linejoin="round"/>
+<path d="M 146 1822 q 18 -10 34 0 l -4 12 l -26 0 Z" fill="#e0392b" stroke="#1b2a38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="164" y="1810" font-size="11" fill="#e0392b" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">红帽</text>
+<ellipse cx="150" cy="1922" rx="12" ry="6" fill="#f0912a" stroke="None" stroke-width="0"/>
+<ellipse cx="178" cy="1922" rx="12" ry="6" fill="#f0912a" stroke="None" stroke-width="0"/>
+<ellipse cx="260" cy="1880" rx="34" ry="48" fill="#22303e" stroke="#0f1720" stroke-width="2"/>
+<ellipse cx="260" cy="1874" rx="24" ry="34" fill="#fdfdf6" stroke="None" stroke-width="0"/>
+<circle cx="260" cy="1842" r="20" fill="#22303e" stroke="#0f1720" stroke-width="1.8"/>
+<ellipse cx="260" cy="1848" rx="14" ry="11" fill="#fdfdf6" stroke="None" stroke-width="0"/>
+<circle cx="254" cy="1838" r="2.4" fill="#1b2a38"/>
+<circle cx="266" cy="1838" r="2.4" fill="#1b2a38"/>
+<polygon points="252,1846 268,1846 260,1854" fill="#f0912a" stroke="None" stroke-width="0" stroke-linejoin="round"/>
+<path d="M 242 1822 q 18 -10 34 0 l -4 12 l -26 0 Z" fill="#2f6fb0" stroke="#1b2a38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="260" y="1810" font-size="11" fill="#2f6fb0" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">蓝帽</text>
+<ellipse cx="294" cy="1894" rx="20" ry="11" fill="#5b9bd5" stroke="#2f5f8f" stroke-width="1.4"/>
+<polygon points="312,1894 326,1888 326,1900" fill="#5b9bd5" stroke="#2f5f8f" stroke-width="1.2" stroke-linejoin="round"/>
+<circle cx="282" cy="1892" r="2" fill="#1b2a38"/>
+<text x="300" y="1922" font-size="11" fill="#1b4a7a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">拿鱼</text>
+<ellipse cx="246" cy="1922" rx="12" ry="6" fill="#f0912a" stroke="None" stroke-width="0"/>
+<ellipse cx="274" cy="1922" rx="12" ry="6" fill="#f0912a" stroke="None" stroke-width="0"/>
+<ellipse cx="356" cy="1880" rx="34" ry="48" fill="#22303e" stroke="#0f1720" stroke-width="2"/>
+<ellipse cx="356" cy="1874" rx="24" ry="34" fill="#fdfdf6" stroke="None" stroke-width="0"/>
+<circle cx="356" cy="1842" r="20" fill="#22303e" stroke="#0f1720" stroke-width="1.8"/>
+<ellipse cx="356" cy="1848" rx="14" ry="11" fill="#fdfdf6" stroke="None" stroke-width="0"/>
+<circle cx="350" cy="1838" r="2.4" fill="#1b2a38"/>
+<circle cx="362" cy="1838" r="2.4" fill="#1b2a38"/>
+<polygon points="348,1846 364,1846 356,1854" fill="#f0912a" stroke="None" stroke-width="0" stroke-linejoin="round"/>
+<path d="M 338 1822 q 18 -10 34 0 l -4 12 l -26 0 Z" fill="#3f9c3a" stroke="#1b2a38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="356" y="1810" font-size="11" fill="#3f9c3a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">绿帽</text>
+<circle cx="349" cy="1838" r="7.5" fill="none" stroke="#1b2a38" stroke-width="1.8"/>
+<circle cx="363" cy="1838" r="7.5" fill="none" stroke="#1b2a38" stroke-width="1.8"/>
+<line x1="355" y1="1838" x2="357" y2="1838" stroke="#1b2a38" stroke-width="1.6" stroke-linecap="round"/>
+<text x="356" y="1922" font-size="11" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">戴眼镜</text>
+<ellipse cx="342" cy="1922" rx="12" ry="6" fill="#f0912a" stroke="None" stroke-width="0"/>
+<ellipse cx="370" cy="1922" rx="12" ry="6" fill="#f0912a" stroke="None" stroke-width="0"/>
+<text x="260" y="1962" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">左红帽 · 中蓝帽且拿鱼 · 右绿帽且戴眼镜</text>
+<text x="2200" y="700" font-size="15" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">尾流标记（与糖果图标区分）</text>
+<circle cx="2100" cy="756" r="20" fill="#e0392b" stroke="#1b2a38" stroke-width="1.4"/>
+<text x="2100" y="798" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">1</text>
+<polygon points="2162,733 2167.68,748.18 2183.87,748.89 2171.19,758.99 2175.52,774.61 2162,765.66 2148.48,774.61 2152.81,758.99 2140.13,748.89 2156.32,748.18" fill="#2f6fb0" stroke="#1b2a38" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="2162" y="798" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">2</text>
+<circle cx="2224" cy="756" r="20" fill="#3f9c3a" stroke="#1b2a38" stroke-width="1.4"/>
+<text x="2224" y="798" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">3</text>
+<polygon points="2286,733 2291.68,748.18 2307.87,748.89 2295.19,758.99 2299.52,774.61 2286,765.66 2272.48,774.61 2276.81,758.99 2264.13,748.89 2280.32,748.18" fill="#e0392b" stroke="#1b2a38" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="2286" y="798" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">4</text>
+<circle cx="2348" cy="756" r="20" fill="#2f6fb0" stroke="#1b2a38" stroke-width="1.4"/>
+<text x="2348" y="798" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">5</text>
+<polygon points="2410,733 2415.68,748.18 2431.87,748.89 2419.19,758.99 2423.52,774.61 2410,765.66 2396.48,774.61 2400.81,758.99 2388.13,748.89 2404.32,748.18" fill="#3f9c3a" stroke="#1b2a38" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="2410" y="798" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">6</text>
+<text x="2200" y="820" font-size="14" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">红圆 · 蓝星 · 绿圆 · 红星 · 蓝圆 · 绿星</text>
+<path d="M 530 1786 L 526 1812 L 538 1806 L 538 1814" fill="none" stroke="#5b6b7d" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 432 1812 C 418 1862 420 1912 436 1944 L 516 1944 C 532 1912 534 1862 520 1812 Z" fill="#1b1b1f" stroke="#000" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="460" y="1798" width="32" height="18" fill="#3a3a44" stroke="#000" stroke-width="1.6" rx="4"/>
+<line x1="454" y1="1808" x2="498" y2="1818" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<line x1="498" y1="1808" x2="454" y2="1818" stroke="#c0392b" stroke-width="3" stroke-linecap="round"/>
+<text x="476" y="1876" font-size="15" fill="#f2f6fa" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">黑袋</text>
+<text x="476" y="1896" font-size="12" fill="#e8c33c" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">袋口收紧</text>
+<text x="476" y="1920" font-size="11" fill="#c9d4de" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">凭手感盲取</text>
+<path d="M 430 1932 Q 276 2002 520 1910" fill="none" stroke="#5b6b7d" stroke-width="2" stroke-dasharray="5 5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="150" y="1880" width="380" height="214" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2" rx="8"/>
+<text x="340" y="1904" font-size="14" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">糖果数量表（完整数据）</text>
+<line x1="246" y1="1914" x2="246" y2="2008" stroke="#5b6b7d" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="150" y1="2008" x2="530" y2="2008" stroke="#5b6b7d" stroke-width="1.2" stroke-linecap="round"/>
+<line x1="150" y1="1968" x2="530" y2="1968" stroke="#5b6b7d" stroke-width="1.2" stroke-linecap="round"/>
+<text x="296" y="1942" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">苹果味</text>
+<text x="372" y="1942" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">桃子味</text>
+<text x="448" y="1942" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">西瓜味</text>
+<text x="198" y="1988" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">圆形</text>
+<text x="198" y="2032" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">五角星形</text>
+<text x="296" y="1988" font-size="20" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">7</text>
+<text x="372" y="1988" font-size="20" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">9</text>
+<text x="448" y="1988" font-size="20" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">8</text>
+<text x="296" y="2032" font-size="20" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">7</text>
+<text x="372" y="2032" font-size="20" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">6</text>
+<text x="448" y="2032" font-size="20" fill="#1b2a38" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">4</text>
+<text x="340" y="2064" font-size="14" fill="#1b7a4a" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">总和 41</text>
+<path d="M 428 1249.4 L 518 1586 L 428 1315.48 Z" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="176" y="1214" width="252" height="118" fill="#fdfdf6" stroke="#1b2a38" stroke-width="2.6" rx="16"/>
+<text x="302" y="1294" font-size="64" fill="#c0392b" text-anchor="middle" font-weight="800" font-family="monospace">29</text>
+<text x="302" y="1324" font-size="13" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">鹈鹕喊出的数值</text>
+<text x="302" y="1202" font-size="12" fill="#5b6b7d" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">气泡内只放十进制数字</text>
+<text x="302" y="1392" font-size="15" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">最少取出几颗，</text>
+<text x="302" y="1418" font-size="14" fill="#1b2a38" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif"><tspan x="302" dy="0">才能保证得到</tspan><tspan x="302" dy="22">「圆苹果 + 星桃子」或</tspan><tspan x="302" dy="22">「圆桃子 + 星苹果」</tspan><tspan x="302" dy="22">中的至少一组？</tspan></text>
+<rect x="0" y="0" width="3000" height="2400" fill="none" stroke="#1f3b57" stroke-width="10"/>
+<rect x="16" y="16" width="2968" height="2368" fill="none" stroke="#e0a92e" stroke-width="2.4"/>
+<text x="1500" y="44" font-size="17" fill="#1f3b57" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">套娃形检验章：第 k 章写 k²（k = 1…8），外轮廓逐个缩小</text>
+<path d="M 46.51 131.04 C 46.51 173.6 66.76 182.72 96 182.72 C 125.24 182.72 145.49 173.6 145.49 131.04 Z" fill="#f5d98a" stroke="#2b3a4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 60.01 134.08 C 60.01 161.44 75.75 167.52 96 167.52 C 116.25 167.52 131.99 161.44 131.99 134.08 Z" fill="#e8c33c" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96" cy="82.4" r="33.74" fill="#e8c33c" stroke="#2b3a4a" stroke-width="1.6"/>
+<circle cx="96" cy="82.4" r="15.75" fill="#f5d98a" stroke="None" stroke-width="0"/>
+<text x="96" y="149.28" font-size="42" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">1</text>
+<text x="96" y="248" font-size="12" fill="#7b1f13" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">k=1</text>
+<path d="M 50.09 252.42 C 50.09 291.9 68.87 300.36 96 300.36 C 123.13 300.36 141.91 291.9 141.91 252.42 Z" fill="#f2b98a" stroke="#2b3a4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 62.61 255.24 C 62.61 280.62 77.22 286.26 96 286.26 C 114.78 286.26 129.39 280.62 129.39 255.24 Z" fill="#e0803a" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96" cy="207.3" r="31.3" fill="#e0803a" stroke="#2b3a4a" stroke-width="1.6"/>
+<circle cx="96" cy="207.3" r="14.61" fill="#f2b98a" stroke="None" stroke-width="0"/>
+<text x="96" y="269.34" font-size="38" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">4</text>
+<text x="96" y="364.1" font-size="12" fill="#7b1f13" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">k=2</text>
+<path d="M 53.67 365 C 53.67 401.4 70.99 409.2 96 409.2 C 121.01 409.2 138.33 401.4 138.33 365 Z" fill="#f5d98a" stroke="#2b3a4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 65.22 367.6 C 65.22 391 78.68 396.2 96 396.2 C 113.32 396.2 126.78 391 126.78 367.6 Z" fill="#e8c33c" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96" cy="323.4" r="28.86" fill="#e8c33c" stroke="#2b3a4a" stroke-width="1.6"/>
+<circle cx="96" cy="323.4" r="13.47" fill="#f5d98a" stroke="None" stroke-width="0"/>
+<text x="96" y="380.6" font-size="34" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">9</text>
+<text x="96" y="471.4" font-size="12" fill="#7b1f13" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">k=3</text>
+<path d="M 57.25 468.78 C 57.25 502.1 73.1 509.24 96 509.24 C 118.9 509.24 134.75 502.1 134.75 468.78 Z" fill="#f2b98a" stroke="#2b3a4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 67.82 471.16 C 67.82 492.58 80.15 497.34 96 497.34 C 111.85 497.34 124.18 492.58 124.18 471.16 Z" fill="#e0803a" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96" cy="430.7" r="26.42" fill="#e0803a" stroke="#2b3a4a" stroke-width="1.6"/>
+<circle cx="96" cy="430.7" r="12.33" fill="#f2b98a" stroke="None" stroke-width="0"/>
+<text x="96" y="483.06" font-size="32" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">16</text>
+<text x="96" y="569.9" font-size="12" fill="#7b1f13" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">k=4</text>
+<path d="M 60.84 563.76 C 60.84 594 75.22 600.48 96 600.48 C 116.78 600.48 131.16 594 131.16 563.76 Z" fill="#f5d98a" stroke="#2b3a4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 70.43 565.92 C 70.43 585.36 81.61 589.68 96 589.68 C 110.39 589.68 121.57 585.36 121.57 565.92 Z" fill="#e8c33c" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96" cy="529.2" r="23.98" fill="#e8c33c" stroke="#2b3a4a" stroke-width="1.6"/>
+<circle cx="96" cy="529.2" r="11.19" fill="#f5d98a" stroke="None" stroke-width="0"/>
+<text x="96" y="576.72" font-size="30" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">25</text>
+<text x="96" y="659.6" font-size="12" fill="#7b1f13" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">k=5</text>
+<path d="M 64.42 649.94 C 64.42 677.1 77.34 682.92 96 682.92 C 114.66 682.92 127.58 677.1 127.58 649.94 Z" fill="#f2b98a" stroke="#2b3a4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 73.03 651.88 C 73.03 669.34 83.08 673.22 96 673.22 C 108.92 673.22 118.97 669.34 118.97 651.88 Z" fill="#e0803a" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96" cy="618.9" r="21.53" fill="#e0803a" stroke="#2b3a4a" stroke-width="1.6"/>
+<circle cx="96" cy="618.9" r="10.05" fill="#f2b98a" stroke="None" stroke-width="0"/>
+<text x="96" y="661.58" font-size="28" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">36</text>
+<text x="96" y="740.5" font-size="12" fill="#7b1f13" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">k=6</text>
+<path d="M 68 727.32 C 68 751.4 79.45 756.56 96 756.56 C 112.55 756.56 124 751.4 124 727.32 Z" fill="#f5d98a" stroke="#2b3a4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 75.64 729.04 C 75.64 744.52 84.54 747.96 96 747.96 C 107.46 747.96 116.36 744.52 116.36 729.04 Z" fill="#e8c33c" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96" cy="699.8" r="19.09" fill="#e8c33c" stroke="#2b3a4a" stroke-width="1.6"/>
+<circle cx="96" cy="699.8" r="8.91" fill="#f5d98a" stroke="None" stroke-width="0"/>
+<text x="96" y="737.64" font-size="26" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">49</text>
+<text x="96" y="812.6" font-size="12" fill="#7b1f13" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">k=7</text>
+<path d="M 71.58 795.9 C 71.58 816.9 81.57 821.4 96 821.4 C 110.43 821.4 120.42 816.9 120.42 795.9 Z" fill="#f2b98a" stroke="#2b3a4a" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 78.24 797.4 C 78.24 810.9 86.01 813.9 96 813.9 C 105.99 813.9 113.76 810.9 113.76 797.4 Z" fill="#e0803a" stroke="None" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="96" cy="771.9" r="16.65" fill="#e0803a" stroke="#2b3a4a" stroke-width="1.6"/>
+<circle cx="96" cy="771.9" r="7.77" fill="#f2b98a" stroke="None" stroke-width="0"/>
+<text x="96" y="804.9" font-size="26" fill="#1b2a38" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">64</text>
+<text x="96" y="875.9" font-size="12" fill="#7b1f13" text-anchor="middle" font-weight="700" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">k=8</text>
+<rect x="750" y="2264" width="1500" height="96" fill="#1f3b57" stroke="#e0a92e" stroke-width="3" rx="14"/>
+<text x="1500" y="2294" font-size="19" fill="#ffe9a8" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">核 验 条 · 与实际图形及题目数据逐项吻合</text>
+<text x="960" y="2322" font-size="14" fill="#cfe0ee" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">糖果六类数量总和</text>
+<rect x="918" y="2328" width="84" height="26" fill="#0f2436" stroke="#4a7fa0" stroke-width="1.4" rx="5"/>
+<text x="960" y="2347" font-size="20" fill="#7ef0a8" text-anchor="middle" font-weight="800" font-family="monospace">41</text>
+<text x="1320" y="2322" font-size="14" fill="#cfe0ee" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">六孔金属板空孔数</text>
+<rect x="1278" y="2328" width="84" height="26" fill="#0f2436" stroke="#4a7fa0" stroke-width="1.4" rx="5"/>
+<text x="1320" y="2347" font-size="20" fill="#7ef0a8" text-anchor="middle" font-weight="800" font-family="monospace">2</text>
+<text x="1680" y="2322" font-size="14" fill="#cfe0ee" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">章鱼腕足数</text>
+<rect x="1638" y="2328" width="84" height="26" fill="#0f2436" stroke="#4a7fa0" stroke-width="1.4" rx="5"/>
+<text x="1680" y="2347" font-size="20" fill="#7ef0a8" text-anchor="middle" font-weight="800" font-family="monospace">8</text>
+<text x="2040" y="2322" font-size="14" fill="#cfe0ee" text-anchor="middle" font-weight="400" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">飞机发动机数</text>
+<rect x="1998" y="2328" width="84" height="26" fill="#0f2436" stroke="#4a7fa0" stroke-width="1.4" rx="5"/>
+<text x="2040" y="2347" font-size="20" fill="#7ef0a8" text-anchor="middle" font-weight="800" font-family="monospace">4</text>
+<text x="1500" y="88" font-size="34" fill="#0f2436" text-anchor="middle" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">四发大型客机 · 高空巡航</text>
+<text x="1500" y="124" font-size="14" fill="#1f3b57" text-anchor="middle" font-weight="600" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">承托链：飞机 → 机翼 → 鹈鹕(自行车) → 鹈鹕双翼 → 北极熊 → 秦始皇 → 冕板 → 龟 → 象 → 温室 → 苹果树 → 沙漏 → 章鱼 → 头盔 → 茶杯 → 灯塔 → 玻璃球（内含两层递归）</text>
+<text x="2100" y="200" font-size="15" fill="#0f2436" text-anchor="start" font-weight="800" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">近侧机翼（画面左下）承托整条链</text>
+<text x="2100" y="226" font-size="13" fill="#33424f" text-anchor="start" font-weight="600" font-family="'Noto Sans SC','Source Han Sans SC','PingFang SC','Microsoft YaHei','SimHei',sans-serif">远侧机翼仅承载发动机 3、4</text>
+</svg>

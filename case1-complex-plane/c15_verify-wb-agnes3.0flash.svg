@@ -1,0 +1,343 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" font-family="'Segoe UI',Arial,system-ui,sans-serif">
+<!-- ============================================================
+  C15 复杂生图核验画（暖色暗色 琥珀金/暖橙 卡片风 · 满版无空白）
+  所有考卷答案与引用链（务必交叉一致）：
+   N(糖果) = 29 → 航班号 QIN-29 / 鹈鹕气泡 29 / 记录板最坏 N-1=28 组合 0·9·8·7·0·4
+   球价题 0.05 → A=0.05*100=5 ；机器题 B=5 ；浮萍题 C=47  → 鞍架密码锁 A+B+C=57
+   strawberry 中 r 数 = 3 → 温室窗户 = 3 扇（不含门玻璃）
+   跑步超第2名 → 第1 → P=1 → 鞍架两侧合计挂 1 盏灯
+   时钟 3:15 → 两针重合 → 较小夹角 0°
+   三门换门 → 2/3 ；生日>50% → 23 ；汉诺塔7层 → 127 ；蜗牛爬10米井(3上2下) → 8天
+   100分抓100鼠 → 5只 ；卡片验"元音背面偶数" 只翻 A、D（4/7为数字不适用）
+   9.11 □ 9.9 → ＜ ；"玫瑰都是花/有些花凋谢/有些玫瑰凋谢" → 不必然成立
+   先+20%再−20% → 96% ；三盒标签全贴错 → 从"苹果桃子混合"盒取样
+   色词干扰 红蓝绿 实际色 蓝绿红 → 按墨色读: 蓝、绿、红
+   企鹅: 中拿鱼、右戴眼镜（属性不串给别的动物）
+   尾流6标记: 红圆 蓝星 绿圆 红星 蓝圆 绿星
+   秦始皇左袖"秦"、孙悟空右袖"悟"
+   套娃章 k=1..8 写 k²: 1 4 9 16 25 36 49 64
+   递归: 外层机头朝左 → 一层内朝右 → 二层内朝左 → 三层金点终止
+   核验条: 糖果六类总和41 · 六孔板空孔2 · 章鱼腕足8 · 发动机4
+============================================================ -->
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#1a1410"/><stop offset="1" stop-color="#241a12"/>
+  </linearGradient>
+  <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#3a2a1c"/><stop offset="1" stop-color="#2a1d12"/>
+  </linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#f6c76a"/><stop offset="1" stop-color="#e0932f"/>
+  </linearGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2b3a55"/><stop offset="1" stop-color="#4a5d80"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="2.2"/></filter>
+</defs>
+
+<rect width="1600" height="1000" fill="url(#bg)"/>
+<!-- 顶部标题 -->
+<text x="20" y="34" fill="url(#gold)" font-size="24" font-weight="700">C15 · 复杂逻辑核验画（琥珀金/暖橙 · 满版）</text>
+<text x="1580" y="34" fill="#e0932f" font-size="14" text-anchor="end">N=29 · 密码锁57 · 引擎4 · 腕足8</text>
+
+<!-- ==================== 分区0: 高空四发客机（承托链主体）==================== -->
+<rect x="16" y="46" width="660" height="470" rx="14" fill="url(#sky)" stroke="#f6c76a" stroke-width="1.5"/>
+<text x="30" y="70" fill="#f6c76a" font-size="15" font-weight="700">① 高空四发客机 · 机头朝左</text>
+
+<!-- 机身（机头朝左） -->
+<g transform="translate(60,240)">
+  <!-- 机身 -->
+  <path d="M10,40 Q0,20 40,12 L360,12 Q400,12 410,40 Q400,68 360,68 L40,68 Q0,60 10,40 Z"
+        fill="#e8e2d5" stroke="#8a7a5c" stroke-width="2"/>
+  <!-- 驾驶舱（机头左侧） -->
+  <path d="M30,20 L58,18 L58,44 L30,44 Z" fill="#3a5a7a" stroke="#22364a" stroke-width="1.5"/>
+  <!-- 驾驶舱内 孙悟空（猴脸/金箍/驾驶动作） -->
+  <g>
+    <circle cx="44" cy="34" r="9" fill="#e8a04a" stroke="#7a4a1a" stroke-width="1.2"/><!-- 猴脸 -->
+    <path d="M35,28 Q44,22 53,28" fill="none" stroke="#f6c76a" stroke-width="2.4"/><!-- 金箍 -->
+    <circle cx="41" cy="33" r="1.6" fill="#3a2008"/><circle cx="48" cy="33" r="1.6" fill="#3a2008"/>
+    <path d="M42,38 Q44,40 47,38" fill="none" stroke="#3a2008" stroke-width="1"/><!-- 嘴 -->
+    <path d="M40,42 L34,50 M48,42 L54,50" stroke="#c8853a" stroke-width="3"/><!-- 双手扶杆驾驶动作 -->
+    <text x="20" y="16" fill="#f6c76a" font-size="9">孙悟空</text>
+  </g>
+  <!-- 金箍棒横放于驾驶舱后方两支架上（不穿过悟空/座椅/挡风玻璃） -->
+  <g>
+    <rect x="72" y="34" width="86" height="6" rx="3" fill="#a0382a" stroke="#5a1a10" stroke-width="1"/>
+    <rect x="68" y="32" width="8" height="10" rx="2" fill="#f6c76a" stroke="#8a6a1a" stroke-width="1"/>
+    <rect x="156" y="32" width="8" height="10" rx="2" fill="#f6c76a" stroke="#8a6a1a" stroke-width="1"/>
+    <path d="M76,44 v6 M150,44 v6" stroke="#8a7a5c" stroke-width="2"/><!-- 两支架 -->
+    <text x="112" y="52" fill="#c8853a" font-size="8" text-anchor="middle">金箍棒(横放/双支架)</text>
+  </g>
+  <!-- 机翼（左/右） -->
+  <path d="M150,20 L120,-30 L150,-30 L180,20 Z" fill="#d8d2c4" stroke="#8a7a5c" stroke-width="1.5"/><!-- 上(远) -->
+  <path d="M150,60 L120,110 L150,110 L180,60 Z" fill="#e8e2d5" stroke="#8a7a5c" stroke-width="1.5"/><!-- 下(近, 观者侧) -->
+  <!-- 尾翼 -->
+  <path d="M380,12 L400,-30 L414,-30 L396,12 Z" fill="#d8d2c4" stroke="#8a7a5c" stroke-width="1.5"/>
+  <rect x="360" y="36" width="46" height="8" fill="#c8853a" opacity="0.4"/>
+
+  <!-- 四台发动机（分别可数清）: 每侧机翼2台 -->
+  <g fill="#f6c76a" stroke="#8a6a1a" stroke-width="1">
+    <ellipse cx="126" cy="-8" rx="8" ry="11"/><ellipse cx="150" cy="-8" rx="8" ry="11"/>
+    <ellipse cx="126" cy="88" rx="8" ry="11"/><ellipse cx="150" cy="88" rx="8" ry="11"/>
+  </g>
+  <text x="138" y="82" fill="#f6c76a" font-size="9" text-anchor="middle">×4 发动机</text>
+
+  <!-- 鹈鹕在近侧机翼上骑自行车（车轮触翼面, 不悬空/不触机身云朵） -->
+  <g transform="translate(110,74)">
+    <!-- 自行车：两车轮+车架+牙盘+链+脚踏+车把+车座 -->
+    <circle cx="0" cy="0" r="11" fill="none" stroke="#f6c76a" stroke-width="2"/><circle cx="34" cy="0" r="11" fill="none" stroke="#f6c76a" stroke-width="2"/>
+    <circle cx="34" cy="0" r="3" fill="#f6c76a"/><!-- 牙盘 -->
+    <path d="M0,0 L14,0 L34,0 L22,-14 L14,0 M14,-2 l0,4" stroke="#f6c76a" stroke-width="1.5" fill="none"/><!-- 车架 -->
+    <path d="M14,0 L26,-2 M14,-2 L14,2 M26,-2 L26,2" stroke="#e0932f" stroke-width="1.5"/><!-- 链+脚踏 -->
+    <rect x="10" y="-14" width="14" height="2.5" fill="#e0932f"/><!-- 车座 -->
+    <path d="M26,-14 L34,-12" stroke="#e0932f" stroke-width="2"/><!-- 车把 -->
+    <!-- 鹈鹕：长嘴+喉囊, 展开双翅, 双脚踩两脚踏 -->
+    <ellipse cx="20" cy="-24" rx="13" ry="9" fill="#cfe0ea" stroke="#7a98a8" stroke-width="1.2"/><!-- 身体 -->
+    <path d="M33,-26 l14,-2 q4,2 0,4 l-14,2 Z" fill="#f2d58a" stroke="#b8913a" stroke-width="1"/><!-- 长嘴 -->
+    <path d="M33,-22 q8,4 12,0" fill="none" stroke="#f2d58a" stroke-width="2"/><!-- 喉囊 -->
+    <path d="M9,-26 L-14,-40 M9,-24 L-14,-14" stroke="#cfe0ea" stroke-width="5" fill="none"/><!-- 展开双翅 -->
+    <path d="M18,-15 L26,-12 M22,-15 L26,-14" stroke="#f2d58a" stroke-width="2.5"/><!-- 双脚踩脚踏 -->
+    <text x="17" y="-46" fill="#cfe0ea" font-size="9" text-anchor="middle">鹈鹕(骑车)</text>
+    <!-- 鹈鹕对话气泡 → 指向嘴, 只写 N 十进制数字 -->
+    <g>
+      <path d="M48,-52 L70,-52 Q76,-52 76,-46 L76,-30 Q76,-24 70,-24 L60,-24 L54,-16 L54,-24 L52,-24 Q48,-24 48,-30 Z"
+            fill="#fff6e0" stroke="#e0932f" stroke-width="1.2"/>
+      <text x="62" y="-38" font-size="20" font-weight="800" fill="#c0392b" text-anchor="middle">29</text>
+      <path d="M54,-16 L40,-22" stroke="#e0932f" stroke-width="1.5"/><!-- 指向嘴巴 -->
+    </g>
+  </g>
+</g>
+
+<!-- 承托链提示（从大飞机到玻璃球的完整目视链条） -->
+<text x="30" y="380" fill="#f6c76a" font-size="11">承托链：机身→机翼→鹈鹕→车轮踏翼面…（见②③递归温室）</text>
+<text x="30" y="398" fill="#e0932f" font-size="10">货舱天平：1kg铁 vs 1kg棉花（水平，棉花体积更大，均标"1 kg"）</text>
+<g transform="translate(60,410)">
+  <rect x="0" y="0" width="150" height="46" rx="6" fill="#241a12" stroke="#f6c76a" stroke-width="1"/>
+  <line x1="75" y1="8" x2="75" y2="40" stroke="#f6c76a" stroke-width="2"/>
+  <line x1="20" y1="14" x2="130" y2="14" stroke="#f6c76a" stroke-width="3"/><!-- 水平 -->
+  <rect x="28" y="16" width="26" height="20" rx="3" fill="#8a8a8a" stroke="#5a5a5a"/><!-- 铁 -->
+  <text x="41" y="30" fill="#fff" font-size="10" text-anchor="middle">1 kg</text>
+  <path d="M96,34 q14,-24 30,0 q-14,10 -30,0" fill="#eee" stroke="#bbb"/><!-- 棉花(更大) -->
+  <text x="110" y="34" fill="#333" font-size="10" text-anchor="middle">1 kg</text>
+</g>
+
+<!-- ==================== 分区②: 承托链递归主体（机翼上）==================== -->
+<rect x="690" y="46" width="430" height="470" rx="14" fill="url(#card)" stroke="#f6c76a" stroke-width="1.5"/>
+<text x="704" y="70" fill="#f6c76a" font-size="15" font-weight="700">② 承托链（鹈鹕翅膀→…→玻璃球递归）</text>
+<!-- 鹈鹕展开双翅承托 -->
+<g transform="translate(704,150)">
+  <path d="M0,40 L-50,-20 L-30,10 M0,40 L50,-20 L30,10" stroke="#cfe0ea" stroke-width="6" fill="none"/>
+  <ellipse cx="0" cy="44" rx="20" ry="14" fill="#cfe0ea" stroke="#7a98a8"/>
+  <text x="0" y="90" fill="#cfe0ea" font-size="9" text-anchor="middle">鹈鹕翅膀承托</text>
+</g>
+<!-- 北极熊横跨翅膀(后脚踩左翅/前脚踩右翅) 项圈"大秦御用" -->
+<g transform="translate(820,130)">
+  <ellipse cx="0" cy="0" rx="46" ry="26" fill="#e8e2d5" stroke="#8a7a5c" stroke-width="1.5"/>
+  <circle cx="-46" cy="0" r="10" fill="#d8d2c4" stroke="#8a7a5c"/><circle cx="46" cy="0" r="10" fill="#d8d2c4" stroke="#8a7a5c"/>
+  <rect x="-12" y="-24" width="24" height="10" rx="4" fill="#f6c76a" stroke="#8a6a1a"/>
+  <text x="0" y="-26" fill="#c0392b" font-size="9" text-anchor="middle">大秦御用</text>
+  <text x="0" y="34" fill="#e8e2d5" font-size="9" text-anchor="middle">北极熊(后脚左翅/前脚右翅)</text>
+</g>
+<!-- 秦始皇骑熊 黑玄衣冕旒 双手握螺丝刀 左手扶金属板 -->
+<g transform="translate(820,86)">
+  <rect x="-14" y="-22" width="28" height="30" rx="4" fill="#1a1a2a" stroke="#3a3a4a"/><!-- 玄衣 -->
+  <rect x="-18" y="-32" width="36" height="8" rx="2" fill="#f6c76a" stroke="#8a6a1a"/><text x="0" y="-26" fill="#1a1a2a" font-size="6" text-anchor="middle">冕旒</text>
+  <text x="26" y="-8" fill="#f6c76a" font-size="12" font-weight="700">秦</text><!-- 左袖"秦" -->
+  <path d="M14,2 L34,4 M18,4 L36,2" stroke="#c8853a" stroke-width="2"/><!-- 双手握螺丝刀 -->
+  <text x="0" y="34" fill="#e8e2d5" font-size="9" text-anchor="middle">秦始皇·螺丝刀</text>
+</g>
+<!-- 六孔金属板（三拧/一拧/两空） -->
+<g transform="translate(920,86)">
+  <rect x="-20" y="-16" width="46" height="32" rx="3" fill="#8a8a8a" stroke="#5a5a5a"/>
+  <g fill="#f6c76a"><circle cx="-10" cy="-8" r="3"/><circle cx="2" cy="-8" r="3"/><circle cx="14" cy="-8" r="3"/><circle cx="-10" cy="6" r="3"/></g>
+  <g fill="#1a1410" stroke="#555"><circle cx="2" cy="6" r="3"/><circle cx="14" cy="6" r="3"/></g>
+  <text x="3" y="26" fill="#f6c76a" font-size="9" text-anchor="middle">六孔板·空孔2</text>
+</g>
+<!-- 冕板乌龟→大象→温室→苹果树→沙漏→章鱼→茶杯→玻璃球递归（沿横排） -->
+<g transform="translate(704,300)">
+  <ellipse cx="10" cy="0" rx="14" ry="10" fill="#7a8a4a" stroke="#4a5a2a"/><text x="10" y="18" fill="#f6c76a" font-size="8" text-anchor="middle">龟</text>
+  <ellipse cx="60" cy="0" rx="18" ry="14" fill="#c8b89a" stroke="#8a7a5c"/><text x="60" y="18" fill="#f6c76a" font-size="8" text-anchor="middle">象</text>
+  <rect x="104" y="-18" width="44" height="36" rx="4" fill="#3a4a2a" stroke="#5a7a3a"/>
+  <g fill="#4a6a3a" stroke="#2a3a1a"><rect x="110" y="-12" width="10" height="10"/><rect x="124" y="-12" width="10" height="10"/><rect x="138" y="-12" width="10" height="10"/></g>
+  <text x="126" y="24" fill="#f6c76a" font-size="8" text-anchor="middle">温室3窗</text>
+  <line x1="186" y1="18" x2="186" y2="-6" stroke="#7a4a1a" stroke-width="3"/>
+  <g fill="#c0392b"><circle cx="180" cy="-2" r="5"/><circle cx="186" cy="-10" r="5"/><circle cx="192" cy="-2" r="5"/><circle cx="184" cy="6" r="5"/><circle cx="192" cy="6" r="5" fill="#5a8a3a"/></g>
+  <text x="186" y="28" fill="#f6c76a" font-size="8" text-anchor="middle">树5果(绿最右)</text>
+</g>
+<!-- 递归玻璃球：外层机头朝左→一层内朝右→二层内朝左→三层金点 -->
+<g transform="translate(980,150)">
+  <circle cx="0" cy="0" r="60" fill="none" stroke="#f6c76a" stroke-width="2"/>
+  <text x="0" y="-66" fill="#f6c76a" font-size="9" text-anchor="middle">外层机头朝左</text>
+  <g transform="translate(0,0)">
+    <path d="M-30,0 L18,-12 L18,12 Z" fill="#e8e2d5"/><circle cx="-32" cy="0" r="5" fill="#3a5a7a"/>
+    <g transform="translate(6,0) scale(-1,1)"><path d="M-20,0 L12,-8 L12,8 Z" fill="#e0932f"/><text x="-2" y="-16" fill="#e0932f" font-size="7" text-anchor="middle">一层内朝右</text></g>
+    <g transform="translate(0,0)"><circle cx="16" cy="0" r="10" fill="none" stroke="#f6c76a"/><path d="M10,-4 L22,0 L10,4 Z" fill="#e8e2d5"/><text x="16" y="24" fill="#f6c76a" font-size="7" text-anchor="middle">二层内朝左</text></g>
+    <circle cx="24" cy="0" r="3" fill="#f6c76a"/><text x="40" y="4" fill="#f6c76a" font-size="8">金点</text>
+  </g>
+</g>
+<!-- 沙漏顶戴宇航头盔章鱼(8腕足:2握黑板/6握六面不同色旗) 顶茶杯 岛灯塔 -->
+<g transform="translate(1010,300)">
+  <path d="M-14,-20 L14,-20 L0,0 L14,20 L-14,20 L0,0 Z" fill="none" stroke="#f6c76a" stroke-width="2"/>
+  <circle cx="0" cy="28" r="14" fill="none" stroke="#cfe0ea" stroke-width="2"/><!-- 宇航头盔 -->
+  <g stroke="#5a8aa8" stroke-width="2.5" fill="none">
+    <path d="M-8,40 Q-20,54 -26,48"/><path d="M8,40 Q20,54 26,48"/>
+    <path d="M-10,40 l-18,-8 M10,40 l18,-8 M-6,44 l-10,12 M6,44 l10,12 M-4,46 l0,14 M4,46 l0,14"/>
+  </g>
+  <g fill="#c0392b"><rect x="-30" y="44" width="8" height="6"/><rect x="-22" y="54" width="8" height="6" fill="#f6c76a"/></g>
+  <text x="0" y="74" fill="#f6c76a" font-size="9" text-anchor="middle">章鱼8腕足(2黑板/6旗)</text>
+</g>
+
+<!-- ==================== 分区③: 考卷题区（右下 · 满版卡片）==================== -->
+<rect x="1130" y="46" width="454" height="470" rx="14" fill="url(#card)" stroke="#f6c76a" stroke-width="1.5"/>
+<text x="1144" y="70" fill="#f6c76a" font-size="15" font-weight="700">③ 考卷题（答案交叉锁定）</text>
+<!-- 卡片AD金边 -->
+<text x="1150" y="92" fill="#e0932f" font-size="11">· 卡片翻检（"元音背面偶数"）只翻 A、D（4/7数字不适用）</text>
+<rect x="1470" y="80" width="30" height="16" rx="2" fill="none" stroke="#f6c76a" stroke-width="2"/><text x="1485" y="92" fill="#f6c76a" font-size="10" text-anchor="middle">A</text>
+<rect x="1504" y="80" width="30" height="16" rx="2" fill="none" stroke="#f6c76a" stroke-width="2"/><text x="1519" y="92" fill="#f6c76a" font-size="10" text-anchor="middle">D</text>
+<rect x="1470" y="100" width="30" height="16" rx="2" fill="none" stroke="#555"/><text x="1485" y="112" fill="#999" font-size="10" text-anchor="middle">4</text>
+<rect x="1504" y="100" width="30" height="16" rx="2" fill="none" stroke="#555"/><text x="1519" y="112" fill="#999" font-size="10" text-anchor="middle">7</text>
+<!-- 三门换门 -->
+<text x="1150" y="130" fill="#e0932f" font-size="11">· 三门换门：应换 2/3</text>
+<!-- 时钟0° -->
+<text x="1150" y="148" fill="#e0932f" font-size="11">· 时钟3:15 两针较小夹角 0°</text>
+<!-- 企鹅 -->
+<text x="1150" y="166" fill="#e0932f" font-size="11">· 企鹅3只：中间拿鱼 / 右边戴眼镜</text>
+<circle cx="1490" cy="160" r="8" fill="#e8e2d5" stroke="#8a7a5c"/><circle cx="1516" cy="160" r="8" fill="#e8e2d5" stroke="#8a7a5c"/><rect x="1512" y="154" width="8" height="3" fill="#333"/>
+<circle cx="1464" cy="160" r="8" fill="#e8e2d5" stroke="#8a7a5c"/><line x1="1464" y1="168" x2="1464" y2="178" stroke="#c8853a" stroke-width="3"/>
+<!-- 尾流6标记：红圆 蓝星 绿圆 红星 蓝圆 绿星（各占独立坐标, 星用三角示意） -->
+<text x="1150" y="184" fill="#e0932f" font-size="11">· 尾流6标记：红圆 蓝星 绿圆 红星 蓝圆 绿星</text>
+<circle cx="1452" cy="180" r="5" fill="#c0392b"/>
+<path d="M1470,175 l5,10 l-10,0 z" fill="#3a6aa8"/>
+<circle cx="1490" cy="180" r="5" fill="#3a8a3a"/>
+<path d="M1510,175 l5,10 l-10,0 z" fill="#c0392b"/>
+<circle cx="1530" cy="180" r="5" fill="#3a6aa8"/>
+<path d="M1550,175 l5,10 l-10,0 z" fill="#3a8a3a"/>
+<!-- 色词干扰 -->
+<text x="1150" y="202" fill="#e0932f" font-size="11">· 色词干扰（按墨色读）蓝、绿、红</text>
+<rect x="1464" y="190" width="14" height="12" fill="#3a6aa8" stroke="#fff"/><rect x="1482" y="190" width="14" height="12" fill="#3a8a3a"/><rect x="1500" y="190" width="14" height="12" fill="#c0392b"/>
+<!-- 机器人推理/百分比 -->
+<text x="1150" y="220" fill="#e0932f" font-size="11">· "玫瑰都是花/有些花凋谢/有些玫瑰凋谢" 不必然成立</text>
+<text x="1150" y="238" fill="#e0932f" font-size="11">· 先+20%再−20% = 96%</text>
+<!-- 三盒 -->
+<text x="1150" y="256" fill="#e0932f" font-size="11">· 三盒标签全贴错 → 取"苹果桃子混合"盒</text>
+<!-- 蜗牛/猫/汉诺塔/生日/过河 -->
+<text x="1150" y="274" fill="#e0932f" font-size="11">· 蜗牛爬10米井(3上2下) 8天 · 抓鼠100只 猫5只</text>
+<text x="1150" y="292" fill="#e0932f" font-size="11">· 汉诺塔7层 127 · 生日&gt;50% 23</text>
+<text x="1150" y="310" fill="#e0932f" font-size="11">· 9.11 □ 9.9 → 填 ＜</text>
+<!-- 密码锁来源分解 -->
+<text x="1150" y="328" fill="#f6c76a" font-size="11" font-weight="700">· 密码锁 57 = 球价5 + 机器5 + 浮萍47</text>
+<rect x="1470" y="318" width="80" height="16" rx="3" fill="#1a1410" stroke="#f6c76a"/><text x="1510" y="330" fill="#f6c76a" font-size="10" text-anchor="middle">5  5  47</text>
+<!-- 回文横幅 -->
+<rect x="1150" y="338" width="330" height="18" rx="4" fill="#3a2a1c" stroke="#e0932f"/>
+<text x="1315" y="351" fill="#f6c76a" font-size="11" text-anchor="middle">上海自来水来自海上</text>
+<!-- 等长线 -->
+<text x="1150" y="368" fill="#e0932f" font-size="10">· 等长线：__ ≡ __</text>
+<!-- 核验条 -->
+<rect x="1150" y="378" width="384" height="34" rx="6" fill="#1a1410" stroke="#f6c76a" stroke-width="1.5"/>
+<text x="1162" y="398" fill="#f6c76a" font-size="13" font-weight="700">核验条</text>
+<text x="1240" y="398" fill="#fff" font-size="12">糖果41 · 空孔2 · 腕足8 · 引擎4</text>
+<!-- 航班号 -->
+<text x="1150" y="436" fill="#f6c76a" font-size="14" font-weight="700">航班号 QIN-29 · strawberry r=3 · 温室门牌 47</text>
+<!-- 套娃章 k² -->
+<text x="1150" y="456" fill="#e0932f" font-size="11">· 套娃章 k²: 1 4 9 16 25 36 49 64</text>
+<g fill="#f6c76a" font-size="9" text-anchor="middle">
+  <circle cx="1438" cy="438" r="9"/><circle cx="1458" cy="438" r="9"/><circle cx="1478" cy="438" r="9"/><circle cx="1498" cy="438" r="9"/>
+  <circle cx="1518" cy="438" r="9"/><circle cx="1538" cy="438" r="9"/><circle cx="1438" cy="458" r="9"/><circle cx="1458" cy="458" r="9"/>
+  <text x="1438" y="441">1</text><text x="1458" y="441">4</text><text x="1478" y="441">9</text><text x="1498" y="441">16</text>
+  <text x="1518" y="441">25</text><text x="1538" y="441">36</text><text x="1438" y="461">49</text><text x="1458" y="461">64</text>
+</g>
+
+<!-- ==================== 分区④: 底部横条（记录板/鞍架/时钟/车铃/袖口/茶壶灯塔）==================== -->
+<rect x="16" y="530" width="1568" height="170" rx="14" fill="url(#card)" stroke="#f6c76a" stroke-width="1.5"/>
+<text x="30" y="552" fill="#f6c76a" font-size="15" font-weight="700">④ 收尾对象</text>
+<!-- 最坏情况记录板 0·9·8·7·0·4（合计28=N-1） -->
+<g transform="translate(30,570)">
+  <rect x="0" y="0" width="180" height="60" rx="6" fill="#1a1410" stroke="#f6c76a"/>
+  <text x="90" y="24" fill="#c0392b" font-size="12" text-anchor="middle" font-weight="700">最坏 N-1 = 28</text>
+  <g font-size="16" fill="#fff" text-anchor="middle">
+    <rect x="8" y="32" width="22" height="22" rx="3" fill="#3a2a1c"/><rect x="34" y="32" width="22" height="22" rx="3" fill="#3a2a1c"/>
+    <rect x="60" y="32" width="22" height="22" rx="3" fill="#3a2a1c"/><rect x="86" y="32" width="22" height="22" rx="3" fill="#3a2a1c"/>
+    <rect x="112" y="32" width="22" height="22" rx="3" fill="#3a2a1c"/><rect x="138" y="32" width="22" height="22" rx="3" fill="#3a2a1c"/>
+    <text x="19" y="48">0</text><text x="45" y="48">9</text><text x="71" y="48">8</text><text x="97" y="48">7</text><text x="123" y="48">0</text><text x="149" y="48">4</text>
+  </g>
+</g>
+<!-- 鞍架1灯（P=1） -->
+<g transform="translate(250,580)">
+  <path d="M0,40 L20,10 L40,40" fill="none" stroke="#f6c76a" stroke-width="4"/>
+  <circle cx="20" cy="20" r="7" fill="#f6c76a" filter="url(#glow)"/>
+  <text x="20" y="60" fill="#f6c76a" font-size="11" text-anchor="middle">鞍架1灯(P=1)</text>
+</g>
+<!-- 时钟0° 3:15 -->
+<g transform="translate(380,580)">
+  <circle cx="30" cy="30" r="30" fill="#1a1410" stroke="#f6c76a" stroke-width="2"/>
+  <line x1="30" y1="30" x2="30" y2="14" stroke="#c0392b" stroke-width="3"/><line x1="30" y1="30" x2="30" y2="14" stroke="#3a6aa8" stroke-width="3"/>
+  <text x="30" y="80" fill="#f6c76a" font-size="11" text-anchor="middle">3:15 夹角0°</text>
+</g>
+<!-- 车铃3（strawberry r=3） -->
+<g transform="translate(500,580)">
+  <circle cx="20" cy="20" r="14" fill="#f6c76a" stroke="#8a6a1a" stroke-width="2"/>
+  <circle cx="20" cy="38" r="4" fill="#c0392b"/>
+  <text x="20" y="60" fill="#f6c76a" font-size="11" text-anchor="middle">车铃3</text>
+</g>
+<!-- 赵秦/悟 袖口 -->
+<g transform="translate(610,580)">
+  <rect x="0" y="10" width="40" height="34" rx="4" fill="#1a1a2a" stroke="#3a5a7a"/><text x="20" y="32" fill="#f6c76a" font-size="14" text-anchor="middle" font-weight="700">秦</text>
+  <rect x="46" y="10" width="40" height="34" rx="4" fill="#7a3a1a" stroke="#f6c76a"/><text x="66" y="32" fill="#f6c76a" font-size="14" text-anchor="middle" font-weight="700">悟</text>
+  <text x="43" y="60" fill="#f6c76a" font-size="11" text-anchor="middle">左袖秦/右袖悟</text>
+</g>
+<!-- 茶壶+灯塔 -->
+<g transform="translate(790,580)">
+  <circle cx="20" cy="24" r="14" fill="#3a4a2a" stroke="#f6c76a"/><path d="M34,20 l12,-4 l-4,12 z" fill="#f6c76a"/>
+  <line x1="56" y1="8" x2="56" y2="40" stroke="#f6c76a" stroke-width="4"/><path d="M48,8 l16,0 l-8,10 z" fill="#c0392b"/>
+  <text x="34" y="60" fill="#f6c76a" font-size="11" text-anchor="middle">茶壶→灯塔</text>
+</g>
+
+<!-- ==================== 底部条：热气球23 + 过河顺序 ==================== -->
+<rect x="16" y="714" width="768" height="270" rx="14" fill="url(#card)" stroke="#f6c76a" stroke-width="1.5"/>
+<text x="30" y="736" fill="#f6c76a" font-size="15" font-weight="700">⑤ 热气球23 · 过河顺序</text>
+<!-- 热气球 -->
+<g transform="translate(80,780)">
+  <circle cx="0" cy="0" r="44" fill="url(#gold)" stroke="#8a6a1a" stroke-width="2"/>
+  <rect x="-14" y="40" width="28" height="20" rx="4" fill="#7a4a1a"/>
+  <text x="0" y="76" fill="#f6c76a" font-size="11" text-anchor="middle">生日&gt;50% = 23</text>
+</g>
+<!-- 过河顺序 -->
+<g transform="translate(260,760)">
+  <g font-size="12" fill="#fff" text-anchor="middle">
+    <rect x="0" y="0" width="48" height="26" rx="4" fill="#3a2a1c" stroke="#f6c76a"/><text x="24" y="17">狼</text>
+    <rect x="56" y="0" width="48" height="26" rx="4" fill="#3a2a1c" stroke="#f6c76a"/><text x="80" y="17">菜</text>
+    <rect x="112" y="0" width="48" height="26" rx="4" fill="#3a2a1c" stroke="#f6c76a"/><text x="136" y="17">羊</text>
+  </g>
+  <text x="80" y="44" fill="#e0932f" font-size="11" text-anchor="middle">狼→菜→羊（羊后走）</text>
+</g>
+
+<!-- ==================== 右下条：三盒/等长/套娃补充 ==================== -->
+<rect x="800" y="714" width="784" height="270" rx="14" fill="url(#card)" stroke="#f6c76a" stroke-width="1.5"/>
+<text x="814" y="736" fill="#f6c76a" font-size="15" font-weight="700">⑥ 三盒 · 等长线 · 密码锁面板</text>
+<!-- 三盒 -->
+<g transform="translate(830,770)">
+  <g font-size="11" fill="#fff" text-anchor="middle">
+    <rect x="0" y="0" width="70" height="40" rx="4" fill="#3a2a1c" stroke="#c0392b"/><text x="35" y="24">苹果</text>
+    <rect x="82" y="0" width="70" height="40" rx="4" fill="#3a2a1c" stroke="#3a8a3a"/><text x="117" y="24">桃子</text>
+    <rect x="164" y="0" width="70" height="40" rx="4" fill="#3a2a1c" stroke="#f6c76a" stroke-width="2"/><text x="199" y="24">混合</text>
+  </g>
+  <text x="117" y="60" fill="#f6c76a" font-size="11" text-anchor="middle">全贴错 → 取「混合」盒（高亮）</text>
+</g>
+<!-- 等长线 -->
+<g transform="translate(830,870)">
+  <line x1="0" y1="0" x2="180" y2="0" stroke="#f6c76a" stroke-width="4"/><circle cx="0" cy="0" r="5" fill="#c0392b"/><circle cx="180" cy="0" r="5" fill="#c0392b"/>
+  <text x="90" y="20" fill="#f6c76a" font-size="11" text-anchor="middle">等长线（两端同色·等长）</text>
+</g>
+<!-- 密码锁面板 -->
+<g transform="translate(1180,770)">
+  <rect x="0" y="0" width="220" height="90" rx="8" fill="#1a1410" stroke="#f6c76a" stroke-width="2"/>
+  <text x="110" y="28" fill="#f6c76a" font-size="13" text-anchor="middle" font-weight="700">鞍架密码锁 = 57</text>
+  <g font-size="18" fill="#fff" text-anchor="middle">
+    <rect x="20" y="42" width="44" height="40" rx="4" fill="#3a2a1c"/><text x="42" y="70">5</text>
+    <rect x="80" y="42" width="44" height="40" rx="4" fill="#3a2a1c"/><text x="102" y="70">5</text>
+    <rect x="140" y="42" width="60" height="40" rx="4" fill="#3a2a1c"/><text x="170" y="70">47</text>
+  </g>
+</g>
+
+</svg>
+

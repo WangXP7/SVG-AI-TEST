@@ -1,0 +1,665 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 2400" width="1920" height="2400" font-family="'Microsoft YaHei','PingFang SC','Noto Sans CJK SC',sans-serif">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4f9fe8"/>
+      <stop offset="0.45" stop-color="#7fc6f2"/>
+      <stop offset="0.75" stop-color="#c6e8fa"/>
+      <stop offset="1" stop-color="#eef9ff"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7c0" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff7c0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fuse" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#d8e4ee"/>
+      <stop offset="1" stop-color="#8fa3b3"/>
+    </linearGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0f5f8"/>
+      <stop offset="0.5" stop-color="#c3d2dd"/>
+      <stop offset="1" stop-color="#72889a"/>
+    </linearGradient>
+    <radialGradient id="glass" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#f4fbff" stop-opacity="0.95"/>
+      <stop offset="0.72" stop-color="#bfe4f8" stop-opacity="0.68"/>
+      <stop offset="1" stop-color="#6aa7c8" stop-opacity="0.82"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4b8"/>
+      <stop offset="0.55" stop-color="#d0a438"/>
+      <stop offset="1" stop-color="#74500a"/>
+    </linearGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2c2824"/>
+      <stop offset="1" stop-color="#0e0d0b"/>
+    </linearGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="3" dy="6" stdDeviation="4" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="2400" fill="url(#sky)"/>
+  <circle cx="1690" cy="220" r="130" fill="url(#sun)"/>
+  <g fill="#fff" opacity="0.78">
+    <ellipse cx="250" cy="250" rx="110" ry="32"/>
+    <ellipse cx="340" cy="300" rx="150" ry="40"/>
+    <ellipse cx="1420" cy="380" rx="170" ry="48"/>
+    <ellipse cx="1560" cy="460" rx="130" ry="36"/>
+    <ellipse cx="650" cy="170" rx="90" ry="26"/>
+  </g>
+
+  <g stroke="#7aa5c0" stroke-width="0.5" opacity="0.18">
+    <path d="M0,1100 H1920"/>
+    <path d="M960,0 V2400"/>
+    <path d="M0,1100 H1920"/>
+  </g>
+
+  <!-- Main airliner: four engines, cockpit with Sun Wukong -->
+  <g transform="translate(300,300)">
+    <!-- Far wing -->
+    <path d="M540,260 L980,180 L1100,210 L650,310 Z" fill="url(#wing)" stroke="#4f5f6d" stroke-width="3"/>
+    <!-- Far engines (2) -->
+    <g fill="url(#dark)" stroke="#000" stroke-width="2">
+      <ellipse cx="780" cy="230" rx="58" ry="40" transform="rotate(-18 780 230)"/>
+      <ellipse cx="930" cy="200" rx="58" ry="40" transform="rotate(-18 930 200)"/>
+    </g>
+    <!-- Fuselage (nose at x≈60 LEFT, tail at x≈1140 RIGHT; vertical stabilizer faces right/upper-right) -->
+    <path d="M60,210 C55,165 95,140 180,135 L1020,160 C1100,165 1140,190 1140,230 L1140,280 C1140,320 1100,345 1020,350 L180,365 C95,360 55,330 60,210 Z" fill="url(#fuse)" stroke="#4a5866" stroke-width="4"/>
+    <path d="M70,250 L1130,250" stroke="#fff" stroke-width="2" opacity="0.5"/>
+    <!-- Windows -->
+    <g fill="#27333d" opacity="0.85">
+      <circle cx="250" cy="235" r="7"/><circle cx="290" cy="235" r="7"/><circle cx="330" cy="235" r="7"/><circle cx="370" cy="235" r="7"/><circle cx="410" cy="235" r="7"/><circle cx="450" cy="235" r="7"/><circle cx="490" cy="235" r="7"/><circle cx="530" cy="235" r="7"/><circle cx="570" cy="235" r="7"/><circle cx="610" cy="235" r="7"/><circle cx="650" cy="235" r="7"/><circle cx="690" cy="235" r="7"/><circle cx="730" cy="235" r="7"/><circle cx="770" cy="235" r="7"/><circle cx="810" cy="235" r="7"/><circle cx="850" cy="235" r="7"/><circle cx="890" cy="235" r="7"/>
+    </g>
+    <!-- Three doors -->
+    <g stroke="#384552" stroke-width="2" fill="none">
+      <rect x="195" y="210" width="34" height="70" rx="8"/>
+      <rect x="480" y="205" width="34" height="70" rx="8"/>
+      <rect x="935" y="205" width="34" height="70" rx="8"/>
+    </g>
+    <!-- Vertical stabilizer and horizontal stabilizer -->
+    <path d="M1000,190 L1120,60 L1180,80 L1090,230 Z" fill="url(#fuse)" stroke="#4a5866" stroke-width="3"/>
+    <path d="M980,235 L1180,205 L1175,240 L985,265 Z" fill="url(#wing)" stroke="#4a5866" stroke-width="3"/>
+    <!-- Flight number: QIN-29 -->
+    <g transform="translate(1020,180) rotate(-12)">
+      <text x="0" y="0" font-size="24" fill="#222" font-weight="bold">QIN-29</text>
+    </g>
+
+    <!-- Cockpit: glass + Sun Wukong (nose of aircraft points LEFT; pilot faces left, hands on controls) -->
+    <path d="M360,120 L370,185 L75,195 C75,160 95,140 180,135 L360,120 Z" fill="url(#glass)" stroke="#3f4f5c" stroke-width="3"/>
+    <g transform="translate(95,140)">
+      <!-- Sun Wukong body -->
+      <ellipse cx="45" cy="70" rx="30" ry="36" fill="#e9c96f" stroke="#5a4218" stroke-width="2"/>
+      <path d="M20,95 L70,95 L65,115 L25,115 Z" fill="#c65a32" stroke="#5a2c1a" stroke-width="2"/>
+      <!-- Monkey head (turned to face the cockpit glass / the front of the plane) -->
+      <ellipse cx="45" cy="45" rx="28" ry="30" fill="#b89a4a" stroke="#5a4218" stroke-width="2"/>
+      <path d="M22,40 C20,18 70,18 68,40 Z" fill="#7a5c22" opacity="0.45"/>
+      <!-- Face features: eyes, brows, nostrils, mouth -->
+      <ellipse cx="36" cy="44" rx="6" ry="8" fill="#2b1e0a"/>
+      <ellipse cx="54" cy="44" rx="6" ry="8" fill="#2b1e0a"/>
+      <circle cx="38" cy="41" r="1.8" fill="#fff"/>
+      <circle cx="56" cy="41" r="1.8" fill="#fff"/>
+      <path d="M32,58 Q45,68 58,58" stroke="#2b1e0a" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M25,34 Q15,18 28,15 L34,26 Z" fill="#8c6c28"/>
+      <path d="M65,34 Q75,18 62,15 L56,26 Z" fill="#8c6c28"/>
+      <!-- Gold headband (jin gu / circlet) -->
+      <rect x="15" y="26" width="60" height="12" fill="url(#gold)" stroke="#4a3008" stroke-width="1.5"/>
+      <text x="22" y="36" font-size="10" fill="#2d1e08">金箍</text>
+      <!-- Right arm on control stick (driving action) -->
+      <path d="M70,90 C90,85 100,70 95,55" stroke="#5a4218" stroke-width="8" fill="none" stroke-linecap="round"/>
+      <circle cx="95" cy="55" r="8" fill="#c9a24f" stroke="#5a4218" stroke-width="1.5"/>
+      <!-- Left arm on wheel -->
+      <path d="M20,90 C5,88 -5,80 -8,70" stroke="#5a4218" stroke-width="8" fill="none" stroke-linecap="round"/>
+      <circle cx="-8" cy="70" r="8" fill="#c9a24f" stroke="#5a4218" stroke-width="1.5"/>
+      <!-- Right sleeve: 悟 embroidery -->
+      <text x="72" y="105" font-size="16" fill="#c62828" font-weight="bold">悟</text>
+      <!-- Badge on chest -->
+      <rect x="28" y="68" width="34" height="26" rx="4" fill="#fff" stroke="#333" stroke-width="1.5"/>
+      <text x="34" y="80" font-size="10" fill="#222">2</text>
+      <text x="32" y="91" font-size="7" fill="#222">1st</text>
+      <!-- Clock 3:15 below cockpit glass -->
+      <g transform="translate(180,165)">
+        <circle r="20" fill="#fff" stroke="#333" stroke-width="2"/>
+        <line x1="0" y1="0" x2="0" y2="-14" stroke="#222" stroke-width="3" transform="rotate(97.5)"/>
+        <line x1="0" y1="0" x2="0" y2="-12" stroke="#222" stroke-width="2" transform="rotate(90)"/>
+        <text x="-18" y="32" font-size="9" fill="#111">7.5°</text>
+      </g>
+    </g>
+    <!-- Golden staff (jingu bang) resting horizontally on two supports, behind the cockpit; it does not cross Sun Wukong, the seat, or the windshield -->
+    <g transform="translate(120,130) rotate(-8)">
+      <rect x="0" y="-6" width="280" height="12" rx="6" fill="url(#gold)" stroke="#4a3008" stroke-width="1.5"/>
+      <rect x="-12" y="-10" width="24" height="20" rx="4" fill="#2a1a08" stroke="#000" stroke-width="1.5"/>
+      <rect x="268" y="-10" width="24" height="20" rx="4" fill="#2a1a08" stroke="#000" stroke-width="1.5"/>
+    </g>
+    <!-- Two staff supports (mounts) standing on the fuselage top, behind the cockpit -->
+    <g fill="#6d5322" stroke="#2a1a08" stroke-width="2">
+      <rect x="180" y="210" width="12" height="48" rx="3"/>
+      <rect x="300" y="215" width="12" height="48" rx="3"/>
+    </g>
+
+    <!-- Near wing + bicycle + pelican + bear + Qin stack -->
+    <path d="M480,300 L720,350 L1250,320 L1250,370 L720,400 L480,380 Z" fill="url(#wing)" stroke="#4a5866" stroke-width="3"/>
+    <!-- Near engines (2) -->
+    <g fill="url(#dark)" stroke="#000" stroke-width="2">
+      <ellipse cx="700" cy="410" rx="68" ry="44"/>
+      <ellipse cx="1000" cy="385" rx="68" ry="44"/>
+    </g>
+    <g fill="#444">
+      <circle cx="700" cy="410" r="8"/>
+      <circle cx="1000" cy="385" r="8"/>
+    </g>
+
+    <!-- Bicycle on near wing: 2 wheels touching wing surface -->
+    <g transform="translate(580,340)">
+      <!-- Wheels (both touching the wing surface, r=30; wheel centers at y=0 → bottom at y=30, wing top at y=340 in local coords, wing top local y=0) -->
+      <circle cx="0" cy="0" r="30" fill="none" stroke="#111" stroke-width="4"/>
+      <circle cx="110" cy="0" r="30" fill="none" stroke="#111" stroke-width="4"/>
+      <!-- Spokes (visual only) -->
+      <g stroke="#888" stroke-width="1" opacity="0.5">
+        <line x1="-30" y1="0" x2="30" y2="0"/><line x1="0" y1="-30" x2="0" y2="30"/>
+        <line x1="80" y1="0" x2="140" y2="0"/><line x1="110" y1="-30" x2="110" y2="30"/>
+      </g>
+      <!-- Frame: main triangle + chain stay + seat stay + fork -->
+      <path d="M0,0 L45,-25 L85,-25 L110,0 M45,-25 L75,0 M45,-25 L45,0" fill="none" stroke="#255e28" stroke-width="4"/>
+      <!-- Crank: chainring + two pedals on opposite sides of the crank axis -->
+      <circle cx="75" cy="0" r="10" fill="none" stroke="#666" stroke-width="3"/>
+      <line x1="75" y1="0" x2="45" y2="0" stroke="#666" stroke-width="3"/>
+      <line x1="75" y1="0" x2="95" y2="-18" stroke="#666" stroke-width="3"/>
+      <rect x="89" y="-22" width="12" height="6" fill="#333"/>
+      <rect x="39" y="-2" width="12" height="6" fill="#333"/>
+      <!-- Handlebars (forward from the seat tube top) -->
+      <path d="M45,-25 L38,-45 L12,-50" fill="none" stroke="#333" stroke-width="4"/>
+      <!-- Saddle -->
+      <path d="M95,-25 L110,-38 L125,-38" fill="none" stroke="#333" stroke-width="4"/>
+      <!-- Strawberry text on frame -->
+      <text x="35" y="-35" font-size="14" fill="#fff">strawberry</text>
+      <g fill="#d32f2f">
+        <text x="47" y="-35" font-size="14" fill="#d32f2f">r</text>
+        <text x="86" y="-35" font-size="14" fill="#d32f2f">r</text>
+        <text x="100" y="-35" font-size="14" fill="#d32f2f">r</text>
+      </g>
+      <!-- Bell with r count 3 -->
+      <circle cx="38" cy="-52" r="8" fill="#d32f2f" stroke="#000" stroke-width="1.5"/>
+      <text x="34" y="-49" font-size="8" fill="#fff">3</text>
+      <!-- Black candy bag on handlebars with tag -->
+      <path d="M12,-50 C-10,-55 -20,-70 -8,-82 L18,-78 C12,-68 15,-58 12,-50 Z" fill="#1a1a1a" stroke="#000" stroke-width="2"/>
+      <g transform="translate(-30,-95)">
+        <rect x="0" y="0" width="80" height="60" fill="#fff" stroke="#000" stroke-width="1.5"/>
+        <text x="5" y="12" font-size="8" fill="#000">苹果味</text>
+        <text x="30" y="12" font-size="8" fill="#000">桃子味</text>
+        <text x="55" y="12" font-size="8" fill="#000">西瓜味</text>
+        <text x="5" y="30" font-size="8" fill="#000">圆形</text>
+        <text x="30" y="30" font-size="8" fill="#000">7</text>
+        <text x="50" y="30" font-size="8" fill="#000">9</text>
+        <text x="68" y="30" font-size="8" fill="#000">8</text>
+        <text x="5" y="48" font-size="8" fill="#000">星形</text>
+        <text x="30" y="48" font-size="8" fill="#000">7</text>
+        <text x="50" y="48" font-size="8" fill="#000">6</text>
+        <text x="68" y="48" font-size="8" fill="#000">4</text>
+      </g>
+    </g>
+
+    <!-- Pelican on bicycle -->
+    <g transform="translate(600,240)">
+      <!-- Wings spread -->
+      <path d="M0,60 C-50,10 -130,-30 -170,-15 C-140,30 -70,80 -10,90 Z" fill="#e9f4f8" stroke="#8fb5c4" stroke-width="2"/>
+      <path d="M0,60 C50,10 130,-30 170,-15 C140,30 70,80 10,90 Z" fill="#e9f4f8" stroke="#8fb5c4" stroke-width="2"/>
+      <!-- Pelican body -->
+      <ellipse cx="0" cy="70" rx="38" ry="50" fill="#f4f9fc" stroke="#8fb5c4" stroke-width="2"/>
+      <!-- Long beak + throat pouch -->
+      <path d="M30,45 L120,50 L115,70 L35,70 Z" fill="#ffb74d" stroke="#8d5524" stroke-width="2"/>
+      <path d="M40,70 C80,90 110,85 115,70 Z" fill="#ff9e6d" stroke="#8d5524" stroke-width="2"/>
+      <!-- Two feet, one on each pedal: rear-lower pedal (local 45,0) and front-upper pedal (local 95,-18) -->
+      <path d="M-8,120 L32,140" stroke="#d35400" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="34" cy="142" rx="9" ry="5" fill="#e67e22" stroke="#8d5524" stroke-width="1"/>
+      <path d="M42,120 L92,122" stroke="#d35400" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <ellipse cx="94" cy="124" rx="9" ry="5" fill="#e67e22" stroke="#8d5524" stroke-width="1"/>
+      <!-- Speech bubble pointing to mouth with candy answer 29 -->
+      <g transform="translate(140,40)">
+        <rect x="0" y="0" width="90" height="55" rx="12" fill="#fff" stroke="#222" stroke-width="2"/>
+        <polygon points="0,40 -25,50 -5,48" fill="#fff" stroke="#222" stroke-width="2"/>
+        <text x="12" y="40" font-size="24" font-weight="bold" fill="#c62828">29</text>
+      </g>
+    </g>
+
+    <!-- Polar bear straddling pelican's wings: rear foot on left wing, front foot on right wing -->
+    <g transform="translate(650,120)">
+      <ellipse cx="0" cy="40" rx="95" ry="35" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+      <!-- Bear's two hind legs drop to the LEFT wing; two forelegs drop to the RIGHT wing -->
+      <path d="M-75,70 L-145,90 L-125,102 L-65,82 Z" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+      <path d="M75,70 L145,90 L125,102 L65,82 Z" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+      <circle cx="-65" cy="10" r="20" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+      <ellipse cx="-65" cy="20" rx="8" ry="5" fill="#222"/>
+      <ellipse cx="-45" cy="5" rx="5" ry="6" fill="#222"/>
+      <ellipse cx="-85" cy="5" rx="4" ry="6" fill="#222"/>
+      <ellipse cx="-145" cy="92" rx="16" ry="9" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+      <ellipse cx="145" cy="92" rx="16" ry="9" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+      <!-- Bear collar: front 大秦御用, back label 4 -->
+      <path d="M-90,45 Q0,70 90,45" fill="none" stroke="#d32f2f" stroke-width="6"/>
+      <text x="-45" y="68" font-size="14" fill="#d32f2f" font-weight="bold">大秦御用</text>
+      <rect x="-15" y="50" width="30" height="22" fill="#fff" stroke="#000" stroke-width="1.5"/>
+      <text x="-8" y="66" font-size="12" fill="#000">4</text>
+    </g>
+
+    <!-- Qin Shi Huang on bear: black xuan, mianliu, legs on both sides -->
+    <g transform="translate(690,40)">
+      <path d="M-30,80 L30,80 L45,115 L-45,115 Z" fill="#111" stroke="#333" stroke-width="1.5"/>
+      <ellipse cx="0" cy="60" rx="26" ry="30" fill="#111"/>
+      <circle cx="0" cy="30" r="18" fill="#f2d0a4"/>
+      <!-- Mian board + turtle on top -->
+      <rect x="-30" y="-10" width="60" height="22" fill="#333" stroke="#000" stroke-width="1.5"/>
+      <g stroke="#d32f2f" stroke-width="1.5" opacity="0.85">
+        <line x1="-30" y1="-8" x2="-30" y2="8"/>
+        <line x1="-15" y1="-8" x2="-15" y2="8"/>
+        <line x1="0" y1="-8" x2="0" y2="8"/>
+        <line x1="15" y1="-8" x2="15" y2="8"/>
+        <line x1="30" y1="-8" x2="30" y2="8"/>
+      </g>
+      <!-- Turtle on mian board -->
+      <g transform="translate(-5,-35)">
+        <ellipse cx="0" cy="0" rx="22" ry="14" fill="#4a6b3a" stroke="#1a1a1a" stroke-width="1.5"/>
+        <path d="M-10,-8 L0,-12 L10,-8 L8,6 L-8,6 Z" fill="#3a5a2a"/>
+        <circle cx="22" cy="-4" r="7" fill="#5a7a4a" stroke="#1a1a1a" stroke-width="1"/>
+        <!-- Mini elephant on turtle back -->
+        <g transform="translate(-5,-28)">
+          <ellipse cx="0" cy="0" rx="14" ry="10" fill="#9a8a8a" stroke="#333" stroke-width="1"/>
+          <circle cx="-10" cy="-4" r="8" fill="#9a8a8a" stroke="#333" stroke-width="1"/>
+          <path d="M-18,-4 L-25,0 L-22,8 L-16,4 Z" fill="#8a7a7a" stroke="#333" stroke-width="1"/>
+          <rect x="-10" y="6" width="4" height="8" fill="#8a7a7a"/>
+          <rect x="2" y="6" width="4" height="8" fill="#8a7a7a"/>
+          <!-- Glasshouse on elephant back -->
+          <g transform="translate(-15,-18)">
+            <rect x="0" y="0" width="35" height="22" fill="url(#glass)" stroke="#5a6772" stroke-width="1.5"/>
+            <polygon points="0,0 17.5,-12 35,0" fill="#cfe8f8" stroke="#5a6772" stroke-width="1.5"/>
+            <!-- 3 windows on glasshouse, 3 r count -->
+            <rect x="4" y="6" width="8" height="10" fill="#fff" opacity="0.7"/>
+            <rect x="14" y="6" width="8" height="10" fill="#fff" opacity="0.7"/>
+            <rect x="24" y="6" width="8" height="10" fill="#fff" opacity="0.7"/>
+            <!-- Apple tree: 5 apples, 4 red, 1 green on far right -->
+            <g transform="translate(10,0)">
+              <line x1="0" y1="22" x2="0" y2="8" stroke="#5a3a1a" stroke-width="3"/>
+              <circle cx="-12" cy="12" r="8" fill="#3a6b2a"/>
+              <circle cx="0" cy="8" r="9" fill="#3a6b2a"/>
+              <circle cx="12" cy="12" r="8" fill="#3a6b2a"/>
+              <circle cx="-8" cy="14" r="4" fill="#d32f2f"/>
+              <circle cx="0" cy="10" r="4" fill="#d32f2f"/>
+              <circle cx="8" cy="14" r="4" fill="#d32f2f"/>
+              <circle cx="14" cy="10" r="4" fill="#d32f2f"/>
+              <circle cx="18" cy="8" r="4" fill="#3a8a3a"/>
+            </g>
+            <!-- Door sign: 47 -->
+            <rect x="12" y="12" width="12" height="10" fill="#fff" stroke="#333" stroke-width="1"/>
+            <text x="14" y="20" font-size="7" fill="#000">47</text>
+          </g>
+          <!-- Hourglass on branch: top stars, bottom gears -->
+          <g transform="translate(5,-42)">
+            <polygon points="-6,0 6,0 0,10 -6,0 6,0 0,-10 -6,0" fill="url(#glass)" stroke="#5a6772" stroke-width="1"/>
+            <circle cx="-3" cy="-4" r="1.5" fill="#ffd700"/>
+            <circle cx="3" cy="-4" r="1.5" fill="#ffd700"/>
+            <circle cx="0" cy="-2" r="1.5" fill="#ffd700"/>
+            <circle cx="-2" cy="6" r="2.5" fill="none" stroke="#555" stroke-width="1"/>
+            <circle cx="2" cy="6" r="2.5" fill="none" stroke="#555" stroke-width="1"/>
+            <line x1="-2" y1="3" x2="-2" y2="6" stroke="#555" stroke-width="0.5"/>
+            <line x1="2" y1="3" x2="2" y2="6" stroke="#555" stroke-width="0.5"/>
+            <!-- Octopus on hourglass top -->
+            <g transform="translate(0,-28)">
+              <ellipse cx="0" cy="0" rx="12" ry="10" fill="#e97e8c" stroke="#8a3a4a" stroke-width="1"/>
+              <circle cx="-5" cy="-2" r="3" fill="#fff"/>
+              <circle cx="5" cy="-2" r="3" fill="#fff"/>
+              <circle cx="-5" cy="-2" r="1.5" fill="#222"/>
+              <circle cx="5" cy="-2" r="1.5" fill="#222"/>
+              <!-- Helmet -->
+              <path d="M-12,-5 A12,10 0 0,1 12,-5" fill="none" stroke="#8fa3b3" stroke-width="2"/>
+              <circle cx="0" cy="-16" r="7" fill="#e97e8c" stroke="#8fa3b3" stroke-width="1.5"/>
+              <!-- Teacup on helmet -->
+              <g transform="translate(0,-24)">
+                <rect x="-5" y="-8" width="10" height="8" rx="2" fill="#fff" stroke="#5a6772" stroke-width="1"/>
+                <path d="M5,-5 L8,-5 L8,-2 L5,-2" fill="none" stroke="#5a6772" stroke-width="1"/>
+                <!-- Island in teacup -->
+                <ellipse cx="0" cy="2" rx="4" ry="1.5" fill="#4a6b3a"/>
+                <polygon points="-2,1 0,-4 2,1" fill="#fff" stroke="#5a6772" stroke-width="0.5"/>
+                <!-- Glass sphere on lighthouse: outermost. Inside: layer-1 simplified picture (aircraft nose RIGHT). Layer 1 contains a smaller glass sphere with layer-2 simplified picture (nose LEFT), which ends with a single gold dot (no further recursion). -->
+                <circle cx="0" cy="-8" r="8" fill="url(#glass)" stroke="#5a6772" stroke-width="1"/>
+                <!-- Layer 1: simplified aircraft, nose to the right -->
+                <g transform="translate(0,-8)">
+                  <path d="M-7,-1 L6,-1 L6,3 L-7,3 Z" fill="#cfd8dc" stroke="#5a6772" stroke-width="0.5"/>
+                  <polygon points="6,-1 9,1 6,3" fill="#cfd8dc" stroke="#5a6772" stroke-width="0.5"/>
+                  <circle cx="0" cy="-3" r="1.6" fill="url(#glass)" stroke="#5a6772" stroke-width="0.4"/>
+                  <!-- Layer 2: simplified aircraft, nose to the left; ends with a gold dot -->
+                  <g transform="translate(0,-3) scale(0.55)">
+                    <path d="M-5,-1 L5,-1 L5,1 L-5,1 Z" fill="#eceff1" stroke="#5a6772" stroke-width="0.5"/>
+                    <polygon points="-5,-1 -7,0 -5,1" fill="#eceff1" stroke="#5a6772" stroke-width="0.5"/>
+                    <circle cx="0" cy="0" r="1.2" fill="#d4af37"/>
+                  </g>
+                </g>
+              </g>
+              <!-- 8 tentacles: 2 hold chalkboards, 6 hold flags -->
+              <path d="M-12,6 C-20,10 -25,18 -22,25" fill="none" stroke="#e97e8c" stroke-width="4"/>
+              <path d="M12,6 C20,10 25,18 22,25" fill="none" stroke="#e97e8c" stroke-width="4"/>
+              <path d="M-8,8 C-12,15 -12,22 -10,28" fill="none" stroke="#e97e8c" stroke-width="4"/>
+              <path d="M8,8 C12,15 12,22 10,28" fill="none" stroke="#e97e8c" stroke-width="4"/>
+              <path d="M-4,10 C-6,18 -6,26 -4,32" fill="none" stroke="#e97e8c" stroke-width="4"/>
+              <path d="M4,10 C6,18 6,26 4,32" fill="none" stroke="#e97e8c" stroke-width="4"/>
+              <path d="M-16,4 C-25,8 -30,15 -28,22" fill="none" stroke="#e97e8c" stroke-width="4"/>
+              <path d="M16,4 C25,8 30,15 28,22" fill="none" stroke="#e97e8c" stroke-width="4"/>
+              <!-- Chalkboard 1: ball puzzle answer 0.05 -->
+              <rect x="-28" y="22" width="24" height="18" fill="#2a2a2a" stroke="#5a3a1a" stroke-width="1.5"/>
+              <text x="-26" y="34" font-size="10" fill="#fff">0.05</text>
+              <!-- Chalkboard 2: 9.11 < 9.9 -->
+              <rect x="4" y="22" width="24" height="18" fill="#2a2a2a" stroke="#5a3a1a" stroke-width="1.5"/>
+              <text x="6" y="34" font-size="8" fill="#fff">9.11＜9.9</text>
+              <!-- 6 flags in 6 colors -->
+              <g>
+                <line x1="-10" y1="28" x2="-10" y2="40" stroke="#333" stroke-width="1.5"/>
+                <polygon points="-10,28 -10,34 -20,31" fill="#d32f2f"/>
+                <line x1="-4" y1="32" x2="-4" y2="44" stroke="#333" stroke-width="1.5"/>
+                <polygon points="-4,32 -4,38 -14,35" fill="#1a237e"/>
+                <line x1="4" y1="32" x2="4" y2="44" stroke="#333" stroke-width="1.5"/>
+                <polygon points="4,32 4,38 -6,35" fill="#ffd700"/>
+                <line x1="10" y1="28" x2="10" y2="40" stroke="#333" stroke-width="1.5"/>
+                <polygon points="10,28 10,34 0,31" fill="#4caf50"/>
+                <line x1="16" y1="22" x2="16" y2="34" stroke="#333" stroke-width="1.5"/>
+                <polygon points="16,22 16,28 6,25" fill="#ff9800"/>
+                <line x1="22" y1="22" x2="22" y2="34" stroke="#333" stroke-width="1.5"/>
+                <polygon points="22,22 22,28 12,25" fill="#9c27b0"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <!-- Qin right hand with electric screwdriver: tip aligns with the single "being driven" screw -->
+      <path d="M30,65 C45,55 55,48 62,42" stroke="#f2d0a4" stroke-width="8" fill="none" stroke-linecap="round"/>
+      <rect x="-10" y="32" width="44" height="12" rx="4" fill="#263238" stroke="#000" stroke-width="1.5"/>
+      <rect x="-20" y="34" width="12" height="8" fill="#37474f"/>
+      <!-- Slot tip contacting the being-driven screw head at (34,36) -->
+      <line x1="-20" y1="36" x2="-34" y2="36" stroke="#37474f" stroke-width="3"/>
+      <circle cx="-34" cy="36" r="5" fill="#f5f5f5" stroke="#5a3a1a" stroke-width="1"/>
+      <line x1="-38" y1="36" x2="-30" y2="36" stroke="#5a3a1a" stroke-width="1"/>
+      <!-- Left hand holds metal plate on saddle -->
+      <path d="M-26,60 C-40,55 -50,45 -45,35" stroke="#f2d0a4" stroke-width="8" fill="none" stroke-linecap="round"/>
+      <!-- Metal plate: 6 holes arranged 3×2; top row = 3 tightened screws, middle = 1 being driven (with visible slot), bottom = 2 empty holes -->
+      <rect x="-70" y="20" width="50" height="30" fill="#9a9a9a" stroke="#333" stroke-width="1.5"/>
+      <circle cx="-60" cy="30" r="5" fill="#d0a438" stroke="#5a3a1a" stroke-width="1"/>
+      <circle cx="-60" cy="42" r="5" fill="#d0a438" stroke="#5a3a1a" stroke-width="1"/>
+      <circle cx="-50" cy="30" r="5" fill="#d0a438" stroke="#5a3a1a" stroke-width="1"/>
+      <circle cx="-50" cy="42" r="5" fill="#fff" stroke="#5a3a1a" stroke-width="1"/>
+      <circle cx="-40" cy="30" r="5" fill="#d0a438" stroke="#5a3a1a" stroke-width="1"/>
+      <circle cx="-40" cy="42" r="5" fill="#fff" stroke="#5a3a1a" stroke-width="1"/>
+      <!-- Being-driven screw (slot + cross mark to distinguish) -->
+      <circle cx="-40" cy="42" r="5" fill="#f5f5f5" stroke="#5a3a1a" stroke-width="1"/>
+      <line x1="-44" y1="42" x2="-36" y2="42" stroke="#5a3a1a" stroke-width="1"/>
+      <line x1="-40" y1="38" x2="-40" y2="46" stroke="#5a3a1a" stroke-width="1"/>
+      <!-- Side text on screwdriver: machine puzzle answer 5 -->
+      <text x="55" y="38" font-size="10" fill="#111">5</text>
+      <!-- Left sleeve: 秦 gold embroidery -->
+      <text x="-40" y="68" font-size="14" fill="#d0a438" font-weight="bold">秦</text>
+      <!-- Saddle lamp: 2 total, one each side -->
+      <circle cx="-80" cy="60" r="6" fill="#ffd700" stroke="#d32f2f" stroke-width="1.5"/>
+      <circle cx="80" cy="60" r="6" fill="#ffd700" stroke="#d32f2f" stroke-width="1.5"/>
+      <!-- Password lock on saddle: A=5 (ball 0.05×100), B=5 (machine), C=47 (duckweed) → A+B+C=57 -->
+      <rect x="-12" y="90" width="24" height="16" fill="#333" stroke="#000" stroke-width="1.5"/>
+      <text x="-4" y="102" font-size="10" fill="#fff">57</text>
+    </g>
+  </g>
+
+  <!-- Hot air balloon near plane: 23, Tower of Hanoi 127 -->
+  <g transform="translate(1400,700)">
+    <path d="M0,0 C-50,-50 -50,-100 0,-100 C50,-100 50,-50 0,0 Z" fill="#d32f2f" stroke="#7a1a1a" stroke-width="2"/>
+    <rect x="-12" y="0" width="24" height="20" fill="#5a3a1a" stroke="#2a1a08" stroke-width="1.5"/>
+    <text x="-8" y="14" font-size="10" fill="#fff">23</text>
+    <!-- Hanoi model under balloon: 3 pegs, 7 disks, 127 steps -->
+    <g transform="translate(0,30)">
+      <rect x="-40" y="0" width="4" height="40" fill="#5a3a1a"/>
+      <rect x="-2" y="0" width="4" height="40" fill="#5a3a1a"/>
+      <rect x="36" y="0" width="4" height="40" fill="#5a3a1a"/>
+      <g fill="#8a6a4a" stroke="#2a1a08" stroke-width="1">
+        <rect x="-40" y="-5" width="40" height="5"/>
+        <rect x="-40" y="-10" width="38" height="5"/>
+        <rect x="-40" y="-15" width="36" height="5"/>
+        <rect x="-40" y="-20" width="34" height="5"/>
+        <rect x="-40" y="-25" width="32" height="5"/>
+        <rect x="-40" y="-30" width="30" height="5"/>
+        <rect x="-40" y="-35" width="28" height="5"/>
+      </g>
+      <text x="60" y="20" font-size="14" fill="#111">127</text>
+    </g>
+  </g>
+
+  <!-- Cloud pond: wolf-sheep-cabbage crossing order, with arrows -->
+  <g transform="translate(1300,1050)">
+    <ellipse cx="0" cy="0" rx="150" ry="50" fill="#a8d0e0" stroke="#5a8a9a" stroke-width="2" opacity="0.85"/>
+    <text x="-140" y="-60" font-size="16" fill="#333" font-weight="bold">狼-羊-菜过河（箭头顺序）</text>
+    <!-- 7-step legal crossing sequence, each step with a connecting arrow -->
+    <g font-size="11" fill="#111">
+      <!-- Step 1: farmer + sheep cross -->
+      <text x="-140" y="-30">1. 农夫带羊→对岸</text>
+      <polygon points="-14,-22 -4,-28 -4,-16" fill="#333"/>
+      <!-- Step 2: farmer alone returns -->
+      <text x="0" y="-10">2. 农夫←独自返航</text>
+      <polygon points="62,-2 72,-8 72,4" fill="#333"/>
+      <!-- Step 3: farmer + wolf cross -->
+      <text x="80" y="10">3. 农夫带狼→对岸</text>
+      <polygon points="154,18 164,12 164,24" fill="#333"/>
+      <!-- Step 4: farmer + sheep returns -->
+      <text x="170" y="30">4. 农夫带羊←返航</text>
+      <polygon points="244,38 254,32 254,44" fill="#333"/>
+      <!-- Step 5: farmer + cabbage cross -->
+      <text x="-140" y="50">5. 农夫带菜→对岸</text>
+      <polygon points="-66,58 -56,52 -56,64" fill="#333"/>
+      <!-- Step 6: farmer alone returns -->
+      <text x="-50" y="70">6. 农夫←独自返航</text>
+      <polygon points="24,78 34,72 34,84" fill="#333"/>
+      <!-- Step 7: farmer + sheep cross (final) -->
+      <text x="40" y="90">7. 农夫带羊→对岸 ✓</text>
+    </g>
+  </g>
+
+  <!-- Two separate boarding passes: snail puzzle on one, cat puzzle on the other -->
+  <g transform="translate(140,1300)">
+    <rect x="0" y="0" width="150" height="60" rx="8" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+    <text x="12" y="24" font-size="14" fill="#111" font-weight="bold">登机牌 A</text>
+    <text x="12" y="48" font-size="14" fill="#111">蜗牛爬井：8 天</text>
+  </g>
+  <g transform="translate(140,1370)">
+    <rect x="0" y="0" width="150" height="60" rx="8" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+    <text x="12" y="24" font-size="14" fill="#111" font-weight="bold">登机牌 B</text>
+    <text x="12" y="48" font-size="14" fill="#111">百猫百鼠：5 只猫</text>
+  </g>
+
+  <!-- Yellow repair sticker: three boxes mislabeled; the box to sample is "苹果桃子混合" — draw a mechanical hand reaching in to take one fruit -->
+  <g transform="translate(40,1300)">
+    <rect x="0" y="0" width="90" height="70" fill="#ffd54f" stroke="#5a3a1a" stroke-width="2" opacity="0.9"/>
+    <text x="5" y="15" font-size="10" fill="#222">全苹果</text>
+    <text x="5" y="35" font-size="10" fill="#222">全桃子</text>
+    <text x="5" y="55" font-size="10" fill="#222">苹果桃子混合</text>
+    <!-- Box outlines (three boxes side by side) -->
+    <rect x="2" y="10" width="26" height="55" fill="none" stroke="#5a3a1a" stroke-width="1"/>
+    <rect x="32" y="10" width="26" height="55" fill="none" stroke="#5a3a1a" stroke-width="1"/>
+    <rect x="62" y="10" width="26" height="55" fill="none" stroke="#5a3a1a" stroke-width="1"/>
+    <!-- Mechanical hand reaching into the "mixed" box (3rd box), taking out one fruit -->
+    <g transform="translate(60,80)">
+      <line x1="0" y1="0" x2="12" y2="-18" stroke="#555" stroke-width="4"/>
+      <circle cx="14" cy="-20" r="4" fill="#888" stroke="#333" stroke-width="1"/>
+      <path d="M12,-14 L20,-10 M12,-24 L20,-18 M12,-18 L22,-14" stroke="#888" stroke-width="2"/>
+      <text x="18" y="6" font-size="8" fill="#222">取出一个水果</text>
+    </g>
+  </g>
+
+  <!-- Color-word interference sign -->
+  <g transform="translate(520,1300)">
+    <rect x="0" y="0" width="220" height="70" fill="#fff" stroke="#333" stroke-width="2"/>
+    <text x="20" y="35" font-size="24" font-weight="bold">
+      <tspan fill="#1a237e">红</tspan>
+      <tspan fill="#1a5a3a">蓝</tspan>
+      <tspan fill="#d32f2f">绿</tspan>
+    </text>
+    <text x="20" y="60" font-size="12" fill="#111">读墨色，不读字义：蓝、绿、红</text>
+  </g>
+
+  <!-- Two equal-length horizontal lines with identical body length; one has inward arrows, one has outward arrows; label 等长 -->
+  <g transform="translate(110,1400)">
+    <line x1="0" y1="0" x2="200" y2="0" stroke="#111" stroke-width="3"/>
+    <polygon points="0,0 15,-8 15,8" fill="#111"/>
+    <polygon points="200,0 185,-8 185,8" fill="#111"/>
+    <line x1="0" y1="30" x2="200" y2="30" stroke="#111" stroke-width="3"/>
+    <polygon points="0,30 -15,22 -15,38" fill="#111"/>
+    <polygon points="200,30 215,22 215,38" fill="#111"/>
+    <text x="220" y="20" font-size="16" fill="#111">等长</text>
+  </g>
+
+  <!-- Micro robot with syllogism card: "不必然成立" -->
+  <g transform="translate(560,1380)">
+    <rect x="0" y="0" width="140" height="80" rx="10" fill="#333" stroke="#000" stroke-width="2"/>
+    <circle cx="20" cy="20" r="12" fill="#9a9a9a"/>
+    <rect x="40" y="10" width="80" height="40" fill="#fff"/>
+    <text x="45" y="25" font-size="10" fill="#111">所有玫瑰都是花；</text>
+    <text x="45" y="40" font-size="10" fill="#111">有些花很快凋谢；</text>
+    <text x="45" y="55" font-size="10" fill="#111">因此有些玫瑰很快凋谢。</text>
+    <text x="20" y="65" font-size="12" fill="#d32f2f" font-weight="bold">不必然成立</text>
+  </g>
+
+  <!-- Second micro robot: 84% -->
+  <g transform="translate(760,1380)">
+    <rect x="0" y="0" width="120" height="80" rx="10" fill="#333" stroke="#000" stroke-width="2"/>
+    <circle cx="20" cy="20" r="12" fill="#9a9a9a"/>
+    <rect x="40" y="10" width="70" height="40" fill="#fff"/>
+    <text x="45" y="28" font-size="12" fill="#111">20%再-20%</text>
+    <text x="45" y="45" font-size="16" fill="#d32f2f" font-weight="bold">96%</text>
+  </g>
+
+  <!-- Palindrome banner: 上海自来水来自海上 -->
+  <g transform="translate(950,1380)">
+    <rect x="0" y="0" width="280" height="50" fill="#ffd54f" stroke="#5a3a1a" stroke-width="2"/>
+    <text x="20" y="30" font-size="18" fill="#222" font-weight="bold">上海自来水来自海上</text>
+  </g>
+
+  <!-- Cards: A D 4 7, only A and 4 have gold borders -->
+  <g transform="translate(1280,1400)">
+    <g>
+      <rect x="0" y="0" width="60" height="70" fill="#fff" stroke="#d0a438" stroke-width="4"/>
+      <text x="18" y="40" font-size="32" fill="#111">A</text>
+    </g>
+    <g transform="translate(80,0)">
+      <rect x="0" y="0" width="60" height="70" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+      <text x="18" y="40" font-size="32" fill="#111">D</text>
+    </g>
+    <g transform="translate(160,0)">
+      <rect x="0" y="0" width="60" height="70" fill="#fff" stroke="#d0a438" stroke-width="4"/>
+      <text x="18" y="40" font-size="32" fill="#111">4</text>
+    </g>
+    <g transform="translate(240,0)">
+      <rect x="0" y="0" width="60" height="70" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+      <text x="18" y="40" font-size="32" fill="#111">7</text>
+    </g>
+  </g>
+
+  <!-- Monty Hall: 2/3 beside door 2 -->
+  <g transform="translate(1000,1400)">
+    <rect x="0" y="0" width="160" height="80" fill="#fff" stroke="#5a6772" stroke-width="2"/>
+    <text x="10" y="25" font-size="14" fill="#111" font-weight="bold">三门问题</text>
+    <text x="10" y="45" font-size="12" fill="#111">初选 1 号门</text>
+    <text x="10" y="65" font-size="12" fill="#111">打开 3 号门（羊）</text>
+    <text x="120" y="45" font-size="20" fill="#d32f2f" font-weight="bold">2/3</text>
+  </g>
+
+  <!-- Cargo-hold balance: 1 kg iron vs 1 kg cotton; beam stays level because the cotton pile is drawn much larger -->
+  <g transform="translate(280,1500)">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#333" stroke-width="4"/>
+    <line x1="-100" y1="0" x2="100" y2="0" stroke="#333" stroke-width="4"/>
+    <polygon points="0,40 -20,60 20,60" fill="#333"/>
+    <rect x="-120" y="-20" width="40" height="40" fill="#555" stroke="#111" stroke-width="2"/>
+    <text x="-110" y="5" font-size="14" fill="#fff">1 kg</text>
+    <text x="-115" y="20" font-size="10" fill="#fff">铁</text>
+    <circle cx="80" cy="0" r="30" fill="#fff" stroke="#333" stroke-width="2"/>
+    <text x="68" y="-5" font-size="14" fill="#111">1 kg</text>
+    <text x="72" y="12" font-size="10" fill="#111">棉花</text>
+    <text x="-140" y="55" font-size="14" fill="#111">水平</text>
+  </g>
+
+  <!-- Worst-case record board: N=29, N-1=28, fixed order: 圆苹果 7, 圆桃子 9, 圆西瓜 8, 星苹果 0, 星桃子 0, 星西瓜 4 -->
+  <g transform="translate(1280,1600)">
+    <rect x="0" y="0" width="280" height="70" fill="#333" stroke="#000" stroke-width="2"/>
+    <text x="10" y="20" font-size="14" fill="#ffd54f">最坏情况记录板</text>
+    <text x="10" y="40" font-size="10" fill="#fff">圆苹果 7 圆桃 9 圆瓜 8 星苹果 0 星桃 0 星瓜 4</text>
+    <text x="10" y="60" font-size="10" fill="#fff">共 28</text>
+  </g>
+
+  <!-- 3 penguins on distant ice: red, blue (fish), green (glasses) -->
+  <g transform="translate(100,1700)">
+    <text x="0" y="0" font-size="14" fill="#111">远处浮冰上的企鹅</text>
+    <g transform="translate(0,30)">
+      <ellipse cx="0" cy="20" rx="25" ry="30" fill="#333"/>
+      <ellipse cx="0" cy="15" rx="12" ry="20" fill="#fff"/>
+      <circle cx="0" cy="0" r="15" fill="#333"/>
+      <polygon points="-5,-10 0,-18 5,-10" fill="#d32f2f"/>
+      <ellipse cx="0" cy="20" rx="35" ry="5" fill="#e0f0f5" opacity="0.6"/>
+    </g>
+    <g transform="translate(80,30)">
+      <ellipse cx="0" cy="20" rx="25" ry="30" fill="#333"/>
+      <ellipse cx="0" cy="15" rx="12" ry="20" fill="#fff"/>
+      <circle cx="0" cy="0" r="15" fill="#333"/>
+      <polygon points="-5,-10 0,-18 5,-10" fill="#1a237e"/>
+      <line x1="18" y1="15" x2="30" y2="5" stroke="#5a3a1a" stroke-width="2"/>
+      <ellipse cx="0" cy="20" rx="35" ry="5" fill="#e0f0f5" opacity="0.6"/>
+    </g>
+    <g transform="translate(160,30)">
+      <ellipse cx="0" cy="20" rx="25" ry="30" fill="#333"/>
+      <ellipse cx="0" cy="15" rx="12" ry="20" fill="#fff"/>
+      <circle cx="0" cy="0" r="15" fill="#333"/>
+      <polygon points="-5,-10 0,-18 5,-10" fill="#2e7d32"/>
+      <circle cx="5" cy="-5" r="8" fill="none" stroke="#333" stroke-width="1.5"/>
+      <line x1="-3" y1="-5" x2="-10" y2="-5" stroke="#333" stroke-width="1.5"/>
+      <ellipse cx="0" cy="20" rx="35" ry="5" fill="#e0f0f5" opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- Wake: 6 markers red circle, blue star, green circle, red star, blue circle, green star -->
+  <g transform="translate(900,1500)">
+    <text x="0" y="-10" font-size="14" fill="#111">尾流标记</text>
+    <circle cx="0" cy="20" r="8" fill="#d32f2f"/>
+    <polygon points="40,12 45,20 40,28 35,20" fill="#1a237e"/>
+    <circle cx="80" cy="20" r="8" fill="#2e7d32"/>
+    <polygon points="120,12 125,20 120,28 115,20" fill="#d32f2f"/>
+    <circle cx="160" cy="20" r="8" fill="#1a237e"/>
+    <polygon points="200,12 205,20 200,28 195,20" fill="#2e7d32"/>
+  </g>
+
+  <!-- Border: 8 matryoshka-style seals from top to bottom, k^2, shrinking outline -->
+  <g transform="translate(1830,80)">
+    <text x="20" y="0" font-size="12" fill="#111">套娃形检验章</text>
+    <g transform="translate(20,30)">
+      <circle cx="40" cy="40" r="45" fill="#fff" stroke="#d32f2f" stroke-width="3"/>
+      <text x="28" y="48" font-size="28" fill="#d32f2f">1</text>
+      <circle cx="40" cy="120" r="38" fill="#fff" stroke="#d32f2f" stroke-width="2.5"/>
+      <text x="24" y="126" font-size="22" fill="#d32f2f">4</text>
+      <circle cx="40" cy="210" r="32" fill="#fff" stroke="#d32f2f" stroke-width="2"/>
+      <text x="24" y="215" font-size="18" fill="#d32f2f">9</text>
+      <circle cx="40" cy="290" r="28" fill="#fff" stroke="#d32f2f" stroke-width="2"/>
+      <text x="24" y="295" font-size="14" fill="#d32f2f">16</text>
+      <circle cx="40" cy="360" r="24" fill="#fff" stroke="#d32f2f" stroke-width="1.5"/>
+      <text x="26" y="364" font-size="12" fill="#d32f2f">25</text>
+      <circle cx="40" cy="420" r="20" fill="#fff" stroke="#d32f2f" stroke-width="1"/>
+      <text x="28" y="423" font-size="10" fill="#d32f2f">36</text>
+      <circle cx="40" cy="475" r="18" fill="#fff" stroke="#d32f2f" stroke-width="1"/>
+      <text x="30" y="478" font-size="8" fill="#d32f2f">49</text>
+      <circle cx="40" cy="525" r="16" fill="#fff" stroke="#d32f2f" stroke-width="0.8"/>
+      <text x="32" y="527" font-size="7" fill="#d32f2f">64</text>
+    </g>
+  </g>
+
+  <!-- Bottom verification strip: 63 2 8 4 -->
+  <g transform="translate(0,2280)">
+    <rect x="0" y="0" width="1920" height="120" fill="#1a237e" stroke="#000" stroke-width="4"/>
+    <text x="40" y="40" font-size="20" fill="#fff" font-weight="bold">核验条</text>
+    <g font-size="24" fill="#ffd54f">
+      <text x="100" y="90">糖果总数: 41</text>
+      <text x="420" y="90">空孔数: 2</text>
+      <text x="740" y="90">章鱼腕足: 8</text>
+      <text x="1060" y="90">发动机: 4</text>
+    </g>
+  </g>
+</svg>

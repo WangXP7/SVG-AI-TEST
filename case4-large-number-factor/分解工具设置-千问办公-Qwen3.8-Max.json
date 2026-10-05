@@ -1,0 +1,10 @@
+{
+ "theme": "经典简洁",
+ "input": "10^50",
+ "limit": "不限时",
+ "procs": "40",
+ "per_group": "4",
+ "algo": "自动（p-1→rho）",
+ "mode": "two",
+ "detail": false
+}

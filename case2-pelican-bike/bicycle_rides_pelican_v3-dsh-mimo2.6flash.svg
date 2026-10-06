@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 迭代2（v3）：完整骑乘系统（鞍垫+肚带+缰绳）、车架高光、鹈鹕半展翅膀平衡、蹄下动感弧、路牌标语 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+  <title>自行车骑鹈鹕 —— 自行车是骑手，鹈鹕是坐骑，不是鹈鹕骑自行车</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5eb2ec"/>
+      <stop offset="1" stop-color="#dcf2fd"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a97a3"/>
+      <stop offset="1" stop-color="#69737d"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff6b6b"/>
+      <stop offset="0.5" stop-color="#d93b3b"/>
+      <stop offset="1" stop-color="#9e1f1f"/>
+    </linearGradient>
+    <radialGradient id="sunglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3b0" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fff3b0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="410" fill="url(#sky)"/>
+  <circle cx="870" cy="72" r="70" fill="url(#sunglow)"/>
+  <circle cx="870" cy="72" r="38" fill="#ffd95e"/>
+  <g fill="#ffffff" opacity="0.78">
+    <ellipse cx="170" cy="85" rx="66" ry="22"/>
+    <ellipse cx="230" cy="102" rx="54" ry="18"/>
+    <ellipse cx="760" cy="140" rx="72" ry="22"/>
+    <ellipse cx="700" cy="158" rx="56" ry="16"/>
+  </g>
+  <!-- 远处飞鸟 -->
+  <g stroke="#5b7386" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M360,120 q8,-8 16,0 q8,-8 16,0"/>
+    <path d="M420,150 q6,-6 12,0 q6,-6 12,0"/>
+  </g>
+  <path d="M0,330 L150,262 L300,330 L450,275 L620,330 L780,285 L960,330 L960,410 L0,410 Z" fill="#9fc49a"/>
+  <path d="M0,352 L150,292 L300,352 L450,302 L620,352 L780,310 L960,352 L960,410 L0,410 Z" fill="#8db98a"/>
+
+  <rect y="410" width="960" height="150" fill="#7fb069"/>
+  <g stroke="#5e9150" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M60,430 L56,414 M70,430 L74,416 M80,430 L78,418"/>
+    <path d="M880,430 L876,414 M890,430 L894,416 M900,430 L898,418"/>
+    <path d="M470,430 L466,416 M480,430 L484,418"/>
+    <path d="M220,430 L216,415 M230,430 L234,417"/>
+  </g>
+  <rect y="432" width="960" height="52" fill="url(#road)"/>
+  <line x1="0" y1="458" x2="960" y2="458" stroke="#ffffff" stroke-width="5" stroke-dasharray="30 22" opacity="0.9"/>
+
+  <!-- 路牌：方向标语 -->
+  <g transform="translate(84,318)">
+    <rect x="-4" y="0" width="8" height="112" fill="#8a6a45"/>
+    <rect x="-62" y="-46" width="132" height="52" rx="8" fill="#2e7d32" stroke="#ffffff" stroke-width="3"/>
+    <polygon points="70,-36 96,-20 70,-4" fill="#2e7d32" stroke="#ffffff" stroke-width="3"/>
+    <text x="-52" y="-24" font-size="16" font-weight="bold" fill="#ffffff">骑手在此</text>
+    <text x="-52" y="-4" font-size="13" fill="#c8e6c9">→ 鹈鹕代步</text>
+  </g>
+
+  <!-- ===== 鹈鹕（坐骑） ===== -->
+  <g id="pelican">
+    <ellipse cx="520" cy="446" rx="128" ry="11" fill="#000" opacity="0.16"/>
+    <!-- 蹄下动感弧 -->
+    <g stroke="#ffffff" stroke-width="3" fill="none" opacity="0.6" stroke-linecap="round">
+      <path d="M640,428 C656,414 674,410 692,416"/>
+      <path d="M404,436 C388,424 372,422 356,428"/>
+      <path d="M516,444 C528,432 542,428 556,432"/>
+    </g>
+    <!-- 尾羽 -->
+    <path d="M622,338 C656,316 690,312 706,320 C690,344 684,358 682,370 L616,364 Z" fill="#f3ead8" stroke="#b98d5a" stroke-width="3"/>
+    <path d="M640,332 L678,336 M636,348 L674,354" stroke="#d9c9a8" stroke-width="2.5"/>
+    <!-- 半展的翅膀（奔跑平衡） -->
+    <path d="M540,318 C588,296 654,304 692,330 C660,344 640,356 634,372 C604,356 566,352 536,356 C520,344 522,326 540,318 Z" fill="#f3ead8" stroke="#b98d5a" stroke-width="3"/>
+    <path d="M560,330 C596,324 632,330 660,344 M556,344 C590,340 620,346 644,358" fill="none" stroke="#d9c9a8" stroke-width="3"/>
+    <!-- 身体 -->
+    <ellipse cx="520" cy="352" rx="112" ry="60" fill="#f7f1e3" stroke="#b98d5a" stroke-width="3"/>
+    <path d="M448,384 C470,406 540,412 596,396" fill="none" stroke="#e5d8be" stroke-width="5" stroke-linecap="round"/>
+    <!-- 腿（奔跑） -->
+    <path d="M575,402 C596,414 618,424 632,432" stroke="#e8873a" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <polygon points="644,440 616,430 632,447" fill="#e8873a" stroke="#b35f1e" stroke-width="2"/>
+    <path d="M540,404 C528,420 520,432 516,442" stroke="#e8873a" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <polygon points="506,450 528,438 524,454" fill="#e8873a" stroke="#b35f1e" stroke-width="2"/>
+    <path d="M458,404 C440,418 424,430 414,438" stroke="#e8873a" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <polygon points="400,446 430,438 414,454" fill="#e8873a" stroke="#b35f1e" stroke-width="2"/>
+    <path d="M486,400 C484,416 486,428 490,440" stroke="#e8873a" stroke-width="9" stroke-linecap="round" fill="none"/>
+    <polygon points="482,450 502,440 496,454" fill="#e8873a" stroke="#b35f1e" stroke-width="2"/>
+    <!-- 肚带（鞍具系统：从鞍垫绕过腹部） -->
+    <path d="M486,398 C498,412 512,418 528,420" fill="none" stroke="#7a4a1e" stroke-width="6" stroke-linecap="round"/>
+    <path d="M596,388 C588,404 574,414 558,418" fill="none" stroke="#7a4a1e" stroke-width="6" stroke-linecap="round"/>
+    <!-- 长颈 -->
+    <path d="M452,322 C408,300 372,268 348,246" fill="none" stroke="#b98d5a" stroke-width="30" stroke-linecap="round"/>
+    <path d="M452,322 C408,300 372,268 348,246" fill="none" stroke="#f7f1e3" stroke-width="24" stroke-linecap="round"/>
+    <!-- 头 -->
+    <circle cx="334" cy="240" r="25" fill="#f7f1e3" stroke="#b98d5a" stroke-width="3"/>
+    <path d="M318,222 L334,218" stroke="#8a6231" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="327" cy="233" r="4.5" fill="#20160a"/>
+    <circle cx="328.5" cy="231.5" r="1.5" fill="#fff"/>
+    <!-- 喙+囊 -->
+    <path d="M316,234 L176,244 L179,253 L314,251 Z" fill="#f5a759" stroke="#c9752f" stroke-width="2.5"/>
+    <path d="M314,251 C292,272 246,278 206,268 C238,284 286,284 314,264 Z" fill="#e07a33" stroke="#c9752f" stroke-width="2.5"/>
+    <path d="M314,251 C292,286 214,294 179,256 C220,268 272,266 314,251 Z" fill="#ef8b3d" stroke="#c9752f" stroke-width="2.5"/>
+    <circle cx="311" cy="252" r="5.5" fill="none" stroke="#7a4a1e" stroke-width="3"/>
+    <!-- 汗滴 -->
+    <path d="M352,214 C356,206 362,208 360,216 C358,222 352,222 352,214 Z" fill="#7ec8f2" stroke="#4aa3d8" stroke-width="1.5"/>
+  </g>
+
+  <!-- ===== 自行车（骑手） ===== -->
+  <g id="bicycle">
+    <!-- 鞍垫+毯边流苏 -->
+    <path d="M474,300 C510,286 566,286 604,300 L596,326 C560,314 514,314 480,326 Z" fill="#c62828" stroke="#8e1b1b" stroke-width="2.5"/>
+    <g stroke="#ffd54f" stroke-width="2.5" stroke-linecap="round">
+      <path d="M482,328 L480,340 M496,330 L495,342 M510,331 L510,343 M584,331 L585,343 M596,329 L598,341"/>
+    </g>
+    <!-- 远侧轮 -->
+    <circle cx="552" cy="252" r="38" fill="none" stroke="#4a4a4a" stroke-width="4" opacity="0.55"/>
+    <!-- 近后轮 -->
+    <g>
+      <circle cx="575" cy="262" r="42" fill="none" stroke="#242424" stroke-width="6"/>
+      <g stroke="#8d8d8d" stroke-width="1.6">
+        <line x1="533" y1="262" x2="617" y2="262"/><line x1="575" y1="220" x2="575" y2="304"/>
+        <line x1="545" y1="232" x2="605" y2="292"/><line x1="605" y1="232" x2="545" y2="292"/>
+        <line x1="559" y1="226" x2="591" y2="298"/><line x1="591" y1="226" x2="559" y2="298"/>
+      </g>
+      <circle cx="575" cy="262" r="5" fill="#555"/>
+    </g>
+    <!-- 近前轮 -->
+    <g>
+      <circle cx="465" cy="262" r="42" fill="none" stroke="#242424" stroke-width="6"/>
+      <g stroke="#8d8d8d" stroke-width="1.6">
+        <line x1="423" y1="262" x2="507" y2="262"/><line x1="465" y1="220" x2="465" y2="304"/>
+        <line x1="435" y1="232" x2="495" y2="292"/><line x1="495" y1="232" x2="435" y2="292"/>
+        <line x1="449" y1="226" x2="481" y2="298"/><line x1="481" y1="226" x2="449" y2="298"/>
+      </g>
+      <circle cx="465" cy="262" r="5" fill="#555"/>
+    </g>
+    <!-- 车架（渐变红+高光） -->
+    <g stroke="url(#frame)" stroke-width="7" fill="none" stroke-linecap="round">
+      <path d="M575,262 L520,264 L560,210 Z"/>
+      <path d="M520,264 L478,205"/>
+      <path d="M560,210 L478,205"/>
+      <path d="M478,205 L465,262"/>
+    </g>
+    <g stroke="#ff9f9f" stroke-width="1.6" fill="none" opacity="0.7">
+      <path d="M558,214 L482,210 M516,266 L474,209"/>
+    </g>
+    <!-- 牙盘+脚踏 -->
+    <circle cx="520" cy="264" r="10" fill="none" stroke="#333" stroke-width="3"/>
+    <line x1="520" y1="264" x2="504" y2="278" stroke="#333" stroke-width="4"/>
+    <line x1="520" y1="264" x2="536" y2="250" stroke="#333" stroke-width="4"/>
+    <rect x="495" y="275" width="18" height="6" rx="2" fill="#111"/>
+    <rect x="527" y="245" width="18" height="6" rx="2" fill="#111"/>
+    <path d="M520,254 L575,257 M520,274 L575,267" stroke="#444" stroke-width="2"/>
+    <!-- 车座 -->
+    <path d="M546,204 L576,201 L570,191 L549,192 Z" fill="#1c1c1c"/>
+    <!-- 车把+握把+铃 -->
+    <path d="M478,205 L456,194" stroke="#333" stroke-width="6" stroke-linecap="round"/>
+    <path d="M456,194 L445,205" stroke="#1c1c1c" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="470" cy="198" r="6" fill="#e8b73a" stroke="#8a6914" stroke-width="2"/>
+    <!-- 缰绳 -->
+    <path d="M450,200 C398,184 342,208 314,250" fill="none" stroke="#7a4a1e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M452,206 C404,208 346,224 314,257" fill="none" stroke="#5e3812" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- 自行车对白 -->
+  <g>
+    <path d="M430,148 C430,132 452,124 476,126 C500,128 512,140 510,154 C508,168 492,176 470,175 L444,173 L432,184 L436,170 C431,165 430,156 430,148 Z" fill="#ffffff" stroke="#333" stroke-width="2.5"/>
+    <text x="471" y="152" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">车：我骑它！</text>
+    <text x="471" y="169" text-anchor="middle" font-size="12" fill="#666">（不是它骑我）</text>
+  </g>
+
+  <!-- 速度线 -->
+  <g stroke="#9fb4c7" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <line x1="716" y1="250" x2="836" y2="250"/>
+    <line x1="742" y1="300" x2="880" y2="300"/>
+    <line x1="712" y1="356" x2="828" y2="356"/>
+    <line x1="640" y1="180" x2="720" y2="180"/>
+    <line x1="670" y1="214" x2="776" y2="214"/>
+  </g>
+  <!-- 尘土 -->
+  <g fill="#cbb79a" opacity="0.85">
+    <circle cx="666" cy="438" r="11"/><circle cx="694" cy="428" r="8"/><circle cx="716" cy="442" r="6"/>
+    <circle cx="430" cy="446" r="8"/><circle cx="408" cy="436" r="6"/>
+  </g>
+
+  <!-- 标题 -->
+  <g>
+    <rect x="24" y="22" width="336" height="66" rx="12" fill="#ffffff" stroke="#333" stroke-width="2.5" opacity="0.96"/>
+    <text x="192" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#d93b3b">自行车 骑着 鹈鹕</text>
+    <text x="192" y="76" text-anchor="middle" font-size="15" fill="#333">（不是鹈鹕骑自行车）</text>
+  </g>
+  <!-- 指示标注 -->
+  <g font-size="15" font-weight="bold">
+    <text x="666" y="150" fill="#b32424">骑手＝自行车</text>
+    <path d="M700,158 L596,198" stroke="#b32424" stroke-width="2.5" fill="none"/>
+    <polygon points="594,199 609,193 606,204" fill="#b32424"/>
+    <text x="752" y="398" fill="#7a4a1e">坐骑＝鹈鹕</text>
+    <path d="M776,386 L664,357" stroke="#7a4a1e" stroke-width="2.5" fill="none"/>
+    <polygon points="662,356 677,353 673,364" fill="#7a4a1e"/>
+  </g>
+  <text x="480" y="536" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="bold" opacity="0.95">
+    读图：自行车以鞍垫+肚带固定在鹈鹕背上当骑手，鹈鹕像马一样被骑着奔跑；缰绳从车把连到鹈鹕的喙。
+  </text>
+</svg>

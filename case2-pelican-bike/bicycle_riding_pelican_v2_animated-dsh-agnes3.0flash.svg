@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 第二轮迭代（动图）：在第一轮基础上加 SMIL 动画 —— 车轮辐条旋转、路面虚线流动、翅膀扇动、尾巴摆动、缰绳随性形变、太阳闪、速度线飘、车铃微抖。
+     可独立在浏览器打开自动播放；也适合嵌入网页。 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560">
+  <title>自行车骑鹈鹕（第二轮迭代·动图）—— 自行车才是骑手，鹈鹕是被骑的坐骑</title>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fc6f2"/>
+      <stop offset="1" stop-color="#d8eefc"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fc27a"/>
+      <stop offset="1" stop-color="#5e9c52"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff4b0" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff4b0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="400" fill="url(#sky)"/>
+  <!-- 太阳（缓慢闪烁） -->
+  <g transform="translate(850,70)">
+    <circle r="52" fill="url(#sun)">
+      <animate attributeName="r" values="48;56;48" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <!-- 云（缓慢漂移） -->
+  <g opacity="0.5" fill="#ffffff">
+    <g>
+      <ellipse cx="180" cy="90" rx="70" ry="24"/>
+      <ellipse cx="240" cy="110" rx="60" ry="22"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; 40,0; 0,0" dur="12s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <ellipse cx="760" cy="80" rx="80" ry="26"/>
+      <animateTransform attributeName="transform" type="translate" values="0,0; -30,0; 0,0" dur="10s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- 远山（轻微视差飘动） -->
+  <path d="M0,300 L160,220 L320,300 L470,235 L640,300 L800,245 L960,300 L960,400 L0,400 Z" fill="#a8c8a0">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -20,0; 0,0" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- 地面与路面 -->
+  <rect y="400" width="960" height="160" fill="url(#ground)"/>
+  <rect y="430" width="960" height="44" fill="#9aa7b3"/>
+  <!-- 路面虚线（向后流，体现前进） -->
+  <line x1="0" y1="452" x2="960" y2="452" stroke="#ffffff" stroke-width="4" stroke-dasharray="26 20" opacity="0.85">
+    <animate attributeName="stroke-dashoffset" values="0;46" dur="0.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- ============ 主体（自行车在前/左，鹈鹕被驮在后/右） ============ -->
+  <g transform="translate(480,300)">
+
+    <!-- 速度线（飘在后方，循环闪烁+位移） -->
+    <g stroke="#8aa0b5" stroke-width="3" stroke-linecap="round">
+      <g>
+        <line x1="-330" y1="-60" x2="-285" y2="-60"/>
+        <line x1="-355" y1="-15" x2="-295" y2="-15"/>
+        <line x1="-335" y1="30" x2="-285" y2="30"/>
+        <animate attributeName="opacity" values="0.2;0.7;0.2" dur="0.6s" repeatCount="indefinite"/>
+        <animateTransform attributeName="transform" type="translate" values="0,0; -25,0; 0,0" dur="0.6s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- 鹈鹕（坐骑，位于画面右侧/后侧） -->
+    <g transform="translate(60,40)">
+      <!-- 尾巴（摆动） -->
+      <path d="M120,20 L175,-2 L168,45 L120,40 Z" fill="#e7d9c4" stroke="#b89a6e" stroke-width="2">
+        <animateTransform attributeName="transform" type="rotate" values="-6 120 30; 8 120 30; -6 120 30" dur="0.9s" repeatCount="indefinite"/>
+      </path>
+      <!-- 身体（轻微上下颠簸，像被骑着） -->
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="0.5s" repeatCount="indefinite"/>
+        <ellipse cx="70" cy="20" rx="75" ry="48" fill="#f4ede1" stroke="#b89a6e" stroke-width="3"/>
+        <!-- 翅膀（扇动） -->
+        <path d="M30,-10 C-15,-45 25,-78 95,-58 C140,-46 125,-2 80,8 Z" fill="#efe2cc" stroke="#b89a6e" stroke-width="2">
+          <animateTransform attributeName="transform" type="rotate" values="0 30 -10; -14 30 -10; 0 30 -10" dur="0.9s" repeatCount="indefinite"/>
+        </path>
+        <!-- 长颈 -->
+        <path d="M120,-5 C150,-40 155,-70 150,-95 C148,-110 160,-118 172,-112" fill="none" stroke="#e7d9c4" stroke-width="22" stroke-linecap="round"/>
+        <path d="M120,-5 C150,-40 155,-70 150,-95 C148,-110 160,-118 172,-112" fill="none" stroke="#b89a6e" stroke-width="2"/>
+        <!-- 头 -->
+        <circle cx="175" cy="-112" r="20" fill="#f4ede1" stroke="#b89a6e" stroke-width="2"/>
+        <circle cx="180" cy="-118" r="3" fill="#2b1e0a"/>
+        <!-- 长嘴 + 喉囊 -->
+        <path d="M188,-110 L252,-92 L250,-78 L190,-92 Z" fill="#f2b866" stroke="#a06a2a" stroke-width="2"/>
+        <path d="M192,-92 C220,-70 250,-74 250,-78 L252,-92 L188,-110 Z" fill="#e89a4e" stroke="#a06a2a" stroke-width="2"/>
+        <!-- 双脚（蹬踏节奏） -->
+        <g>
+          <animateTransform attributeName="transform" type="translate" values="0,0; 0,4; 0,0" dur="0.5s" repeatCount="indefinite"/>
+          <path d="M30,55 L20,95 M85,58 L95,98" stroke="#d35400" stroke-width="7" stroke-linecap="round" fill="none"/>
+          <ellipse cx="17" cy="98" rx="14" ry="6" fill="#e67e22" stroke="#8d5524" stroke-width="1.5"/>
+          <ellipse cx="98" cy="101" rx="14" ry="6" fill="#e67e22" stroke="#8d5524" stroke-width="1.5"/>
+        </g>
+        <!-- 驮鞍 -->
+        <path d="M10,-20 L120,-20 L112,8 L18,8 Z" fill="#8a5a2a" stroke="#5a3a1a" stroke-width="2"/>
+        <line x1="40" y1="-20" x2="40" y2="8" stroke="#5a3a1a" stroke-width="2"/>
+        <line x1="90" y1="-20" x2="90" y2="8" stroke="#5a3a1a" stroke-width="2"/>
+      </g>
+    </g>
+
+    <!-- 自行车（在前/左，是“骑手”主体） -->
+    <g transform="translate(0,-30)">
+      <!-- 后轮（辐条旋转） -->
+      <g>
+        <circle cx="80" cy="40" r="34" fill="none" stroke="#222" stroke-width="5"/>
+        <g stroke="#777" stroke-width="1.5" opacity="0.7">
+          <line x1="46" y1="40" x2="114" y2="40"/>
+          <line x1="80" y1="6" x2="80" y2="74"/>
+          <line x1="56" y1="16" x2="104" y2="64"/>
+          <line x1="104" y1="16" x2="56" y2="64"/>
+          <animateTransform attributeName="transform" type="rotate" from="0 80 40" to="360 80 40" dur="0.8s" repeatCount="indefinite"/>
+        </g>
+      </g>
+      <!-- 前轮（辐条旋转） -->
+      <g>
+        <circle cx="-110" cy="40" r="34" fill="none" stroke="#222" stroke-width="5"/>
+        <g stroke="#777" stroke-width="1.5" opacity="0.7">
+          <line x1="-144" y1="40" x2="-76" y2="40"/>
+          <line x1="-110" y1="6" x2="-110" y2="74"/>
+          <line x1="-134" y1="16" x2="-86" y2="64"/>
+          <line x1="-86" y1="16" x2="-134" y2="64"/>
+          <animateTransform attributeName="transform" type="rotate" from="0 -110 40" to="360 -110 40" dur="0.8s" repeatCount="indefinite"/>
+        </g>
+      </g>
+      <!-- 车架 -->
+      <g stroke="#c62828" stroke-width="7" fill="none" stroke-linecap="round">
+        <path d="M80,40 L30,-6 L-40,40 L-110,40"/>
+        <path d="M30,-6 L-40,40"/>
+        <path d="M-40,40 L-70,-30"/>
+        <path d="M30,-6 L-70,-30"/>
+      </g>
+      <!-- 牙盘 + 曲柄（旋转） + 双脚踏 -->
+      <g>
+        <circle cx="-40" cy="40" r="11" fill="#333"/>
+        <line x1="-40" y1="40" x2="-40" y2="62" stroke="#222" stroke-width="4"/>
+        <line x1="-40" y1="40" x2="-40" y2="18" stroke="#222" stroke-width="4"/>
+        <rect x="-52" y="58" width="24" height="7" rx="2" fill="#111"/>
+        <rect x="-52" y="11" width="24" height="7" rx="2" fill="#111"/>
+        <animateTransform attributeName="transform" type="rotate" from="0 -40 40" to="360 -40 40" dur="0.8s" repeatCount="indefinite"/>
+      </g>
+      <!-- 车座 -->
+      <path d="M20,-14 L48,-14 L42,-30 L26,-30 Z" fill="#111"/>
+      <!-- 车把 -->
+      <path d="M-70,-30 L-92,-52" stroke="#333" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M-92,-52 L-118,-44" stroke="#333" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <circle cx="-118" cy="-44" r="6" fill="#111"/>
+      <!-- 链条（循环移动感） -->
+      <g>
+        <line x1="-40" y1="29" x2="80" y2="29" stroke="#555" stroke-width="2" stroke-dasharray="6 4"/>
+        <line x1="-40" y1="51" x2="80" y2="51" stroke="#555" stroke-width="2" stroke-dasharray="6 4"/>
+        <animate attributeName="stroke-dashoffset" values="0;20" dur="0.4s" repeatCount="indefinite"/>
+      </g>
+      <!-- 车铃（微抖） -->
+      <g>
+        <circle cx="-118" cy="-44" r="6" fill="none" stroke="#d32f2f" stroke-width="2"/>
+        <animateTransform attributeName="transform" type="rotate" values="-8 -118 -44; 8 -118 -44; -8 -118 -44" dur="0.3s" repeatCount="indefinite"/>
+      </g>
+      <!-- 后货架（真正架在后轮上方） -->
+      <path d="M80,40 L110,-2 L120,8 L88,52" fill="none" stroke="#c62828" stroke-width="4" stroke-linecap="round"/>
+      <!-- 缰绳（嘴→后货架→车把，随性形变） -->
+      <path d="M125,20 L80,8 L-10,-28 L-118,-44" fill="none" stroke="#7a5a30" stroke-width="4" stroke-linecap="round">
+        <animate attributeName="d"
+                 values="M125,20 L80,8 L-10,-28 L-118,-44;
+                         M125,24 L80,12 L-10,-24 L-118,-40;
+                         M125,20 L80,8 L-10,-28 L-118,-44"
+                 dur="1.2s" repeatCount="indefinite"/>
+      </path>
+      <!-- 着地点阴影 -->
+      <ellipse cx="80" cy="76" rx="26" ry="5" fill="#000" opacity="0.15"/>
+      <ellipse cx="-110" cy="76" rx="26" ry="5" fill="#000" opacity="0.15"/>
+    </g>
+
+    <!-- 标题框（上方空白区，微呼吸） -->
+    <g transform="translate(160,-260)">
+      <rect x="0" y="0" width="300" height="60" rx="12" fill="#ffffff" stroke="#333" stroke-width="2" opacity="0.96"/>
+      <text x="150" y="26" text-anchor="middle" font-size="20" font-weight="bold" fill="#c62828">自行车 骑着 鹈鹕</text>
+      <text x="150" y="48" text-anchor="middle" font-size="14" fill="#333">（不是鹈鹕骑自行车）</text>
+      <animate attributeName="opacity" values="1;0.85;1" dur="1.5s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- 脚注 -->
+  <text x="480" y="540" text-anchor="middle" font-size="15" fill="#ffffff" font-weight="bold" opacity="0.95">
+    读图：自行车在前/左=骑手；鹈鹕被后货架驮在身后/右=坐骑，缰绳从鹈鹕嘴连到车把。
+  </text>
+</svg>
